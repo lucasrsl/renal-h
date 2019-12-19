@@ -1,0 +1,33 @@
+page-creatinine-graph {
+  ion-card-header {
+    font-weight: bold;
+
+  }
+  .visual-header{
+    .toolbar-title{
+      color: color($colors, primary);
+    }
+    .bar-button-default-md{
+      color: color($colors, secondary);
+    }
+    .calendar-icon{
+      margin-right: 10px;
+    }
+  }
+  .card{
+    border-radius: 10px;
+
+  }
+  .sub-title{
+    .label{
+      margin: 0px;
+      white-space: normal;
+      text-align: center;
+    }
+    background-color: transparent;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+}

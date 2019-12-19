@@ -1,0 +1,44 @@
+<!--
+  Generated template for the SelectTreatmentPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class = "header-class">
+
+  <ion-navbar>
+    <ion-title>{{ 'SELECT_TREATMENT.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class = "img-background">
+  <div class = "page-visual">
+    <label class = "sub-title">{{ 'SELECT_TREATMENT.LABEL1' | translate }}<br/> {{ 'SELECT_TREATMENT.LABEL2' | translate }}</label>
+    <ion-list class = "list-visual">
+      <ion-row>
+        <button ion-button (click)= "selectTreatment(1)">
+            {{ 'SELECT_TREATMENT.BUTTON1' | translate }}
+        </button>
+      </ion-row>
+      <ion-row>
+        <button ion-button (click)= "selectTreatment(2)">
+            {{ 'SELECT_TREATMENT.BUTTON2' | translate }}
+        </button>
+      </ion-row>
+      <ion-row>
+        <button ion-button disabled (click)= "selectTreatment(3)">
+            {{ 'SELECT_TREATMENT.BUTTON3' | translate }}
+        </button>
+      </ion-row>
+      <ion-row>
+        <button ion-button disabled>
+            {{ 'SELECT_TREATMENT.BUTTON4' | translate }}
+        </button>
+      </ion-row>
+    </ion-list>
+
+  </div>
+
+</ion-content>

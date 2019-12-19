@@ -1,0 +1,78 @@
+<!--
+  Generated template for the MedicationsRecommendationsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class = "visual-header">
+
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button icon-only (click) = "openInformation()">
+        <img src = "../assets/imgs/fonte_branco.png" id = "source">
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button icon-only (click) = "dismiss()">
+        <ion-icon name = "close-circle" class = "close-icon"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{ 'MEDICATIONS_RECOMMENDATIONS.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-4 offset-2>
+        <img class = "img-med" src = "../assets/imgs/Imagens informações/Medicamentos.png">
+      </ion-col>
+      <ion-col col-4>
+        <img  class = "img-pills" src = "../assets/imgs/Imagens informações/Medicamentos Pills.png">
+      </ion-col>
+      <ul>
+        <li>
+          {{ 'MEDICATIONS_RECOMMENDATIONS.ITEN1' | translate }}
+        </li>
+        <li>
+          {{ 'MEDICATIONS_RECOMMENDATIONS.ITEN2' | translate }}
+        </li>
+        <li>
+          {{ 'MEDICATIONS_RECOMMENDATIONS.ITEN3' | translate }}
+        </li>
+        <li>
+          {{ 'MEDICATIONS_RECOMMENDATIONS.ITEN4' | translate }}
+        </li>
+        <li>
+          {{ 'MEDICATIONS_RECOMMENDATIONS.ITEN5' | translate }}
+        </li>
+        <li>
+            {{ 'MEDICATIONS_RECOMMENDATIONS.ITEN6' | translate }}
+        </li>
+        <li>
+            {{ 'MEDICATIONS_RECOMMENDATIONS.ITEN7' | translate }}
+        </li>
+        <li>
+            {{ 'MEDICATIONS_RECOMMENDATIONS.ITEN8' | translate }}
+        </li>
+        <li>
+           {{ 'MEDICATIONS_RECOMMENDATIONS.ITEN9' | translate }}
+        </li>
+        <li>
+            {{ 'MEDICATIONS_RECOMMENDATIONS.ITEN10' | translate }}
+        </li>
+        <li>
+            {{ 'MEDICATIONS_RECOMMENDATIONS.ITEN11' | translate }}
+        </li>
+        <li>
+            {{ 'MEDICATIONS_RECOMMENDATIONS.ITEN12' | translate }}
+        </li>
+        <li>
+            {{ 'MEDICATIONS_RECOMMENDATIONS.ITEN13' | translate }}
+        </li>
+      </ul>
+    </ion-row>
+  </ion-grid>
+</ion-content>

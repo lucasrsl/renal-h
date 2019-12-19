@@ -1,0 +1,14 @@
+<!-- Generated template for the AccordionComponent component -->
+<div class = "accordion-grid">
+  <div class = "accordion-row" (click)="accordionClick()">
+  <div class = "accordion-icon">
+    <div class = "accordion-name collapsed" #accordionTitle>
+      <ng-content select = ".accordion-title"></ng-content>
+    </div>
+
+  </div>
+  </div>
+  <div class = "text-adjust collapsed" #accordionBody>
+    <ng-content select = ".accordion-text"></ng-content>
+  </div>
+</div>

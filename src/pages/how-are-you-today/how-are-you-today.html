@@ -1,0 +1,81 @@
+<ion-header class = "header-class">
+  <ion-navbar hideBackButton = "true">
+    <button ion-button menuToggle>
+      <ion-icon name = "menu"></ion-icon>
+    </button>
+    <ion-title>{{ 'HOW_ARE_YOU_TODAY.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class = "img-background">
+  <ion-list padding class= "list-visual" no-lines id = "list">
+    <ion-item>
+      <label>
+        <p class = "how-much-to-drink">{{textStatus}}</p>
+        <p class = "cup-quantity">{{textLiquid}}</p>
+      </label>
+      <img src = "../assets/imgs/water_cup.png" width="40px" item-end>
+    </ion-item>
+    <progress-bar [Progress]= "dailyVolumeProgress" [MaxValue]= "dailyVolumeMax"></progress-bar>
+    <div class = "line"></div>
+  </ion-list>
+  <ion-grid class = "grid-visual">
+    <ion-item no-lines>
+      <label class= "your-shedule">{{ 'HOW_ARE_YOU_TODAY.LABEL1' | translate }}</label>
+    </ion-item>
+  <ion-list class = "list-shedule-visual">
+      <ion-item *ngIf="listScheduleExamsToday.length!=0" class="tittle-item">
+        <strong>{{ 'HOW_ARE_YOU_TODAY.ITEN1' | translate }}</strong>
+      </ion-item>
+      <ion-item *ngFor="let item of listScheduleExamsToday">
+        <ion-row>
+          <ion-col col-9 class = "exam-type">
+            <label> - {{item.exam_type}}</label>
+          </ion-col>
+          <ion-col col-3 class="text-right">
+            <label>{{item.dateHour}}</label>
+          </ion-col>
+        </ion-row>
+      </ion-item>
+      <ion-item *ngIf="listScheduleQueryToday.length!=0" class="tittle-item">
+        <strong>{{ 'HOW_ARE_YOU_TODAY.ITEN2' | translate }}</strong>
+      </ion-item>
+      <ion-item *ngFor="let item of listScheduleQueryToday">
+        <ion-row>
+          <ion-col col-9 class = "exam-type">
+            <label> - {{item.professional_name}} {{item.medical_specialty}}</label>
+          </ion-col>
+          <ion-col col-3 class="text-right">
+            <label>{{item.dateHour}}</label>
+          </ion-col>
+        </ion-row>
+      </ion-item>
+      <ion-item *ngIf="listScheduleMedToday.length!=0" class="tittle-item">
+        <strong>{{ 'HOW_ARE_YOU_TODAY.ITEN3' | translate }}</strong>
+      </ion-item>
+      <ion-item *ngFor="let item of listScheduleMedToday">
+        <ion-row>
+          <ion-col col-10 class = "exam-type">
+            <label> - {{item.name}} ({{item.dosageQuantity}} {{item.presentation_type}} {{ 'HOW_ARE_YOU_TODAY.LABEL2' | translate }} {{item.dosage}} {{item.unityDose}})</label>
+          </ion-col>
+          <ion-col col-2 class="text-right">
+            <label class="labels-timer" *ngFor="let timer of item.timers">
+              <p *ngIf="timer.minute < 10">{{timer.hour}}:0{{timer.minute}}</p>
+              <p *ngIf="timer.minute >= 10">{{timer.hour}}:{{timer.minute}}</p>
+            </label>
+          </ion-col>
+        </ion-row>
+      </ion-item>
+    </ion-list>
+  </ion-grid>
+
+  <img src="../assets/imgs/placeholders/home_e_agenda.png" id = "img" *ngIf="listScheduleExamsToday.length==0
+   && listScheduleMedToday.length==0 && listScheduleQueryToday.length==0">
+  <label *ngIf="listScheduleExamsToday.length==0
+  && listScheduleMedToday.length==0 && listScheduleQueryToday.length==0">
+    <p class = "img-text">{{ 'HOW_ARE_YOU_TODAY.LABEL3' | translate }}</p>
+    <p class = "img-second-text">{{ 'HOW_ARE_YOU_TODAY.LABEL4' | translate }}</p>
+  </label>
+
+
+</ion-content>

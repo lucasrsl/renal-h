@@ -1,0 +1,91 @@
+accordion {
+  .accordion-grid{
+    padding: 0px;
+    //box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    //background: rgba(220,220,220,0.9);
+    .accordion-name{
+      display: table;
+      height: 70px;
+      font-size: 16px;
+      margin-left: 10px;
+      //vertical-align: middle;
+      //line-height: 70px;
+    }
+    .accordion-title{
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .accordion-row{
+      position: relative;
+      display: block;
+      *::before{
+        box-sizing: border-box;
+      }
+      *::after{
+        box-sizing: border-box;
+      }
+      .accordion-icon{
+        box-sizing: border-box;
+        display: block;
+        padding: 0rem 0rem 0rem 4rem;
+      }
+      .accordion-icon::before{
+        background-color: #f4f4f5;
+        content: '';
+        height: 100%;
+        width: 4rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .accordion-name::before{
+        background-color: #546E7A;
+        border-radius: 1px;
+        content: '';
+        width: 1.7rem;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 1rem;
+        transition: transform .25s ease-out;
+        will-change: transform;
+      }
+      .accordion-name::after{
+        background-color: #546E7A;
+        border-radius: 1px;
+        content: '';
+        width: 1.7rem;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 1rem;
+        transition: transform .25s ease-out;
+        will-change: transform;
+      }
+      .accordion-name.collapsed::before{
+        transform: translateY(-50%) rotate(-90deg);
+      }
+      .accordion-name.trigged::before{
+        transform: translateY(-50%) rotate(-180deg);
+      }
+      .accordion-name.collapsed::after{
+        transform: translateY(-50%) rotate(360deg);
+      }
+      .accordion-name.trigged::after{
+        transform: translateY(-50%);
+      }
+
+    }
+    .text-adjust{
+      padding: 10px;
+      margin-bottom: 0px;
+      transition: height 1s;
+    }
+    .text-adjust.collapsed{
+      display: none;
+    }
+    .text-adjust.trigged{
+      display: block;
+    }
+  }
+}

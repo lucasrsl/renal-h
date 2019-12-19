@@ -1,0 +1,58 @@
+<!--
+  Generated template for the HistoricWeightPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class = "visual-header">
+
+  <ion-navbar>
+    <ion-title>{{ 'HISTORIC_WEIGHT.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content class = "img-background" (ionScroll)="scroll($event)">
+  <ion-list class = "list-visual" id = "list">
+    <ion-item no-lines *ngFor = "let info of weight; let i = index" >
+      <ion-card>
+        <ion-card-content>
+            <ion-grid class = "grid-visual">
+              <ion-row>
+                <ion-col col-2>
+                  <label>{{ 'HISTORIC_WEIGHT.LABEL1' | translate }}</label>
+                </ion-col>
+                <ion-col class = "col-value">
+                  <label>{{info.current_weight}} {{ 'HISTORIC_WEIGHT.LABEL6' | translate }}</label>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col col-2>
+                  <label>{{ 'HISTORIC_WEIGHT.LABEL2' | translate }}</label>
+                </ion-col>
+                <ion-col class = "col-value">
+                  <label>{{info.dry_weight}} {{ 'HISTORIC_WEIGHT.LABEL6' | translate }}</label>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col col-2>
+                  <label>{{ 'HISTORIC_WEIGHT.LABEL3' | translate }}</label>
+                </ion-col>
+                <ion-col class = "col-value">
+                  <label>{{info.number_session}}</label>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+  </ion-list>
+  <img src = "../assets/imgs/placeholders/controle_de_peso.png" id = "placeholder-size" *ngIf= "placeholderFlag">
+  <label *ngIf = "placeholderFlag">
+    <p class = "img-text">{{ 'HISTORIC_WEIGHT.LABEL4' | translate }}</p>
+    <p class = "img-second-text">{{ 'HISTORIC_WEIGHT.LABEL5' | translate }}</p>
+  </label>
+  <div ion-fixed class = "fade" display = "false"></div>
+  <button ion-fixed ion-button (click) = "openPage('WeightControlPage')" class = "add-weight" id = "btn">{{ 'HISTORIC_WEIGHT.BUTTON' | translate }}</button>
+</ion-content>
+

@@ -1,0 +1,92 @@
+<!--
+  Generated template for the FaqPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class = "visual-header">
+
+  <ion-navbar>
+    <ion-buttons end>
+      <button ion-button icon-only (click) = "dismiss()">
+        <ion-icon name = "close-circle" class = "close-icon"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{ 'FAQ.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div class = "accordion-group">
+    <accordion>
+      <label class = "accordion-title">{{ 'FAQ.LABEL1' | translate }}</label>
+      <label class = "accordion-text">
+        <ul>
+          <li>{{ 'FAQ.ACCORDION1' | translate }}</li>
+          <li>{{ 'FAQ.ACCORDION2' | translate }}</li>
+          <li>{{ 'FAQ.ACCORDION3' | translate }}</li>
+          <li>{{ 'FAQ.ACCORDION4' | translate }}</li>
+          <li>{{ 'FAQ.ACCORDION5' | translate }}</li>
+        </ul>
+        <!--
+          <p>• Fique atento à cor e ao aspecto da sua urina. Em geral, ela deve ser “amarelo-ouro”. Urina avermelhada ou com muita espuma pode ser sinal de problemas nos rins.</p>
+          <p>• Se tiver dor ou dificuldade para urinar, procure um médico.</p>
+          <p>• Fique atento à quantidade de urina que costuma fazer e com que frequência</p>
+          <p>• Presença de inchaço (edema) no rosto ou nas pernas podem ser sinais de problemas nos rins.</p>
+          <p>• Pelo menos 1 vez por ano, peça ao médico para solicitar um exame de urina e a dosagem de creatinina no sangue.</p>
+        -->
+      </label>
+    </accordion>
+    <accordion>
+      <label class = "accordion-title">{{ 'FAQ.LABEL2' | translate }}</label>
+      <label class = "accordion-text">
+          <p>
+            {{ 'FAQ.LABEL3' | translate }}
+          </p>
+      </label>
+    </accordion>
+    <accordion>
+      <label class = "accordion-title">{{ 'FAQ.LABEL4' | translate }}</label>
+      <div class = "accordion-text">
+        <ion-row>
+          <ion-col>
+            <img src="../assets/imgs/Imagens informações/couple.png" class = "img">
+          </ion-col>
+          <ion-col>
+            <img src="../assets/imgs/Imagens informações/Diabetes.png" class = "img diabetes">
+          </ion-col>
+          <ion-col>
+            <img src="../assets/imgs/Imagens informações/Pressão.png" class = "img">
+          </ion-col>
+        </ion-row>
+        <ul>
+          <li>{{ 'FAQ.ITEN1' | translate }}</li>
+          <li>{{ 'FAQ.ITEN2' | translate }}</li>
+          <li>{{ 'FAQ.ITEN3' | translate }}</li>
+          <li>{{ 'FAQ.ITEN4' | translate }}</li>
+        </ul>
+        <label>{{ 'FAQ.LABEL5' | translate }}</label>
+      </div>
+    </accordion>
+    <accordion>
+      <label class = "accordion-title">{{ 'FAQ.LABEL6' | translate }}</label>
+      <div class = "accordion-text">
+        <ul>
+          <li>{{ 'FAQ.ITEN5' | translate }}</li>
+          <li>{{ 'FAQ.ITEN6' | translate }}</li>
+          <li>{{ 'FAQ.ITEN7' | translate }}</li>
+          <li>{{ 'FAQ.ITEN8' | translate }}</li>
+          <li>{{ 'FAQ.ITEN9' | translate }}</li>
+          <li>{{ 'FAQ.ITEN10' | translate }}</li>
+          <li>{{ 'FAQ.ITEN11' | translate }}</li>
+          <li>{{ 'FAQ.ITEN12' | translate }}</li>
+          <li>{{ 'FAQ.ITEN13' | translate }}</li>
+        </ul>
+        <label>{{ 'FAQ.LABEL7' | translate }}</label>
+      </div>
+    </accordion>
+  </div>
+
+</ion-content>

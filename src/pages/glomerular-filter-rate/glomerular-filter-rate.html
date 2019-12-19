@@ -1,0 +1,99 @@
+<!--
+  Generated template for the GlomerularFilterRatePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class = "visual-header">
+
+  <ion-navbar>
+    <ion-buttons end>
+      <button ion-button icon-only (click) = "dismiss()">
+        <ion-icon name = "close-circle" class = "close-icon"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{ 'GLOMERULAR_FILTER_RATE.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-grid class = "grid-visual">
+    <ion-row>
+      <ion-col col-3>
+        <label>{{ 'GLOMERULAR_FILTER_RATE.LABEL1' | translate }}</label>
+      </ion-col>
+      <ion-col col-1>
+        <ion-checkbox [(ngModel)] = "checkBoxH" (click) = "checkSexoM()"></ion-checkbox>
+      </ion-col>
+      <ion-col col-3 class = "col-checkbox-text">
+        <label class = "checkbox-label">{{ 'GLOMERULAR_FILTER_RATE.LABEL2' | translate }}</label>
+      </ion-col>
+      <ion-col col-1>
+        <ion-checkbox [(ngModel)] = "checkBoxM" (click) = "checkSexoH()"></ion-checkbox>
+      </ion-col>
+      <ion-col col-3 class = "col-checkbox-text">
+        <label class = "checkbox-label">{{ 'GLOMERULAR_FILTER_RATE.LABEL3' | translate }}</label>
+      </ion-col>
+    </ion-row>
+    <div class = "line"></div>
+    <ion-row>
+      <ion-col col-3>
+        <label>{{ 'GLOMERULAR_FILTER_RATE.LABEL4' | translate }}</label>
+      </ion-col>
+      <ion-col col-1>
+        <ion-checkbox class = "checkbox-label" [(ngModel)] = "checkBoxSim" (click) = "verifyCheckBoxNao()"></ion-checkbox>
+      </ion-col>
+      <ion-col col-3 class = "col-checkbox-text">
+        <label>{{ 'GLOMERULAR_FILTER_RATE.LABEL5' | translate }}</label>
+      </ion-col>
+      <ion-col col-1>
+        <ion-checkbox [(ngModel)] = "checkBoxNao" (click) = "verifyCheckBoxSim()"></ion-checkbox>
+      </ion-col>
+      <ion-col col-3 class = "col-checkbox-text">
+        <label class = "checkbox-label" >{{ 'GLOMERULAR_FILTER_RATE.LABEL6' | translate }}</label>
+      </ion-col>
+    </ion-row>
+    <div class = "line-pre-input"></div>
+    <ion-row>
+      <ion-col col-2>
+        <label>{{ 'GLOMERULAR_FILTER_RATE.LABEL7' | translate }}</label>
+      </ion-col>
+      <ion-col class = "col-input" offset-6>
+        <ion-input [(ngModel)] = "idade" type = "number" pattern="[0-9]*" placeholder = "Ex: 33" (keyup)="maxValue($event)"></ion-input>
+      </ion-col>
+    </ion-row>
+    <div class = "line-input"></div>
+    <ion-row>
+      <ion-col col-6>
+        <label>{{ 'GLOMERULAR_FILTER_RATE.LABEL8' | translate }}</label>
+      </ion-col>
+      <ion-col class = "col-input">
+        <!--Tradução Modificar placeholder?-->
+        <ion-input [(ngModel)] = "creatinina" type = "number" value="0.00" (ionChange)="formataNumero($event)"></ion-input>
+      </ion-col>
+    </ion-row>
+    <div class = "line-input"></div>
+    <ion-row class="btn-row">
+      <ion-item no-lines>
+        <button ion-button class= "btn-confirm-result" (click)="calcResult()">{{ 'GLOMERULAR_FILTER_RATE.BUTTON1' | translate }}</button>
+      </ion-item>
+    </ion-row>
+    <ion-row class = "row-result">
+      <label class = "text-result">{{ 'GLOMERULAR_FILTER_RATE.LABEL9' | translate }} {{GFR | number:'.0-0'}} {{ 'GLOMERULAR_FILTER_RATE.LABEL10' | translate }} </label>
+    </ion-row>
+    <ion-row class = "final-result-row">
+      <ion-col class = "final-result">
+          <label class = "result-text-size" *ngIf = "GFRCalculated == false">{{ 'GLOMERULAR_FILTER_RATE.LABEL11' | translate }}</label>
+          <label class = "result-text-size" *ngIf = "GFRCalculated == true && GFR >= 90">{{ 'GLOMERULAR_FILTER_RATE.LABEL12' | translate }}</label>
+          <label class = "result-text-size" *ngIf = "GFRCalculated == true && GFR >= 60 && GFR < 90">{{ 'GLOMERULAR_FILTER_RATE.LABEL13' | translate }}</label>
+          <label class = "result-text-size" *ngIf = "GFRCalculated == true && GFR >= 45 && GFR < 60">{{ 'GLOMERULAR_FILTER_RATE.LABEL14' | translate }} <br/> {{ 'GLOMERULAR_FILTER_RATE.LABEL15' | translate }}</label>
+          <label class = "result-text-size" *ngIf = "GFRCalculated == true && GFR >= 30 && GFR < 45">{{ 'GLOMERULAR_FILTER_RATE.LABEL16' | translate }}<br/> {{ 'GLOMERULAR_FILTER_RATE.LABEL17' | translate }} </label>
+          <label class = "result-text-size" *ngIf = "GFRCalculated == true && GFR >= 15 && GFR < 30">{{ 'GLOMERULAR_FILTER_RATE.LABEL18' | translate }}</label>
+          <label class = "result-text-size" *ngIf = "GFRCalculated == true && GFR < 15">{{ 'GLOMERULAR_FILTER_RATE.LABEL19' | translate }}</label>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

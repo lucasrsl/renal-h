@@ -1,0 +1,115 @@
+<ion-header class = "header-class">
+  <ion-navbar hideBackButton = "true">
+    <button ion-button menuToggle>
+      <ion-icon  name = "menu"></ion-icon>
+    </button>
+    <ion-title>{{ 'SCHEDULE.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class = "img-background">
+  <ion-card class = "card-visual" >
+    <ion-card-content (click)="openPageButton('MedicationPage', $event)">
+      <ion-grid>
+        <ion-row>
+          <ion-col col-2>
+            <img src = "../assets/imgs/Icones Agenda/medicacoes.png" id = "copo" item-end>
+          </ion-col>
+          <ion-col class = "text-col" col-6>
+            <label class = "title-label">{{ 'SCHEDULE.LABEL1' | translate }}</label>
+          </ion-col>
+        </ion-row>
+        <ion-row class = "row-info">
+          <ion-col class = "last-update-label" *ngIf="listScheduleMedToday.length > 0">
+            <label *ngIf="listScheduleMedToday[0].timers[0].minute >= 10">
+                {{ 'SCHEDULE.LABEL2' | translate }} {{listScheduleMedToday[0].name}} {{ 'SCHEDULE.LABEL3' | translate }} {{listScheduleMedToday[0].timers[0].hour}}:{{listScheduleMedToday[0].timers[0].minute}}
+            </label>
+            <label *ngIf="listScheduleMedToday[0].timers[0].minute < 10">
+                {{ 'SCHEDULE.LABEL2' | translate }} {{listScheduleMedToday[0].name}} {{ 'SCHEDULE.LABEL3' | translate }} {{listScheduleMedToday[0].timers[0].hour}}:0{{listScheduleMedToday[0].timers[0].minute}}
+            </label>
+
+          </ion-col>
+          <ion-col class = "last-update-label" *ngIf="listScheduleMedToday.length== 0">{{ 'SCHEDULE.COL1' | translate }}</ion-col>
+        </ion-row>
+        <ion-row class = "button-row">
+          <ion-col>
+            <button ion-button (click)="openPage('MedicationPage')">
+                {{ 'SCHEDULE.BUTTON1' | translate }}
+            </button>
+          </ion-col>
+          <ion-col>
+            <button ion-button (click)="openPage('AddMedPage')">
+                {{ 'SCHEDULE.BUTTON2' | translate }}
+            </button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+  <!--Tradução-->
+  <ion-card class = "card-visual" >
+    <ion-card-content (click)="openPageButton('ExamsPage', $event)">
+      <ion-grid>
+        <ion-row>
+          <ion-col col-2>
+            <img src="../assets/imgs/Icones Agenda/exames.png" id="copo" item-end>
+          </ion-col>
+          <ion-col class = "text-col">
+            <label class = "title-label">{{ 'SCHEDULE.LABEL4' | translate }}</label>
+          </ion-col>
+        </ion-row>
+        <ion-row class="row-info">
+          <ion-col col-10 class="last-update-label" *ngIf="listScheduleExamsToday.length > 0">
+            <label>{{ 'SCHEDULE.LABEL5' | translate }} {{listScheduleExamsToday[0].date}} {{ 'SCHEDULE.LABEL3' | translate }} {{listScheduleExamsToday[0].dateHour}}</label>
+          </ion-col>
+          <ion-col class = "last-update-label" *ngIf="listScheduleExamsToday.length==0">{{ 'SCHEDULE.LABEL6' | translate }} </ion-col>
+        </ion-row>
+        <ion-row class = "button-row">
+          <ion-col>
+            <button ion-button (click)="openPage('ExamsPage')">
+                {{ 'SCHEDULE.BUTTON1' | translate }}
+            </button>
+          </ion-col>
+          <ion-col>
+            <button ion-button (click)="openPage('AddExamPage')">
+                {{ 'SCHEDULE.BUTTON3' | translate }}
+            </button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+  <ion-card class = "card-visual" >
+    <ion-card-content (click)="openPageButton('QueryPage', $event)">
+      <ion-grid>
+        <ion-row>
+          <ion-col col-2>
+            <img src = "../assets/imgs/Icones Agenda/consultas.png" id = "copo" item-end>
+          </ion-col>
+          <ion-col class = "text-col" col-5>
+            <label class = "title-label">{{ 'SCHEDULE.LABEL7' | translate }}</label>
+          </ion-col>
+        </ion-row>
+        <ion-row class="row-info">
+          <ion-col col-10 class="last-update-label" (click)="openPage('ExamsPage')" *ngIf='listScheduleQueryToday.length > 0'>
+            <label>{{ 'SCHEDULE.LABEL8' | translate }} {{listScheduleQueryToday[0].date}} {{ 'SCHEDULE.LABEL3' | translate }}  {{listScheduleQueryToday[0].dateHour}}</label>
+          </ion-col>
+          <ion-col class = "last-update-label" *ngIf='listScheduleQueryToday.length == 0'>{{ 'SCHEDULE.LABEL9' | translate }}</ion-col>
+        </ion-row>
+        <ion-row class = "button-row">
+          <ion-col>
+            <button ion-button (click)="openPage('QueryPage')">
+                {{ 'SCHEDULE.BUTTON1' | translate }}
+            </button>
+          </ion-col>
+          <ion-col>
+            <button ion-button (click)="openPage('AddQueryPage')">
+                {{ 'SCHEDULE.BUTTON4' | translate }}
+            </button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

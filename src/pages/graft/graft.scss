@@ -1,0 +1,36 @@
+page-graft {
+  .grid-visual{
+    .second-title{
+      color: color($colors, secondary);
+    }
+    .source-text{
+      font-size: 10px;
+      text-align: right;
+    }
+  }
+  .visual-header{
+    .toolbar-title{
+      color: #ffffff;
+    }
+    .toolbar-background{
+        background-color:#546E7A;
+    }
+    .bar-button-default-md{
+        color: color($colors, secondary);
+    }
+    .bar-buttons-md{
+        margin-left: 3%;
+    }
+    .toolbar-title-md{
+      margin-left: 9%;
+    }
+    #source{
+        filter: brightness(1000%);
+        width: 25px;
+        margin-left: 12px;
+    }
+    .close-icon{
+      color: #ffffff;
+    }
+  }
+}

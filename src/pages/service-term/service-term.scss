@@ -1,0 +1,48 @@
+page-service-term {
+  .img-background{
+    background-image: url('../assets/imgs/background.png') !important;
+  }
+  .grid-visual{
+    .title-visual{
+      font-weight: bold;
+      text-align: center;
+    }
+    .button{
+      border-radius: 10px;
+      background-color: color($colors, primary);
+    }
+  }
+  .btn-grid{
+    .button-accept{
+      width: 90%;
+      border-radius: 10px;
+      background-color: color($colors, primary);
+    }
+    .button-refuse{
+      width: 90%;
+      border-radius: 10px;
+      background-color: color($colors, danger);
+    }
+  }
+  .visual-header{
+    .toolbar-title{
+      color: color($colors, secondary);
+      white-space: normal;
+    }
+    //.toolbar-background{
+      //background-color:#546E7A;
+    //}
+    .bar-button-default-md{
+        color: color($colors, secondary);
+    }
+    .bar-buttons-md{
+        margin-left: 3%;
+    }
+    .toolbar-title-md{
+      margin-left: 9%;
+    }
+    .close-icon{
+      color: #ffffff;
+    }
+  }
+}

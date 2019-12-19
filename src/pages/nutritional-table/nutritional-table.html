@@ -1,0 +1,62 @@
+<!--
+  Generated template for the NutritionalTablePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar hideBackButton = "true" class = "header-class">
+    <button ion-button menuToggle>
+      <ion-icon name = "menu"></ion-icon>
+    </button>
+    <ion-title>{{ 'NUTRITIONAL_TABLE.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class = "img-background">
+  <ion-card class = "card-visual">
+    <ion-list class = "list-visual" no-lines>
+        <ion-item class="header-item-color">
+          <label class="header-text">{{ 'NUTRITIONAL_TABLE.LABEL1' | translate }}</label>
+        </ion-item>
+      <button ion-item detail-none class = "item-visual" (click) = "openModal('BigQuantityPhosphorusFoodPage')">
+        <ion-label class="content-text">{{ 'NUTRITIONAL_TABLE.LABEL2' | translate }}</ion-label>
+        <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+      </button>
+      <button ion-item detail-none class = "item-visual" (click) = "openModal('MediumQuantityPhosphorusFoodPage')">
+        <ion-label class = "content-text">{{ 'NUTRITIONAL_TABLE.LABEL3' | translate }}</ion-label>
+        <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+      </button>
+    </ion-list>
+    </ion-card>
+    <ion-card class = "card-visual">
+      <ion-list class = "list-visual" no-lines>
+        <ion-item class="header-item-color">
+          <label class="header-text">{{ 'NUTRITIONAL_TABLE.LABEL4' | translate }}</label>
+        </ion-item>
+        <button ion-item detail-none class = "item-visual" (click)= "openModal('LargeAmountsPotassiumFoodsPage')">
+          <ion-label class="content-text">{{ 'NUTRITIONAL_TABLE.LABEL5' | translate }}</ion-label>
+          <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+        </button>
+        <button ion-item detail-none class = "item-visual" (click) = "openModal('LowMediumAmountsPotassiumFoodsPage')">
+          <ion-label class = "content-text">{{ 'NUTRITIONAL_TABLE.LABEL6' | translate }}</ion-label>
+          <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+        </button>
+      </ion-list>
+    </ion-card>
+    <ion-card class = "card-visual">
+      <ion-list class = "list-visual" no-lines>
+         <ion-item class="header-item-color">
+             <label class="header-text">{{ 'NUTRITIONAL_TABLE.LABEL7' | translate }}</label>
+        </ion-item>
+        <button ion-item detail-none class = "item-visual" (click) = "openModal('LargeAmountSaltFoodPage')">
+          <ion-label class="content-text">{{ 'NUTRITIONAL_TABLE.LABEL8' | translate }}</ion-label>
+          <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+        </button>
+      </ion-list>
+    </ion-card>
+
+</ion-content>

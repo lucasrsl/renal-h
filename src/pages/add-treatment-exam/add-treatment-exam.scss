@@ -1,0 +1,138 @@
+page-add-treatment-exam {
+  .grid-visual{
+    padding: 0px 15px 15px 15px;
+    .end-buttons{
+      margin-top: 25px !important;
+      text-align: center;
+      margin-top: 0.7em;
+      color: color($colors, secondary);
+      font-weight: bold;
+      font-size: 1.3em;
+    }
+    .line{
+      border: 1px solid #DCDCDC;
+      margin-top: -1em;
+      margin-bottom: 1em;
+      width: 90%;
+      margin-left: 0.5em;
+    }
+    .item{
+      padding-left: 0;
+    }
+    .calcium-item[calcium-value="normal"]{
+      .item-inner{
+        border-bottom: 1px solid #dedede;
+      }
+    }
+    .calcium-item[calcium-value="invalid"]{
+      .item-inner{
+        border-bottom: 2px solid #f53d3d;
+      }
+    }
+    .phosphorus-item[phosphorus-value="normal"]{
+      .item-inner{
+        border-bottom: 1px solid #dedede;
+      }
+    }
+    .phosphorus-item[phosphorus-value="invalid"]{
+      .item-inner{
+        border-bottom: 2px solid #f53d3d;
+      }
+    }
+    .potassium-item[potassium-value="normal"]{
+      .item-inner{
+        border-bottom: 1px solid #dedede;
+      }
+    }
+    .potassium-item[potassium-value="invalid"]{
+      .item-inner{
+        border-bottom: 2px solid #f53d3d;
+      }
+    }
+
+    .date-line{
+      border: 1px solid #DCDCDC;
+      margin-bottom: 0.3em;
+    }
+    .date-line[date-value="normal"]{
+      border-color: #DCDCDC;
+    }
+    .date-line[date-value="invalid"]{
+      border-color: #f53d3d;
+    }
+    .datetime{
+      padding: 0px 0px 0px 0px;
+      .datetime-text{
+        position: absolute;
+        bottom: 10px;
+      }
+    }
+    .row{
+      margin-top: 7px;
+    }
+    #img{
+      width: 25px;
+    }
+
+  }
+  .content-ios{
+    .line{
+      border: 1px solid #DCDCDC;
+      margin-top: -0.8em;
+      margin-bottom: 1em;
+      width: 90%;
+      margin-left: 0.5em;
+    }
+    .text-input{
+      margin-left: 0.5em;
+    }
+  }
+  .visual-header{
+    text-align: center;
+    .toolbar-background{
+      background: transparent;
+      border-color: transparent;
+    }
+    .toolbar{
+      height: 50px;
+      min-height: 50px;
+    }
+
+  }
+  .scroll-content {
+    overflow: hidden;
+  }
+  .item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner, .item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #dedede;
+  }
+  .item-md.item-input.item-input-has-focus .item-inner, .item-md.item-input.input-has-focus .item-inner{
+    border-bottom-color: #000000;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+
+}
+ion-modal.add-treatment-exam-popup ion-backdrop {
+  visibility: visible !important;
+  z-index:0;
+}
+ion-modal.add-treatment-exam-popup .modal-wrapper{
+  overflow: hidden;
+  border-radius: 10px !important;
+  top: 20%;
+  height: 390px;
+  width: 85vw;
+  left: 7.5vw;
+  position:absolute;
+
+}
+.toast-advice{
+  .toast-wrapper.toast-bottom{
+    transform: scale(.95) !important;
+    border-radius: 10px;
+  }
+
+}

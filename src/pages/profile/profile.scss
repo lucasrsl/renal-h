@@ -1,0 +1,147 @@
+page-profile {
+  .header-class{
+    .bar-button-md{
+      text-transform: none;
+    }
+    .toolbar-title{
+      color: color($colors, primary);
+    }
+    .bar-button-default-md{
+      color: color($colors, secondary);
+    }
+    .language-icon{
+      margin-left: 10px;
+    }
+  }
+  .grid-visual{
+    p{
+      text-align: left
+    }
+    .title{
+      color: #ffffff;
+      font-weight: bold;
+      margin-bottom: 0px;
+      font-size: 1.6rem;
+      margin-left: 20px;
+    }
+    .title.last{
+      margin-bottom: 50px;
+    }
+    .title.first{
+      margin-bottom: 3px;
+    }
+    .sub-title-col{
+      text-align: left !important;
+      label{
+        color: #ffffff;
+        margin-bottom: 0px;
+        font-size: 1.6rem;
+        margin-left: 20px;
+
+      }
+    }
+    //.btn-change-treatment{
+      //margin-top: 10px;
+    //}
+
+    .line{
+      margin-top: 7px;
+      margin-left: 5%;
+      width: 90%;
+      border-bottom: solid 1px #ffffff;
+    }
+    .btn-col{
+      margin-top: 20px;
+      .button{
+        background-color: #ffffff;
+        border-radius: 10px;
+        width: 36px;
+        height: 36px;
+        .icon{
+          color: #000000;
+          font-size: 22px;
+        }
+      }
+    }
+
+    .actual-treatment{
+      margin-left: 20px;
+      color: #ffffff;
+      font-size: 1.6rem;
+    }
+    .col{
+      text-align: center;
+    }
+    .col-img{
+      margin-top: 7px;
+      .icon{
+        font-size: 22px;
+        margin-top: 2px;
+      }
+    }
+    .row-input{
+      background-color: #ffffff;
+      margin-top: 8px;
+      width: 92%;
+      margin-left: 4%;
+      border-radius: 10px;
+    }
+    .select{
+      max-width: none;
+      .select-icon{
+        margin-right: 4%;
+      }
+    }
+    .select-text{
+      text-align: start;
+    }
+    .input{
+      padding: 1px 0px;
+      width: 95%;
+    }
+    .input-md{
+      margin-left: 8px;
+    }
+    .input-ios{
+      margin-left: 17px;
+    }
+    .row-checkbox{
+      margin-top: 20px;
+    }
+    .errorValidation{
+      text-align:  right;
+      font-size: 10px;
+      color: red;
+      background: transparent;
+    }
+  }
+
+  .button-grid{
+    .button-terminar{
+      width: 90%;
+      border-radius: 10px;
+      background-color: color($colors, danger);
+      align-self: center;
+    }
+    .button-salvar{
+      width: 90%;
+      align-self: center;
+      background-color: #ffffff !important;
+      border-radius: 10px;
+      .button-inner{
+        color: #000000
+      }
+    }
+  }
+
+}
+.select-class{
+  .alert-wrapper{
+    border-radius: 10px;
+  }
+}
+.change-language{
+  img{
+    width: 1.8em;
+  }
+}

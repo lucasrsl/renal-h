@@ -1,0 +1,33 @@
+page-about {
+  .visual-header{
+    .toolbar-title{
+      color: color($colors, primary);
+    }
+    .bar-button-default-md{
+      color: color($colors, secondary);
+    }
+    .hide-button{
+      display: none;
+    }
+  }
+  .grid-visual{
+    .center-item{
+      align-items: center;
+      text-align: center;
+      align-self: center;
+      .img-align{
+        width: 7em;
+      }
+
+    }
+    .ver-label{
+      text-align: center;
+    }
+
+    .sub-title{
+      font-weight: bold;
+      margin-top: 1.5em;
+    }
+
+  }
+}

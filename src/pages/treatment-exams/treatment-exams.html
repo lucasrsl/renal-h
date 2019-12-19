@@ -1,0 +1,112 @@
+<!--
+  Generated template for the TreatmentExamsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class = "visual-header">
+
+  <ion-navbar>
+    <ion-buttons end>
+      <button ion-button icon-only (click) = "openModal('DateSelectPage')">
+        <ion-icon name = "calendar" class = "calendar-icon"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{ 'TREATMENT_EXAMS.TITLE' | translate }} {{title}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class = "img-background" (ionScroll)="scroll($event)">
+  <ion-list class = "list-visual" id = "list">
+    <ion-item no-lines *ngFor = "let exam of exams; let i = index" >
+      <ion-card>
+        <ion-card-content>
+            <ion-grid class = "grid-visual">
+              <ion-row>
+                <ion-col class = "text-col">
+                  <label>
+                    <p>{{ 'TREATMENT_EXAMS.LABEL1' | translate }}</p>
+                    <p class = "date-bold">{{exam.date_of_exam}}</p>
+                  </label>
+                </ion-col>
+                <ion-col offset-4>
+                  <button ion-button clear (click) = "deleteExam(exam.id,i)">
+                      <ion-icon name = "trash"></ion-icon>
+                  </button>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col col-2>
+                  <label>{{ 'TREATMENT_EXAMS.LABEL2' | translate }}</label>
+                </ion-col>
+                <ion-col class = "col-value">
+                  <label>{{exam.calcium}}</label>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col col-2>
+                  <label>{{ 'TREATMENT_EXAMS.LABEL3' | translate }}</label>
+                </ion-col>
+                <ion-col class = "col-value">
+                  <label>{{exam.phosphorus}}</label>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col col-2>
+                  <label>{{ 'TREATMENT_EXAMS.LABEL4' | translate }}</label>
+                </ion-col>
+                <ion-col class = "col-value">
+                  <label>{{exam.potassium}}</label>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+        </ion-card-content>
+      </ion-card>
+      <!--<ion-grid class = "grid-visual">
+        <ion-row>
+          <ion-col class = "text-col">
+            <label>{{exam.date_of_exam}}</label>
+          </ion-col>
+          <ion-col>
+            <ion-icon (click) = "deleteExam(exam.id,i)" name = "trash"></ion-icon>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-2>
+            <label>Cálcio</label>
+          </ion-col>
+          <ion-col class = "col-value">
+            <label>Nível Atual: {{exam.calcium}} mg/dl</label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-2>
+            <label>Fósforo</label>
+          </ion-col>
+          <ion-col class = "col-value">
+            <label>Nível Atual: {{exam.phosphorus}} mg/dl</label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-2>
+            <label>Potássio</label>
+          </ion-col>
+          <ion-col class = "col-value">
+            <label>Nível Atual: {{exam.potassium}} mg/dl</label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <div class = "line"></div>-->
+    </ion-item>
+  </ion-list>
+  <img src = "../assets/imgs/placeholders/exames.png" id = "placeholder-size" *ngIf= "placeholderFlag">
+  <label *ngIf = "placeholderFlag">
+    <p class = "img-text">{{ 'TREATMENT_EXAMS.LABEL5' | translate }}</p>
+    <p class = "img-second-text">{{ 'TREATMENT_EXAMS.LABEL6' | translate }}<br/>{{ 'TREATMENT_EXAMS.LABEL7' | translate }}</p>
+  </label>
+  <div ion-fixed class = "fade" display = "false"></div>
+  <button ion-fixed ion-button (click) = "openAddTreatmentExam()" class = "add-exam" id = "btn">{{ 'TREATMENT_EXAMS.BUTTON1' | translate }}</button>
+  <button ion-fixed ion-button (click) = "showGraph()" class = "show-graph" id = "btn">{{ 'TREATMENT_EXAMS.BUTTON2' | translate }}</button>
+</ion-content>

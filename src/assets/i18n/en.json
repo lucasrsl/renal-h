@@ -1,0 +1,1630 @@
+{
+  "MENU_SIDEBAR": {
+    "OPT1": "Profile",
+    "OPT2": "Today",
+    "OPT3": "Today",
+    "OPT4": "Treatment",
+    "OPT5": "Treatment",
+    "OPT6": "Schedule",
+    "OPT7": "About the medication",
+    "OPT8": "Information",
+    "OPT9": "Nutritional table",
+    "OPT10": "About the app",
+    "OPT11": "Exit",
+    "OPT12": "I am not a patient"
+  },
+  "ABOUT_PAGE": {
+    "TITLE": "About the app",
+    "TEXT_TITLE1": "Project description",
+    "TEXT1": "Renal Health is an application designed to broaden the knowledge of the overall population about kidney disease and to support patients with chronic kidney disease regarding the production of knowledge, as well as the continuous monitoring of their health status and treatment.",
+    "TEXT_TITLE2": "IMPORTANT",
+    "TEXT2": "The effectiveness of the Renal Health app depends on the CORRECT data entry and patient compliance to instructions. Even when using the Renal Health app, the patient should continue to follow the instructions of healthcare professionals.",
+    "STUDENTS": "Students",
+    "PROFESSOR": "Teachers"
+  },
+  "ABOUT_KIDNEY_TRANSPLANTATION": {
+    "TITLE": "Kidney transplant",
+    "LABEL1": "Learn more about kidney transplant",
+    "LABEL2": {
+      "PARAGRAPH_1": "It is a surgery performed to place a healthy kidney in a patient with advanced chronic kidney disease. This new kidney will perform the functions that diseased kidneys can no longer maintain.",
+      "PARAGRAPH_2": "After the transplantation indication, the patient undergoes a clinical evaluation that includes several examinations."
+    },
+    "LABEL3": "Donor types",
+    "LABEL4": {
+      "PARAGRAPH_1": "A kidney transplantation can be performed from living donors or deceased donors.",
+      "PARAGRAPH_2": "Kidney donation between living persons is permitted by Brazilian law up to the fourth degree of kinship and between spouses, provided that the donor is not a minor, has a compatible blood group and appropriate compatibility tests.",
+      "PARAGRAPH_3": "Deceased donors are individuals that are brain dead and who, after the family’s authorization, have their organs donated."
+    },
+    "LABEL5": "Waiting list",
+    "LABEL6": "Patients who have been evaluated and included in a list to undergo a transplant with a deceased donor can be called at any time, so it is very important to keep updated address and telephone numbers and to be in good health for the surgery. The waiting period varies and depends on the availability of a donor who is accepted by the transplant team and who is compatible with the recipient.",
+    "LABEL7": "Advantages of kidney transplantation",
+    "LABEL8": {
+      "PARAGRAPH_1": "The transplanted kidney functions like a normal kidney.",
+      "PARAGRAPH_2": "The patient feels healthier.",
+      "PARAGRAPH_3": "There are few dietary restrictions.",
+      "PARAGRAPH_4": "There is no need for dialysis anymore, so the patient has more free time."
+    },
+    "LABEL9": "Possible discomforts",
+    "LABEL10": {
+      "PARAGRAPH_1": "It is necessary to undergo surgery.",
+      "PARAGRAPH_2": "A compatible donor must be available.",
+      "PARAGRAPH_3": "There is a possibility that the body rejects the new kidney.",
+      "PARAGRAPH_4": "It is necessary to attend regular appointments and use medications for the rest of one’s life."
+    },
+    "LABEL11": "Frequently asked questions",
+    "LABEL12": {
+      "PARAGRAPH_1": {
+        "TITLE": "What is crossmatch?",
+        "TEXT": "It is the test in which the recipient’s and donor’s blood are mixed to see if there is a possibility of rejection in the first hours after transplantation. If it is positive, the transplant cannot be performed because the chance of immediate rejection is almost 100%."
+      },
+      "PARAGRAPH_2": {
+        "TITLE": "What does rejection mean?",
+        "TEXT": "Rejection is the term used to describe the body's reaction to the new kidney. Some patients may exhibit it during the first or second week after transplantation. There are several ways to prevent and treat rejection, and most often it is resolved."
+      },
+      "PARAGRAPH_3": {
+        "TITLE": "Why is it necessary to take special medications after the transplantation?",
+        "TEXT": "The body has a very complex system (immune system) that reacts against foreign organs. Because the transplanted kidney is recognized as “foreign”, the body will react against it and try to destroy it. Immunosuppressive drugs slow down this reaction."
+      }
+    },
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE": "Kidney Transplant Manual. Available in: http://www.abto.org.br/abtov03/default.aspx?mn=478&c=919&s=0&friendly=manuais-de-transplantes",
+      "BUTTON": "Ok"
+    }
+  },
+  "ABOUT_MEDICINES_PAGE": {
+    "TITLE": "About medications",
+    "CARD1": {
+      "TITLE": "About medications"
+    },
+    "CARD2": {
+      "TITLE": "Recommendations",
+      "TEXT1": "Recommendations on medications"
+    }
+  },
+  "ADD_BLOOD_GLUCOSE": {
+    "TITLE": "Add Blood Glucose",
+    "PLACEHOLDER": "Select date",
+    "TEXT": "Blood glucose",
+    "OPTION1": "CANCEL",
+    "OPTION2": "OK"
+  },
+  "ADD_BLOOD_PRESSURE": {
+    "TITLE": "Add blood pressure",
+    "PLACEHOLDER": "Select date",
+    "TEXT": "Blood pressure",
+    "OPTION1": "CANCEL",
+    "OPTION2": "OK"
+  },
+  "ADD_CREATININE": {
+    "TITLE": "Add Creatinine",
+    "PLACEHOLDER": "Select date",
+    "TEXT": "Creatinine",
+    "OPTION1": "CANCEL",
+    "OPTION2": "OK"
+  },
+  "ADD_EXAM": {
+    "TITLE": "Add test",
+    "LABEL1": "Type of test",
+    "LABEL2": "Specify the test",
+    "LABEL3": "Place",
+    "LABEL4": "Date",
+    "LABEL5": "Time",
+    "LABEL6": "Alarm",
+    "LABEL7": "Receive alarm",
+    "LOADING_MESSAGE": "Updating data...",
+    "ALARM_SELECT": {
+      "TITLE": "Warning time",
+      "OPTION1": "1 hour before",
+      "OPTION2": "2 hours before",
+      "OPTION3": "3 hours before",
+      "OPTION4": "24 hours before",
+      "BUTTONS": {
+        "DONE": "OK",
+        "CANCEL": "CANCEL"
+      }
+    },
+    "EXAM_SELECT": {
+      "TITLE": "Type of Tests",
+      "BUTTON1": "Laboratory tests",
+      "BUTTON2": "Imaging tests",
+      "BUTTON3": "Others",
+      "BUTTON4": "Cancel",
+      "BUTTONS": {
+        "DONE": "OK",
+        "CANCEL": "CANCEL"
+      }
+    },
+    "BUTTON": "Save",
+    "DATE_TIME": {
+      "CANCEL": "CANCEL",
+      "DONE": "Save"
+    },
+    "ALARM": {
+      "TITLE": "The test will be performed at",
+      "TITLE2": "hour",
+      "TITLE3": "hours"
+    },
+    "TOAST_MESSAGE": "Test successfully recorded",
+    "ERROR": {
+      "OPTION_1": "Select a type of test",
+      "OPTION_2": "Specify test",
+      "OPTION_3": "Fill in the test location",
+      "OPTION_4": "Select test date",
+      "OPTION_5": "Select the time"
+    }
+  },
+  "ADD_MED": {
+    "TITLE": "Add Medication",
+    "LABEL1": "Name of medication",
+    "LABEL2": "Dose type",
+    "LABEL3": "Amount",
+    "LABEL4": "Dose",
+    "LABEL5": "At intervals",
+    "LABEL6": "With meals",
+    "LABEL7": "Frequency",
+    "LOADING_MESSAGE": "Updating data...",
+    "SELECT": {
+      "OPTION1": "Every 4 hours",
+      "OPTION2": "Every 6 hours",
+      "OPTION3": "Every 8 hours",
+      "OPTION4": "Every 12 hours",
+      "OPTION5": "1x a day"
+    },
+    "LABEL8": "Initial dose",
+    "LABEL9": "Breakfast",
+    "LABEL10": "Lunch",
+    "LABEL11": "Dinner",
+    "LABEL12": "Receive alarm",
+    "LABEL13": "Save",
+    "DATE_TIME": {
+      "CANCEL": "CANCEL",
+      "DONE": "Save"
+    },
+    "SELECT_UNITY": "Select a unit",
+    "SELECT_TIME": "Select an interval",
+    "ALARM": {
+      "TITLE": "Medication time",
+      "TEXT1": "You need to take the medication",
+      "TEXT2": "at the dose of"
+    },
+    "PLACEHOLDER": "e.g.: pill",
+    "TOAST_MESSAGE_SUCCESS": "Medication successfully added",
+    "TOAST_MESSAGE_ERROR": "An internal error has occurred. Please try again later.",
+    "ERROR": {
+      "OPTION_1": "Add the name of the medication",
+      "OPTION_2": "Select dose type",
+      "OPTION_3": "Fill in the amount",
+      "OPTION_4": "Fill in the dose",
+      "OPTION_5": "Select a time"
+    }
+  },
+  "ADD_QUERY": {
+    "TITLE": "Consultation",
+    "LABEL1": "Professional",
+    "LABEL2": "Specialty",
+    "LABEL3": "Place",
+    "LABEL4": "Date",
+    "LABEL5": "Time",
+    "LABEL6": "Alarm",
+    "LABEL7": "Receive the alarm",
+    "LOADING_MESSAGE": "Updating data...",
+    "ALARM_SELECT": {
+      "TITLE": "Warning time",
+      "OPTION1": "1 hour before",
+      "OPTION2": "2 hours before",
+      "OPTION3": "3 hours before",
+      "OPTION4": "24 hours before",
+      "BUTTONS": {
+        "DONE": "OK",
+        "CANCEL": "CANCEL"
+      }
+    },
+    "BUTTON": "Save",
+    "DATE_TIME": {
+      "CANCEL": "CANCEL",
+      "DONE": "Save"
+    },
+    "SELECT_INTERVAL": "Do you wish to be warned?",
+    "ALARM": {
+      "TITLE": "Consultation time",
+      "TITLE2": "hour",
+      "TITLE3": "hours"
+    },
+    "TOAST_MESSAGE": "Consultation successfully recorded",
+    "ERROR": {
+      "OPTION_1": "Enter the professional’s name",
+      "OPTION_2": "Enter the professional’s specialty",
+      "OPTION_3": "Enter the location of the consultation",
+      "OPTION_4": "Select the date of the consultation",
+      "OPTION_5": "Select a time"
+    }
+  },
+  "ADD_TRANSPLANTED_WEIGHT": {
+    "TITLE": "Add weight",
+    "PLACEHOLDER1": "Select date",
+    "PLACEHOLDER2": "Enter the weight",
+    "TEXT": "Weight",
+    "OPTION1": "CANCEL",
+    "OPTION2": "OK"
+  },
+  "ADD_TREATMENT_EXAM": {
+    "TITLE": "Add test",
+    "PLACEHOLDER": "Select date",
+    "INPUT": {
+      "CALCIUM": "Calcium result",
+      "PHOSPHOR": "Phosphorus result",
+      "POTASSIUM": "Potassium Result"
+    },
+    "OPTION": {
+      "CANCEL": "CANCEL",
+      "OK": "OK"
+    },
+    "MESSAGE": "Insufficient data fill in a date and a test"
+  },
+  "ALARM_INTERVAL_SELECT": {
+    "TITLE": "Warning time",
+    "INTERVAL": {
+      "1": "6 hours before",
+      "2": "12 hours before",
+      "3": "24 hours before"
+    },
+    "OPTION": "CANCEL"
+  },
+  "ARTERIOVENOUS_FISTULA": {
+    "TITLE": "Maintaining vascular access",
+    "SUB_TITLE": "Arteriovenous Fistula (AVF)",
+    "TEXT1": {
+      "PARAGRAPH_1": "After the fistula is created, the arm should be kept elevated and very tight bandages should be avoided. The fistula flow, called thrill, should be checked daily.",
+      "PARAGRAPH_2": "Once created, it takes approximately four to six weeks for the fistula to be used.",
+      "PARAGRAPH_3": "Patients should perform exercises with the arm in which the fistula was created to accelerate maturation. In general, exercises such as squeezing a rubber ball are recommended.",
+      "PARAGRAPH_4": "After removal of the fistula needles, moderate compression should be performed for approximately 10 to 20 minutes.",
+      "PARAGRAPH_5": "Watch out: If the arm of the fistula shows changes in skin color, pain, tingling, loss of sensation, increased temperature, and lesions or blisters, the attending nurse or doctor must be warned.",
+      "PARAGRAPH_6": "Avoid carrying heavy purses and bags with the arm of the fistula and sleeping on top of it, as it may cause decreased blood flow.",
+      "PARAGRAPH_7": "It is forbidden to check out the blood pressure in the arm of the fistula.",
+      "PARAGRAPH_8": "It is not advisable to receive injections or have blood drawn from the arm of the fistula."
+    },
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE": "DAUGIRDAS, J. T.; BLAKE, P. G.; ING,T. 8. Manual da Diálise. 4 ed. Rio de Janeiro:Guanabara Koogan, 2008.",
+      "BUTTON": "Ok"
+    }
+  },
+  "AZATIOPRINA": {
+    "TITLE": "What is Azathioprine?",
+    "TEXT1": "Azathioprine belongs to a class of drugs called immunosuppressants. It is used to help the body accept the transplanted organ and also to treat rheumatoid arthritis.",
+    "SUB_TITLE": "Major adverse reactions",
+    "TEXT2": {
+      "PARAGRAPH_1": "Anemia",
+      "PARAGRAPH_2": "Decrease in white, red and platelet blood cells",
+      "PARAGRAPH_3": "Nausea",
+      "PARAGRAPH_4": "Vomiting",
+      "PARAGRAPH_5": "Diarrhea",
+      "PARAGRAPH_6": "Abdominal pain",
+      "PARAGRAPH_7": "Liver toxicity"
+    },
+    "ATTENTION": "WARNING: The full list of adverse reactions can be found in the medication package insert.",
+    "ALERT": {
+      "MESSAGE": "Watch out for any adverse reactions and contact the hospital where you are being followed-up",
+      "BUTTON": "Ok"
+    }
+  },
+  "BIG_QUANTITY_PHOSPHORUS_FOOD": {
+    "TITLE": "Amount of phosphorus in food",
+    "SUB_TITLE": "Foods with high phosphorus content",
+    "TEXT": {
+      "PARAGRAPH_1": "Eggs",
+      "PARAGRAPH_2": "Yogurt",
+      "PARAGRAPH_3": "Milk",
+      "PARAGRAPH_4": "Cheese",
+      "PARAGRAPH_5": "Beef, fish and chicken",
+      "PARAGRAPH_6": "Cow’s liver",
+      "PARAGRAPH_7": "Sardines",
+      "PARAGRAPH_8": "Peanuts, cashews",
+      "PARAGRAPH_9": "Processed foods",
+      "PARAGRAPH_10": "Sausages",
+      "PARAGRAPH_11": "Hot-dogs",
+      "PARAGRAPH_12": "Ham",
+      "PARAGRAPH_13": "Cola soft drinks",
+      "PARAGRAPH_14": "Beer",
+      "PARAGRAPH_15": "Cream-filled cookies",
+      "PARAGRAPH_16": "Cakes",
+      "PARAGRAPH_17": "Cooked beans",
+      "PARAGRAPH_18": "Chocolate",
+      "PARAGRAPH_19": "Crackers"
+    },
+    "ATTENTION": "WARNING: To help decrease the phosphorus content, doctors prescribe phosphorus chelators. They prevent phosphorus from being absorbed by the body.",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE": "MARTINS, C.T.B.; RIBEIRO JÚNIOR, E.(Orgs.). <br/>Perguntas e respostas sobre nutrição em diálise. São Paulo: RCN Editora, 2008. NONATO, M. A escolha certa na doença renal crônica um manual para pacientes e familiares Edição do autor, 2017.",
+      "BUTTON": "Ok"
+    }
+  },
+  "BLOOD_GLUCOSE": {
+    "TITLE": "Blood glucose",
+    "RESULT": "Result",
+    "BUTTON": "New Blood Glucose Record",
+    "LOADING_MESSAGE": "Updating data...",
+    "TOAST_MESSAGE_ADD": "Blood glucose added",
+    "TOAST_MESSAGE_DELETE": "Blood Glucose deleted"
+  },
+  "BLOOD_PRESSURE": {
+    "TITLE": "Blood pressure",
+    "RESULT": "Result",
+    "BUTTON": "New pressure record",
+    "LOADING_MESSAGE": "Updating data...",
+    "TOAST_MESSAGE_ADD": "Blood pressure added",
+    "TOAST_MESSAGE_DELETE": "Blood Pressure deleted"
+  },
+  "CHANGE_PASSWORD": {
+    "TITLE": "Change password",
+    "TEXT1": "New ",
+    "TEXT2": "Confirm new password",
+    "VALIDATION_ERROR1": "Password with a minimum of 8 characters",
+    "VALIDATION_ERROR2": "Password not supported",
+    "OPTION": {
+      "CANCEL": "CANCEL",
+      "OK": "OK"
+    },
+    "ERROR_MESSAGE": "Invalid data",
+    "TOAST_MESSAGE_SUCCESS": "Password successfully modified",
+    "TOAST_MESSAGE_ERROR": "Failed to modify Password"
+  },
+  "CICLOSPORINA": {
+    "TITLE": "Cyclosporine (SANDIMMUN NEORAL®) 25, 50 e 100 mg",
+    "LABEL1": "What is cyclosporine?",
+    "LABEL2": "Cyclosporine is an immunosuppressive drug that acts by controlling the body's defense system and is used to prevent rejection of transplanted organs or to treat some diseases.",
+    "LABEL3": "Major adverse reactions:",
+    "LABEL4": {
+      "PARAGRAPH_1": "Tremors",
+      "PARAGRAPH_2": "Increased amount of body hair",
+      "PARAGRAPH_3": "High blood pressure",
+      "PARAGRAPH_4": "Gingival hypertrophy",
+      "PARAGRAPH_5": "Increased levels of cholesterol, triglycerides; tingling may also occur,",
+      "PARAGRAPH_6": "Renal and hepatic toxicity"
+    },
+    "LABEL5": "WARNING: The full list of adverse reactions can be found in the medication package insert.",
+    "ALERT": {
+      "MESSAGE": "Watch out for any adverse reactions and contact the hospital where you are being followed-up <br/> <br/> Source: http:/www.medicinanet.com.br/bula/detalhes/1381/reacoes adversas-Ciclosporina.html",
+      "BUTTON": "Ok"
+    }
+  },
+  "CLINIC_SELECT": {
+    "TITLE": "Select clinic or hospital",
+    "MESSAGE": {
+      "LOADING_1": "Updating data...",
+      "LOADING_2": "Creating User..."
+    },
+    "INPUT": {
+      "PLACEHOLDER1": "Clinic or hospital",
+      "PLACEHOLDER2": "State",
+      "PLACEHOLDER3": "City"
+    },
+    "OPTION": "Next",
+    "SELECT_1": "Choose city",
+    "SELECT_2": "Choose state",
+    "TOAST_MESSAGE_SUCCESS": "User successfully created",
+    "TOAST_MESSAGE_ERROR": "Email already in use"
+  },
+  "CREATININE": {
+    "TITLE": {
+      "TITLE1": "Creatinine",
+      "TITLE2": "Creatinine from "
+    },
+    "TEXT1": "Result",
+    "BUTTON1": "New creatinine test",
+    "BUTTON2": "View charts",
+    "LOADING_MESSAGE": "Updating data...",
+    "PLACEHOLDER_TEXT": {
+      "TEXT1": "No creatinine record",
+      "TEXT2": "You haven't recorded your creatinine yet"
+    },
+    "ALERT": {
+      "TITLE": "Select Year",
+      "PLACEHOLDER": "Year",
+      "BUTTONS": {
+        "CANCELAR": "CANCEL",
+        "SELECT": "Select"
+      }
+    },
+    "TOAST_MESSAGE_ADD": "Creatinine added",
+    "TOAST_MESSAGE_DELETE": "Creatinine deleted"
+  },
+  "CREATININE_GRAPH": {
+    "TITLE": {
+      "TITLE1": "Creatinine",
+      "TITLE2": "Creatinine from "
+    },
+    "PLACEHOLDER": {
+      "PART_1": "Add your tests to ",
+      "PART_2": "view charts"
+    },
+    "CARD_HEADER": "Creatinine",
+    "MONTHS": {
+      "0": "Jan",
+      "1": "Feb",
+      "2": "Mar",
+      "3": "Apr",
+      "4": "May",
+      "5": "Jun",
+      "6": "Jul",
+      "7": "Aug",
+      "8": "Sept",
+      "9": "Out",
+      "10": "Nov",
+      "11": "Dec"
+    },
+    "LOADING_MESSAGE": "Updating data...",
+    "ALERT": {
+      "TITLE": "Select Year",
+      "PLACEHOLDER": "Year",
+      "BUTTONS": {
+        "CANCELAR": "CANCEL",
+        "SELECT": "Select"
+      }
+    }
+  },
+  "CUP_SELECT": {
+    "OPTION": {
+      "1": "A full glass - 200mL",
+      "2": "An almost full glass - 150mL",
+      "3": "Half a glass - 100mL",
+      "4": "Water for medication - 50mL"
+    },
+    "CANCEL": "CANCEL",
+    "OK": "OK"
+  },
+  "DATE_SELECT": {
+    "TITLE": "Select year",
+    "CANCEL": "Cancel",
+    "OK": "Ok",
+    "PLACEHOLDER": "Year"
+  },
+  "END_TREATMENT": {
+    "TITLE": "Change of treatment",
+    "LABEL1": "To what type of treatment",
+    "LABEL2": "will you change?",
+    "BUTTON": "Peritoneal dialysis",
+    "BUTTON_TREATMENT": {
+      "OPTION_1": "Kidney transplant",
+      "OPTION_2": "Hemodialysis",
+      "OPTION_3": "Kidney Transplant"
+    },
+    "LOADING": "Updating data...",
+    "ALERT": {
+      "TITLE": "Are you sure you want to change treatment?",
+      "BUTTONS": {
+        "CANCEL": "CANCEL",
+        "OK": "OK"
+      }
+    },
+    "TOAST_MESSAGE_END_TREATMENT": "Treatment terminated",
+    "TOAST_MESSAGE_SELECT_TREATMENT": "Treatment was successfully Selected"
+  },
+  "EVEROLIMO": {
+    "TITLE1": "Everolimus (Certican®)",
+    "TITLE2": "0,5 mg, 0,75 mg and 1 mg",
+    "LABEL1": "What is Everolimus?",
+    "PARAGRAPH_1": "Everolimus is used to help prevent rejection of transplanted kidney, heart or liver. It should be used together with other immunosuppressants.",
+    "LABEL2": "Major adverse reactions:",
+    "ITEN1": "Higher chance of infections",
+    "ITEN2": "Anemia, decreased platelets and clotting disorders",
+    "ITEN3": "Increased cholesterol and triglyceride levels",
+    "ITEN4": "Insomnia, anxiety, headache",
+    "ITEN5": "Coughing",
+    "ITEN6": "Diarrhea, nausea, vomiting",
+    "ITEN7": "Onset of diabetes",
+    "ITEN8": "High blood pressure",
+    "LABEL3": "WARNING: The full list of adverse reactions can be found in the medication package insert.",
+    "ALERT": {
+      "MESSAGE": "Watch out for any adverse reactions and contact the hospital where you are being followed-up ",
+      "BUTTON": "OK"
+    }
+  },
+  "EXAM_SELECT": {
+    "TITLE": "Type of tests",
+    "BUTTON1": "Laboratory tests",
+    "BUTTON2": "Imaging tests",
+    "BUTTON3": "Others",
+    "BUTTON4": "Cancel"
+  },
+  "EXAMS": {
+    "TITLE": "Tests",
+    "LABEL1": "Test date",
+    "COL": "Place:",
+    "LABEL2": "No tests!",
+    "LABEL3": "Don't forget to schedule",
+    "LABEL4": "your exams.",
+    "BUTTON": "New test",
+    "ALARM": {
+      "ACTIVE": "Alarm on",
+      "DISABLED": "Alarm off"
+    },
+    "TOAST_MESSAGE_SUCCESS": "Test alert was successfully deleted",
+    "TOAST_MESSAGE_ERROR": "An internal error has occurred. Please try again later"
+  },
+  "FAQ": {
+    "TITLE": "Frequently Asked Questions",
+    "LABEL1": "How do I know if my kidneys are ok? What examinations should I undergo?",
+    "ACCORDION1": "Pay attention to the color and aspect of your urine. In general, it should be “golden yellow”. Reddish or foamy urine can be a sign of kidney problems.",
+    "ACCORDION2": "If you have pain or difficulty urinating, see a doctor.",
+    "ACCORDION3": "Watch out for how much urine you produce and how often,",
+    "ACCORDION4": "Presence of swelling (edema) in the face or legs may be signs of kidney problems.",
+    "ACCORDION5": "At least once a year, ask your doctor to order a urine test and blood creatinine measurement.",
+    "LABEL2": "I received my routine tests, which showed increased levels of urea and/or creatinine. Do I need to undergo hemodialysis?",
+    "LABEL3": "Your test results must be seen by a doctor, who will give you instructions on what should be done. In general, changes in kidney function have many causes, and it will be up to your doctor to advise you in the best way.",
+    "LABEL4": "Who is most at risk for developing CKD?",
+    "ITEN1": "The elderly (over 60 years old)",
+    "ITEN2": "Family members of individuals with kidney disease",
+    "ITEN3": "Diabetic individuals",
+    "ITEN4": "Hypertensive individuals",
+    "LABEL5": "Even if you do not belong to these groups, do not neglect your health and have regular checkups.",
+    "LABEL6": "How to prevent the onset of CKD?",
+    "ITEN5": "Adequate control of blood pressure, blood sugar (\"blood sugar\") and body weight",
+    "ITEN6": "Adoption of healthy living habits",
+    "ITEN7": "Regular physical activity",
+    "ITEN8": "Adequate water intake",
+    "ITEN9": "Correct use of medications prescribed by your doctor",
+    "ITEN10": "No smoking",
+    "ITEN11": "Avoid excessive intake of alcohol",
+    "ITEN12": "Follow a low-salt diet",
+    "ITEN13": "Do not take anti-inflammatory medication and any other medication without a doctor's advice",
+    "LABEL7": "These are some of the actions that help prevent not only the onset of CKD, but also of other diseases."
+  },
+  "FREQUENCY_SELECT": {
+    "TITLE": "Interval",
+    "CANCELAR": "CANCEL"
+  },
+  "GLOMERULAR_FILTER_RATE": {
+    "TITLE": "Glomerular Filtration Rate (GFR)",
+    "LABEL1": "Gender ",
+    "LABEL2": "Male",
+    "LABEL3": "Female",
+    "LABEL4": "Black ethnicity",
+    "LABEL5": "Yes",
+    "LABEL6": "No",
+    "LABEL7": "Age",
+    "LABEL8": "Creatinine level",
+    "BUTTON1": "CHECK THE RESULT",
+    "LABEL9": "Result of your GFR: ",
+    "LABEL10": " mL/min/1.73m2",
+    "LABEL11": "Status of Your Filtration Rate",
+    "LABEL12": "Normal renal function",
+    "LABEL13": "Slight reduction in renal function",
+    "LABEL14": "Slight to moderate reduction ",
+    "LABEL15": " in renal function",
+    "LABEL16": "Moderate to severe reduction ",
+    "LABEL17": " in renal function ",
+    "LABEL18": "Severe reduction in renal function",
+    "LABEL19": "Kidney failure",
+    "ALERT": {
+      "MESSAGE": "Complete all the fields correctly"
+    }
+  },
+  "GRAFT": {
+    "TITLE": "Maintaining vascular access",
+    "LABEL1": "Grafts (PTFE)",
+    "LABEL2": "• Care is similar to that of the arteriovenous fistula, but PTFE has a shorter maturation period, usually 2 or 3 weeks.",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE": "DAUGIRDAS, J. T.; BLAKE, P. G.; ING,T. 8. Manual da Diálise. 4 ed. Rio de Janeiro:Guanabara Koogan, 2008.",
+      "BUTTON": "OK"
+    }
+  },
+  "HISTORIC": {
+    "TITLE": "Treatment",
+    "LABEL1": "Blood pressure",
+    "BUTTON1": "New record",
+    "LABEL2": "Weight",
+    "LABEL3": "Blood glucose",
+    "LABEL4": "Creatinine",
+    "PLACEHOLDER": {
+      "CREATININE": "There is no record of creatinine",
+      "BLOOD_PRESSURE": "There is no record of blood pressure",
+      "WEIGHT": "There is no record of weight",
+      "GLUCOSE": "There is no record of blood glucose"
+    },
+    "LOADING_MESSAGE": "Updating data...",
+    "PLACEHOLDER_MESSAGE": "Last measurement taken on ",
+    "TOAST_MESSAGE": {
+      "BLOOD_PRESSURE": "Blood pressure added",
+      "WEIGHT": "Weight added",
+      "BLOOD_GLUCOSE": "Blood glucose added",
+      "CREATININE": "Creatinine added"
+    }
+  },
+  "HISTORIC_TREATMENT": {
+    "LABEL1": "Add your tests to ",
+    "LABEL2": " view charts",
+    "LABEL3": "Calcium",
+    "LABEL4": "Potassium",
+    "LABEL5": "Phosphor",
+    "MONTHS": {
+      "0": "Jan",
+      "1": "Feb",
+      "2": "Mar",
+      "3": "Apr",
+      "4": "May",
+      "5": "Jun",
+      "6": "Jul",
+      "7": "Aug",
+      "8": "Sept",
+      "9": "Oct",
+      "10": "Nov",
+      "11": "Dec"
+    },
+    "LOADING_MESSAGE": "Updating data...",
+    "ALERT": {
+      "TITLE": "Select Year",
+      "PLACEHOLDER": "Year",
+      "BUTTONS": {
+        "CANCELAR": "CANCEL",
+        "SELECT": "Select"
+      }
+    },
+    "TITLE": {
+      "TITLE1": "Tests",
+      "TITLE2": "Tests of "
+    }
+  },
+  "HISTORIC_WEIGHT": {
+    "TITLE": "Weight History",
+    "LABEL1": "Current weight",
+    "LABEL2": "Dry weight",
+    "LABEL3": "Dialysis session",
+    "LABEL4": "No calculated weight",
+    "LABEL5": "You haven't calculated your weight yet",
+    "LABEL6": " kg",
+    "BUTTON": "Calculate weight",
+    "LOADING_MESSAGE": "Updating data..."
+  },
+  "HOW_ARE_YOU_TODAY": {
+    "TITLE": "Today",
+    "LABEL1": "Your schedule today",
+    "ITEN1": "Your tests",
+    "ITEN2": "Your consultations",
+    "ITEN3": "Your medications",
+    "LABEL2": "of",
+    "LABEL3": "Everything is OK!",
+    "LABEL4": "There are no appointments today.",
+    "LOADING_MESSAGE": "Updating data...",
+    "STATUS": {
+      "TEXT1": "You can still drink today",
+      "TEXT2": "Attention! You can still drink today",
+      "TEXT3": "Warning! You have reached the recommended daily consumption limit",
+      "TEXT4": "Warning! You have exceeded the recommended daily consumption limit",
+      "VOLUME": "Glasses"
+    }
+  },
+  "HYPERTENSION": {
+    "TITLE1": "Learn more about ",
+    "TITLE2": "Hypertension",
+    "LABEL1": "Hypertension control is critical to reducing the risk of cardiovascular disease in the medium and long term.",
+    "LABEL2": "Important measures to keep pressure under control:",
+    "ITEN1": "Reduce the consumption of salty foods",
+    "ITEN2": "Avoid drinking too much liquid (water, juices, teas, coffee, etc.)",
+    "ITEN3": "Use antihypertensive medications as prescribed."
+  },
+  "INFORMATION": {
+    "TITLE": "Information",
+    "COL1": "Overall",
+    "LABEL1": "About the kidneys",
+    "LABEL2": "What are the kidneys?",
+    "LABEL3": "What are the main functions of the kidneys?",
+    "LABEL4": "Chronic Kidney Disease (CKD)",
+    "LABEL5": "What is CKD",
+    "LABEL6": "What are the main causes of CKD?",
+    "LABEL7": "Signs of kidney disease",
+    "LABEL8": "How is the treatment of CKD?",
+    "LABEL9": "How to prevent CKD?",
+    "LABEL10": "Frequently Asked Questions",
+    "LABEL11": "Questions",
+    "LABEL12": "On treatment",
+    "LABEL13": "Possible symptoms during hemodialysis",
+    "LABEL14": "Symptoms",
+    "LABEL15": "Hypertension control",
+    "LABEL16": "Learn more about Hypertension",
+    "LABEL17": "Maintaining vascular access",
+    "LABEL18": "Short-term catheter",
+    "LABEL19": "Arteriovenous Fistula (AVF)",
+    "LABEL20": "Grafts (PTFE)",
+    "LABEL21": "Kidney transplant",
+    "LABEL22": "Learn more about kidney transplant"
+  },
+  "INFORMATION_TRANSPLANTED": {
+    "TITLE": "Information",
+    "COL1": "Overall",
+    "LABEL1": "About the kidneys",
+    "LABEL2": "What are the kidneys",
+    "LABEL3": "What are the main functions of the kidneys?",
+    "LABEL4": "Chronic Kidney Disease (CKD)",
+    "LABEL5": "What is CKD",
+    "LABEL6": "What are the main causes of CKD?",
+    "LABEL7": "Signs of kidney disease",
+    "LABEL8": "How is the treatment of CKD?",
+    "LABEL9": "How to prevent CKD?",
+    "LABEL10": "Frequently Asked Questions",
+    "LABEL11": "Questions",
+    "LABEL12": "On treatment",
+    "LABEL13": "Pay attention",
+    "LABEL14": "Signs and symptoms",
+    "LABEL15": "Recommendations",
+    "LABEL16": "Overall",
+    "LABEL17": "Nutritional",
+    "LABEL18": "Care at another hospital",
+    "LABEL19": "Frequently Asked Questions",
+    "LABEL20": "Doubts"
+  },
+  "INTERCURREN_HEMODIALYSIS": {
+    "TITLE": "Symptoms",
+    "LABEL1": "Hypotension",
+    "LABEL2": "(Low blood pressure)",
+    "LABEL3": "One cause is fluid removal (ultrafiltration) during treatment.",
+    "LABEL4": "How to prevent it: decrease the consumption of very salty foods, do not gain much weight between sessions, do not eat immediately before or during hemodialysis.",
+    "LABEL5": "Cramps",
+    "LABEL6": "Main causes: hypotension, patient below dry weight and high velocity in fluid withdrawal.",
+    "LABEL7": "How to prevent it: do not gain too much weight between hemodialysis sessions.",
+    "LABEL8": "Nausea and vomiting",
+    "LABEL9": "They can have many causes, but the main one is hypotension.",
+    "LABEL10": "How to prevent it: the main preventive measure is to avoid episodes of hypotension",
+    "LABEL11": "Headache",
+    "LABEL12": "Its causes are generally unknown. In patients who drink coffee, the headache may be a manifestation of caffeine abstinence because its concentration in blood is reduced during hemodialysis.",
+    "LABEL13": "Talk to the health professionals in charge of your follow-up.",
+    "LABEL14": "Fever and chills",
+    "LABEL15": "These could be signs of infection related to vascular access, to the dialysis system itself or other factors.",
+    "LABEL16": "If you have these symptoms at home, let the team know before you start the hemodialysis, so you can be evaluated. If they occur during the session, the team will perform your treatment.",
+    "LABEL17": "Itching (pruritus)",
+    "LABEL18": "It can be a manifestation of slight hypersensitivity to the dialyzer (capillary) or bloodline components, or even to Heparin.",
+    "LABEL19": "Talk to the health professionals in charge of your follow-up."
+  },
+  "INTERNET_ERROR": {
+    "TITLE": "No connection",
+    "LABEL1": "Connection not available",
+    "LABEL2": "Check your internet and try again later",
+    "BUTTON1": "Try again",
+    "BUTTON2": "Back to menu"
+  },
+  "LARGE_AMOUNT_SALT_FOOD": {
+    "TITLE1": "Amount of sodium ",
+    "TITLE2": "in foods",
+    "LABEL1": "Foods with high content",
+    "LABEL2": "of sodium:",
+    "LABEL3": "WARNING: The words 'sodium' and 'salt' are used as if they were the same thing, but they are not. Sodium is present in many foods and table salt is its main source.",
+    "ITEN1": "Cubes of meat or chicken stock for seasoning of food",
+    "ITEN2": "Pepperoni sausage",
+    "ITEN3": "Olives",
+    "ITEN4": "Parmesan, prato, and mozzarella cheese, cream-cheese",
+    "ITEN5": "Fried bacon",
+    "ITEN6": "Salt crackers",
+    "ITEN7": "Bologna, ham",
+    "ITEN8": "Hot dogs",
+    "ITEN9": "Salted margarine",
+    "ITEN10": "Mozzarella Pizza",
+    "ITEN11": "Canned corn",
+    "ITEN12": "Canned tomato sauce",
+    "ITEN13": "Packet soup",
+    "ITEN14": "Canned sardines and tuna",
+    "ITEN15": "Soy sauce",
+    "ITEN16": "Beef jerky",
+    "ITEN17": "Roasted and salted nuts and peanuts",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE": "CUPPARI, L; AVESANI, C.M; KAMIMURA, M. A. Nutrição na Doença Renal Crônica. 1. ed. Barueri, SP: Manole, 2013. MARTINS, C.T.B.; RIBEIRO JUNIOR, E. (Orgs.). Perguntas e respostas sobre nutrição em diálise. São Paulo: RCN Editora, 2008..",
+      "BUTTON": "Ok"
+    }
+  },
+  "LARGE_AMOUNT_POTASSIUM_FOODS": {
+    "TITLE1": "Potassium content",
+    "TITLE2": "in foods",
+    "LABEL1": "Foods with high content of",
+    "LABEL2": "potassium:",
+    "LABEL3": "WARNING: The cooking in water of peeled fruits and vegetables reduces 60% of their potassium content.",
+    "ITEN1": "1 medium dwarf banana",
+    "ITEN2": "Half a glass of coconut water",
+    "ITEN3": "Dried fruit (plums, raisins, apricots)",
+    "ITEN4": "Tomato extract, sun-dried tomatoes",
+    "ITEN5": "Sugarcane juice",
+    "ITEN6": "1 small serving of beans",
+    "ITEN7": "3 tablespoons of raw beets",
+    "ITEN8": "1 saucer of raw chard",
+    "ITEN9": "1 medium slice of papaya",
+    "ITEN10": "1 medium orange",
+    "ITEN11": "Chocolate, chocolate milk",
+    "ITEN12": "Bean, soy, chickpea and lentil broth",
+    "ITEN13": "Fruit syrup",
+    "ITEN14": "Concentrated fruit juices",
+    "ITEN15": "Wines",
+    "ITEN16": "Orange-based sodas",
+    "ITEN17": "Oleaginous fruits (peanuts, chestnuts, hazelnuts, almonds, pine nuts, walnuts)",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE": "MARTINS, C.T.B.; RIBEIRO JÚNIOR, E.(Orgs.). Perguntas e respostas sobre nutrição em diálise. São Paulo: RCN Editora, 2008. NONATO, M. A escolha certa na doença renal crônica um manual para pacientes e familiares. Edição do autor, 2017. CUPPARI, L.(coord.). Nutrição: nas doenças crônicas não-transmissíveis. Barueri, SP: Manole, 2009.",
+      "BUTTON": "Ok"
+    }
+  },
+  "LIQUID_CONTROLLER": {
+    "TITLE": "Fluid control",
+    "LABEL1": "Recommended Daily Limit",
+    "LABEL2": "Amount ingested",
+    "LABEL3": "Attention!",
+    "LABEL4": "There is still no record of fluid intake today.",
+    "LABEL5": "Add liquid you drank",
+    "LOADING_MESSAGE": "Updating data...",
+    "ALERT": {
+      "TITLE": "Daily fluid limit",
+      "TITLE2": "Ask your doctor",
+      "INPUT_PLACEHOLDER": "Enter the amount in mL",
+      "BUTTONS": {
+        "CANCEL": "CANCEL",
+        "SELECT": "Ok"
+      }
+    },
+    "OPTIONS": {
+      "OPTION1": "A full glass - 200mL",
+      "OPTION2": "An almost full glass - 150mL",
+      "OPTION3": "Half a glass - 100mL",
+      "OPTION4": "Water for medication - 50mL"
+    },
+    "ALERT2": {
+      "TITLE": "Fluid controls",
+      "MESSAGE": "As in CKD the kidneys cannot eliminate all the fluid you have ingested through your urine, it is common for the excess to accumulate in your body, which can cause swelling, increased blood pressure and even acute lung edema (excess fluid in the lung).",
+      "BUTTON": "Ok"
+    },
+    "STATUS": {
+      "OPTION1": "You can still drink today",
+      "OPTION2": "Attention! You can still drink today",
+      "OPTION3": "Be careful! You have reached the recommended daily consumption limit",
+      "OPTION4": "Be careful! You have exceeded the recommended daily consumption limit",
+      "VOLUME": "glasses"
+    },
+    "TOAST_MESSAGE_LIMIT_CHANGE": "Modified daily limit",
+    "TOAST_MESSAGE_CUP_ADD": "Modified daily limit"
+  },
+  "LOGIN": {
+    "PLACEHOLDER": "Password",
+    "BUTTON": "Access",
+    "LABEL_BUTTON_1": "Sign up",
+    "LABEL_BUTTON_2": "I forgot my password",
+    "LABEL_BUTTON_3": {
+      "PART_1": "I would like to have",
+      "PART_2": "information on Kidney Disease"
+    },
+    "LOADING_MESSAGE": "Wait ...",
+    "TOAST": {
+      "MESSAGE": {
+        "OPTION1": "Incorrect data",
+        "OPTION2": "Error connecting to the server"
+      }
+    },
+    "ALERT": {
+      "TITLE": "I forgot my password",
+      "MESSAGE": "Enter the Registered Email:",
+      "BUTTONS": {
+        "OPTION1": "CANCEL",
+        "OPTION2": "Ok"
+      },
+      "ERROR": {
+        "SUCCESS": "Email sent with new password",
+        "FAIL_1": "There is no user with this email!",
+        "FAIL_2": "Incorrect Email"
+      }
+    },
+    "TOAST_MESSAGE_SUCCESS": "User successfully logged in"
+  },
+  "LOW_MEDIUM_AMOUNTS_POTASSIUM_FOODS": {
+    "TITLE1": "Potassium content",
+    "TITLE2": "in foods",
+    "LABEL1": "Foods with low and medium",
+    "LABEL2": "content of potassium:",
+    "LABEL3": "WARNING: Star fruit, in addition to its potassium content, has a toxic substance that can cause from hiccups to coma and death in patients with CKD. Therefore, NEVER",
+    "ITEN1": "1 medium pear",
+    "ITEN2": "1 medium apple banana",
+    "ITEN3": "1 medium persimmon",
+    "ITEN4": "2 saucers of jabuticaba berries",
+    "ITEN5": "1 medium slice of pineapple",
+    "ITEN6": "10 strawberries",
+    "ITEN7": "10 acerolas",
+    "ITEN8": "1 medium slice of watermelon",
+    "ITEN9": "Half a medium mango",
+    "ITEN10": "1 medium fresh plum",
+    "ITEN11": "Half a glass of lemon juice",
+    "ITEN12": "Half a medium peach",
+    "ITEN13": "5 lettuce leaves",
+    "ITEN14": "2 saucers of watercress",
+    "ITEN15": "Half a small cucumber",
+    "ITEN16": "1 saucer of cabbage",
+    "ITEN17": "1 small tomato",
+    "ITEN18": "3 medium radishes",
+    "ITEN19": "1 medium bell pepper",
+    "ITEN20": "Half a medium carrot",
+    "ITEN21": "1 saucer of escarole",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE": "MARTINS, C.T.B.; RIBEIRO JÚNIOR, E. (Orgs.). Perguntas e respostas sobre nutrição em diálise. São Paulo: RCN Editora, 2008.",
+      "BUTTON": "Ok"
+    }
+  },
+  "MAIN_CAUSES_DRC": {
+    "TITLE": "Chronic kidney disease",
+    "LABEL1": "What are the main causes of CKD?",
+    "ITEN1": "Hypertension",
+    "ITEN2": "Diabetes",
+    "ITEN3": "Glomerulonephritis (diseases that cause inflammation and damage to the kidney)",
+    "ITEN4": "Polycystic kidneys",
+    "ITEN5": "Kidney malformations",
+    "ITEN6": "Lupus",
+    "ITEN7": "Obstructive causes (kidney stones, tumors and enlarged prostate)",
+    "ITEN8": "Urinary tract infection (repeatedly)",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE": "National Kidney Foundation(www.kidney.org)",
+      "BUTTON": "Ok"
+    }
+  },
+  "MAIN_SYMPTOMS_DRC": {
+    "TITLE": "Chronic kidney disease",
+    "LABEL1": "Signs of kidney disease",
+    "LABEL2": "Weak and tired",
+    "LABEL3": "With nausea",
+    "LABEL4": "Swollen",
+    "ITEN1": "High blood pressure (even with medication)",
+    "ITEN2": "Swelling (edema) around the eyes and in the legs",
+    "ITEN3": "Constant weakness",
+    "ITEN4": "Lack of appetite",
+    "ITEN5": "Anemia (pallor)",
+    "ITEN6": "Frequent nausea and vomiting",
+    "ITEN7": "Difficulty urinating",
+    "ITEN8": "Burning or pain when urinating",
+    "ITEN9": "Urinating often, especially at night",
+    "ITEN10": "Reddish urine (hematuria)",
+    "ITEN11": "Urine with great deal of foam (proteinuria)",
+    "ITEN12": "Backache",
+    "ITEN13": "History of kidney stones",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE1": "Brazilian Society of Nephrology",
+      "MESSAGE2": "(http://sbn.org.br/publico/doencas-comuns/sinais-de-doenca-renal/)",
+      "BUTTON": "Ok"
+    }
+  },
+  "MEDICATIONS": {
+    "TITLE": "Medications",
+    "LABEL1": "Interval",
+    "LABEL2": "Frequency",
+    "LABEL3": "Initial dose",
+    "LABEL4": "No medications!",
+    "LABEL5": "Don't forget to add",
+    "LABEL6": "your medications.",
+    "BUTTON": "New medication",
+    "ALARM": {
+      "OPTION1": "Set alarm on",
+      "OPTION2": "Set alarm off",
+      "MESSAGE1": "Alarm on",
+      "MESSAGE2": "Alarm off"
+    },
+    "ALARM_OPTIONS": {
+      "TITLE": "Options",
+      "OPTIONS": {
+        "_1": "Delete",
+        "_2": "Edit",
+        "_3": "Cancel"
+      }
+    },
+    "TOAST_MESSAGE_SUCCESS": "Medication record was successfully deleted",
+    "TOAST_MESSAGE_ERROR": "An internal error has occurred. Please try again later"
+  },
+  "MEDICATIONS_RECOMMENDATIONS": {
+    "TITLE": "Recommendations about medication",
+    "ITEN1": "Take your medications as prescribed by your doctor. Follow the schedule and doses prescribed by your doctor.",
+    "ITEN2": "Do not discontinue the treatment with your medications without first consulting your doctor or the health team in charge of your follow-up.",
+    "ITEN3": "Keep your medications stored out of the reach of children. Store them away from heat and direct light in a cool, dry place. Do not store expired medications (return them to the hospital)",
+    "ITEN4": "At each consultation, your attending physician will evaluate your blood tests and make any necessary adjustments to your medication. Report any negative effects related to the use of your medications.",
+    "ITEN5": "If you forget to take some medication, take it as soon as you remember if it is still on the same day. Never take a double dose. If you miss your dose, note this down and tell your doctor at the next consultation.",
+    "ITEN6": "Never take any medication that has not been prescribed by the doctor.",
+    "ITEN7": "Always carry your last prescription with you.",
+    "ITEN8": "Always keep medications in their original packaging.",
+    "ITEN9": "Learn the names of medications and know what they are for.",
+    "ITEN10": "Do not exchange medication boxes or mix them up with others.",
+    "ITEN11": "If unexpected effects such as vomiting, urticaria, headache, stomach pain occur, report them immediately to the doctor.",
+    "ITEN12": "If a doctor who is not a member of you follow-up team prescribes medication and you are unsure if you can take it, contact the transplant team.",
+    "ITEN13": "Do not take immunosuppressants before having blood collected for laboratory tests and remember to take them after the collection.",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE": "Manual de Transplante Renal - ABTO (http://www.abto.org.br/)",
+      "BUTTON": "Ok"
+    }
+  },
+  "MEDIUM_QUANTITY_PHOSPHORUS_FOOD": {
+    "TITLE1": "Amount of phosphorus",
+    "TITLE2": "in foods",
+    "LABEL1": "Food with small and medium content of phosphorus:",
+    "ITEN1": "Fruits",
+    "ITEN2": "Vegetables",
+    "ITEN3": "Green Vegetables",
+    "ITEN4": "Potatoes",
+    "ITEN5": "Rice",
+    "ITEN6": "Corn",
+    "ITEN7": "Cassava",
+    "ITEN8": "Soymilk",
+    "ITEN9": "Fruit juice",
+    "ITEN10": "Guarana and lemon-based soft drinks",
+    "ITEN11": "Queso blanco",
+    "ITEN12": "Ricotta",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE": "CUPPARI, L; AVESANI, CM; KAMIMURA, M. A. Nutrição na Doença Renal Crônica. 1. ed.Barueri, SP: Manole, 2013. NONATO, M. A escolha certa na doença renal crônica um manual para pacientes e familiares. Edição do autor, 2017.",
+      "BUTTON": "Ok"
+    }
+  },
+  "MICOFENOLATO_SODICO": {
+    "TITLE": "Mycophenolate Sodium (Myfortic®) 360 mg",
+    "LABEL1": "What is Mycophenolate?",
+    "LABEL2": "Mycophenolate is used to prevent kidney transplant rejection. It is used together with other medications such as cyclosporine and corticosteroids.",
+    "LABEL3": "Major adverse reactions:",
+    "LABEL4": "WARNING: The full list of adverse reactions can be found in the medication package insert.",
+    "ITEN1": "Diarrhea",
+    "ITEN2": "Decreased white blood cells",
+    "ITEN3": "Vomiting",
+    "ITEN4": "Constipation",
+    "ITEN5": "Nausea",
+    "ITEN6": "Heartburn",
+    "ITEN7": "Stomachache",
+    "ITEN8": "Loss of appetite",
+    "ITEN9": "Intestinal gas",
+    "ITEN10": "Gastritis",
+    "ALERT": {
+      "MESSAGE1": "Watch out for any adverse reactions and contact the hospital where you are being followed-up ",
+      "MESSAGE2": "Source: http:/www.saude.rs.gov.br/upload/1427829457_IMUNOSSUPRESSAO%20EM%20TRANSPLANTES.pdf",
+      "BUTTON": "Ok"
+    }
+  },
+  "MICROFENOLATO_MOFETIL": {
+    "TITLE": "Mycophenolate Mofetil (Cell Cept®) 500 mg",
+    "LABEL1": "What is Mycophenolate?",
+    "LABEL2": "Mycophenolate is used to prevent kidney transplant rejection. It is used together with other medications such as cyclosporine and corticosteroids.",
+    "LABEL3": "Major adverse reactions:",
+    "LABEL4": "WARNING: The full list of adverse reactions can be found in the medication package insert.",
+    "ITEN1": "Diarrhea",
+    "ITEN2": "Decreased white blood cells",
+    "ITEN3": "Vomiting",
+    "ITEN4": "Constipation",
+    "ITEN5": "Nausea",
+    "ITEN6": "Heartburn",
+    "ITEN7": "Stomachache",
+    "ITEN8": "Loss of appetite",
+    "ITEN9": "Intestinal gas",
+    "ALERT": {
+      "MESSAGE1": "Watch out for any adverse reactions and contact the hospital where you are being followed-up",
+      "MESSAGE2": "Source: http:/www.saude.rs.gov.br/upload/1427829457_IMUNOSSUPRESSAO%20EM%20TRANSPLANTES.pdf",
+      "BUTTON": "Ok"
+    }
+  },
+  "NOT_PATIENT": {
+    "TITLE": "I am not a patient",
+    "COL1": "Information",
+    "LABEL1": "About the kidneys:",
+    "LABEL2": "What are kidneys?",
+    "LABEL3": "What are the main functions of the kidneys?",
+    "LABEL4": "Chronic Kidney Disease (CKD)",
+    "LABEL5": "What is CKD",
+    "LABEL6": "What are the main causes of CKD?",
+    "LABEL7": "Signs of kidney disease",
+    "LABEL8": "What is the treatment of CKD?",
+    "LABEL9": "How can one prevent CKD?",
+    "LABEL10": "Frequently Asked Questions",
+    "LABEL11": "Questions",
+    "LABEL12": "Tests",
+    "LABEL13": "Test without examination",
+    "LABEL14": "Test your hydration",
+    "LABEL15": "Questionnaire",
+    "LABEL16": "Test with examination",
+    "LABEL17": "Glomerular Filtration Rate"
+  },
+  "NUTRITIONAL_TABLE": {
+    "TITLE": "Nutritional table",
+    "LABEL1": "Phosphorus",
+    "LABEL2": "Foods with large content",
+    "LABEL3": "Foods with small and medium content of ",
+    "LABEL4": "Potassium",
+    "LABEL5": "Foods with large content",
+    "LABEL6": "Foods with small and medium content of",
+    "LABEL7": "Sodium",
+    "LABEL8": "Foods with large content of"
+  },
+  "PILL_SELECT": {
+    "TITLE": "Type of dosage",
+    "LABEL1": "Ampoule",
+    "LABEL2": "Pill",
+    "LABEL3": "Drops",
+    "LABEL4": "Solution(mL)",
+    "LABEL5": "CANCEL"
+  },
+  "PREDNISONA": {
+    "TITLE": "Prednisone 5 mg and 20 mg",
+    "LABEL1": "What is Prednisone?",
+    "LABEL2": "Prednisone is indicated for the treatment of endocrine, musculoskeletal, rheumatic, collagen, dermatological, allergic, ophthalmic, respiratory, hematological, neoplastic and other diseases that respond to corticosteroid therapy.",
+    "LABEL3": "Major adverse reactions:",
+    "LABEL4": "WARNING: The full list of adverse reactions can be found in the medication package insert.",
+    "ITEN1": "Peptic ulcer",
+    "ITEN2": "Cataracts",
+    "ITEN3": "Acne",
+    "ITEN4": "Increased appetite",
+    "ITEN5": "Diabetes mellitus",
+    "ITEN6": "Fluid retention",
+    "ITEN7": "High blood pressure",
+    "ITEN8": "Osteoporosis",
+    "ALERT": {
+      "MESSAGE1": "Watch out for the occurrence of any adverse reactions and contact the hospital where you are being followed-up",
+      "MESSAGE2": "Source: http:/www.medicinanet.com.br/bula/detalhes/4208/reacoes_adversas_prednisona.html",
+      "BUTTON": "Ok"
+    }
+  },
+  "PREVENT_DRC": {
+    "TITLE": "Chronic kidney disease",
+    "LABEL1": "How can I prevent CKD?",
+    "ITEN1": "Practice physical exercises regularly",
+    "ITEN2": "Avoid excessive consumption of red meat and fat",
+    "ITEN3": "Control body weight",
+    "ITEN4": "Control blood pressure",
+    "ITEN5": "Control cholesterol and blood glucose",
+    "ITEN6": "Do not smoke",
+    "ITEN7": "Avoid excessive intake of alcohol",
+    "ITEN8": "Perform laboratory tests once a year to assess kidney health: blood creatinine levels and urinalysis",
+    "ITEN9": "See your doctor regularly",
+    "ITEN10": "Do not use medication such as anti-inflammatory drugs without a prescription",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE1": "Sociedade Brasileira de Nefrologia",
+      "MESSAGE2": "(http://sbn.org.br/publico/previna-se/como-se-previnir/)",
+      "BUTTON": "Ok"
+    }
+  },
+  "PROFILE": {
+    "TITLE": "Profile",
+    "LABEL1": "pt/BR",
+    "LABEL2": "en/US",
+    "LABEL3": "es/ES",
+    "LABEL4": "Current treatment",
+    "LABEL5": "Save",
+    "LABEL6": "Change Password",
+    "LOADING_MESSAGE": "Updating data...",
+    "SELECT_TITLE1": "Choose state",
+    "SELECT_TITLE2": "Choose city",
+    "TREATMENT": {
+      "TYPE1": "Hemodialysis",
+      "TYPE2": "Kidney transplant",
+      "TYPE3": "Conservative"
+    },
+    "ALERT": {
+      "TITLE": "Choose the language",
+      "BUTTONS": {
+        "_1": "Cancel",
+        "_2": "Save"
+      }
+    },
+    "TOAST_MESSAGE_SUCCESS": "User successfully modified",
+    "TOAST_MESSAGE_ERROR": "Failed to modify user"
+  },
+  "QUERY": {
+    "TITLE": "Appointment",
+    "LABEL1": "Date of appointment",
+    "LABEL2": "No appointments!",
+    "LABEL3": "Don't forget to schedule",
+    "LABEL4": "your appointments.",
+    "BUTTON": "New appointment",
+    "ALARM": {
+      "OPTION1": "Set alarm on",
+      "OPTION2": "Set alarm off",
+      "MESSAGE1": "Alarm on",
+      "MESSAGE2": "Alarm off"
+    },
+    "TOAST_MESSAGE_SUCCESS": "Consultation successfully removed"
+  },
+  "QUESTION": {
+    "TITLE": "Questionnaire",
+    "LABEL1": "Email",
+    "LABEL2": "Full name",
+    "LABEL3": "Answer the questions in this test and find out if you have any major risk factors for chronic kidney disease.",
+    "LABEL4": "Yes",
+    "LABEL5": "No",
+    "BUTTON": "Check the result",
+    "LOADING_MESSAGE": "Wait ...",
+    "QUIZ": {
+      "0": "1- I'm between 50 and 59 years old",
+      "1": "2- I am between 60 and 69 years old",
+      "2": "3- I'm 70 years old or older",
+      "3": "4- I'm a woman",
+      "4": "5- I had/have anemia",
+      "5": "6- I have high blood pressure",
+      "6": "7- I am diabetic",
+      "7": "8- I had a heart attack (infarction) or stroke",
+      "8": "9- I have congestive heart failure or heart failure",
+      "9": "10- I have circulatory problem/circulatory disease in my legs",
+      "10": "11- My test showed that I have protein loss in my urine"
+    },
+    "ALERT": {
+      "RESULT": {
+        "_1": "You probably don't have kidney disease right now, but at least once a year you should take this test.",
+        "_2": "You have a 1 in 5 chance of having chronic kidney disease. <br/> <br/> On the next appointment with a doctor, a simple blood test should be ordered. Only a healthcare professional can determine with certainty if you have kidney disease."
+      },
+      "BUTTON": "Ok"
+    },
+    "ERRORS": {
+      "OPTION1": "Email not informed",
+      "OPTION2": "Invalid email",
+      "OPTION3": "Name not informed",
+      "OPTION4": "Incomplete questionnaire"
+    }
+  },
+  "SCHEDULE": {
+    "TITLE": "Schedule",
+    "LABEL1": "Medications",
+    "LABEL2": "Next medication:",
+    "LABEL3": "at",
+    "COL1": "There are no scheduled medications",
+    "BUTTON1": "List",
+    "BUTTON2": "New medication",
+    "LABEL4": "Exam Schedule",
+    "LABEL5": "Next test: day ",
+    "LABEL6": "There are no scheduled tests",
+    "BUTTON3": "New test",
+    "LABEL7": "Appointments",
+    "LABEL8": "Next appointment: day ",
+    "LABEL9": "There are no scheduled appointments",
+    "BUTTON4": "New appointment"
+  },
+  "SELECT_TREATMENT": {
+    "TITLE": "Select treatment",
+    "LABEL1": "Hello, welcome!",
+    "LABEL2": "What type of treatment are you undergoing?",
+    "BUTTON1": "Hemodialysis",
+    "BUTTON2": "Kidney transplant",
+    "BUTTON3": "Conservative treatment",
+    "BUTTON4": "Peritoneal dialysis",
+    "LOADING_MESSAGE": "Updating data ...",
+    "TOAST_MESSAGE_SUCCESS": "Treatment Successfully Selected"
+  },
+  "SERVICE_TERM": {
+    "TITLE": "Terms of Use for the Application",
+    "LABEL1": "Renal Health is an application developed by a team of health researchers at the University of Fortaleza to inform the population about chronic kidney disease (CKD) and help the patients undergoing treatment to follow the guidelines and to better understand the disease.",
+    "LABEL2": "Some data that are entered into the app will be collected by researchers to be studied in the academic context, aiming to evaluate the application performance and whether its use is associated with a decreased number of treatment adverse episodes and CKD complications.",
+    "LABEL3": "The identity of users is kept confidential, meaning their participation is anonymous and their personal data will not be disclosed.",
+    "LABEL4": "It is important to remember that even when using the Renal Health app, the patient must follow the recommendations of the health professionals in charge of their follow-up. Moreover, the effectiveness of the Renal Health app depends on the correct entry of patient data and their adherence to the guidelines.",
+    "LABEL5": "If you have any questions, please contact the Renal Health Project coordinators:",
+    "LABEL6": "Dr. Geraldo Bezerra ",
+    "LABEL7": "(E-mail: geraldobezerrajr@unifor.br)",
+    "LABEL8": "Nurse Juliana Oliveira",
+    "LABEL9": "(E-mail: julianaoliveira@edu.unifor.br)",
+    "LABEL10": "Universidade de Fortaleza Endereço: Avenida Washington Soares, 1321, Fortaleza-Ceará. Telefone: (85) 3477 3280",
+    "LABEL11": "By accepting this Terms of Use you will have access to all functionalities of the Renal Health application, which will allow your data to be collected anonymously by the researchers.",
+    "BUTTON1": "Accept",
+    "BUTTON2": "Decline",
+    "LOADING_MESSAGE": "Creating User...",
+    "TOAST_MESSAGE_SUCCESS": "User successfully created"
+  },
+  "SHORT_STAY_CATHETER": {
+    "TITLE": "Maintaining vascular access",
+    "LABEL1": "Short-term catheter:",
+    "ITEN1": "During catheter handling the dialysis staff and the patient should wear masks.",
+    "ITEN2": "The catheter lumen and tips should never be exposed to the environment.",
+    "ITEN3": "The catheter dressings should be kept dry at all times and should only be changed by healthcare professionals trained for changing sterile dressings. Patients should avoid from any contact of the dressing with water, as wet dressings may favor the onset of infections.",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE": "DAUGIRDAS, J. T.; BLAKE, P. G.; ING,T. S. Manual da Diálise.4 ed. Rio de Janeiro:Guanabara Koogan, 2008.",
+      "BUTTON": "Ok"
+    }
+  },
+  "SIGN_UP": {
+    "TITLE": "Register",
+    "ITEN1": "Invalid email",
+    "ITEN2": "Email not supported",
+    "ITEN3": "Passwords must contain at least 8 characters ",
+    "ITEN4": "Password not supported",
+    "ITEN5": "Date of birth",
+    "ITEN6": "Required field",
+    "BUTTON": "Next",
+    "PLACEHOLDER_1": "Name",
+    "PLACEHOLDER_2": "Last name",
+    "PLACEHOLDER_3": "Email",
+    "PLACEHOLDER_4": "Confirm Email",
+    "PLACEHOLDER_5": "Password",
+    "PLACEHOLDER_6": "Confirm password",
+    "TOAST_MESSAGE": "Fill out all the fields correctly"
+  },
+  "SIGNAL_AND_SYMPTONS": {
+    "TITLE": "Signals and symptoms",
+    "LABEL1": "If you notice any of these signs and symptoms, immediately go to the transplant service in charge of your follow-up.",
+    "ITEN1": "Pain or swelling at the surgical site",
+    "ITEN2": "Temperature > 37,5 degrees Celsius",
+    "ITEN3": "Decreased urinary amount",
+    "ITEN4": "High weight gain in a short time",
+    "ITEN5": "Swelling (edema) of the eyelids, hands or feet",
+    "ITEN6": "Pain when urinating",
+    "ITEN7": "Bloody or bad-smelling urine",
+    "ITEN8": "Increase in blood pressure with minimum value >100 mmHg",
+    "ITEN9": "Coughing or shortness of breath",
+    "ITEN10": "Loss of sense of well-being",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE1": "Manual de Transplante",
+      "MESSAGE2": "Renal - ABTO<br/>(http://www.abto.org.br/abtovo3)",
+      "BUTTON": "Ok"
+    }
+  },
+  "SIROLIMO": {
+    "TITLE": "Sirolimus  (Rapamune®) 1 mg",
+    "LABEL1": "What is Sirolimus?",
+    "LABEL2": "Sirolimus is an immunosuppressant (a medication that inhibits the immune system) indicated for preventing organ rejection in kidney transplant recipients.",
+    "LABEL3": "Major adverse reactions:",
+    "LABEL4": "Seek medical attention immediately if any of the previous adverse reactions occur.",
+    "LABEL5": "WARNING: The full list of adverse reactions can be found in the medication package insert.",
+    "ITEN1": "Acne",
+    "ITEN2": "Skin redness",
+    "ITEN3": "Gingivitis",
+    "ITEN4": "Inflammation in the mouth",
+    "ITEN5": "Decreased white and red cells and platelets in the blood",
+    "ITEN6": "Delayed healing",
+    "ITEN7": "Lymph accumulation",
+    "ITEN8": "Increased cholesterol and triglyceride levels",
+    "ITEN9": "Diabetes mellitus",
+    "ITEN10": "Loss of protein in the urine",
+    "ALERT": {
+      "MESSAGE1": "Watch out for any adverse reactions and contact the hospital where you are being followed-up",
+      "MESSAGE2": "Source: http:/www.365saude.com.br/pt-public-health-safety/pt-medical-research/1009074901.html",
+      "BUTTON": "Ok"
+    }
+  },
+  "TACROLIMO": {
+    "TITLE": "Tacrolimus 1 mg and 5 mg",
+    "LABEL1": "What is Tacrolimus?",
+    "LABEL2": "Tacrolimus is recommended after you have a kidney or liver transplant to prevent your immune system from rejecting the transplanted organ.",
+    "LABEL3": "Major adverse reactions:",
+    "LABEL4": "Tacrolimus capsules should be taken with liquid (preferably water) and on an empty stomach or at least 1 hour before meals or 2 to 3 hours after meals to achieve maximum drug absorption.",
+    "LABEL5": "WARNING: The full list of adverse reactions can be found in the medication package insert.",
+    "ITEN1": "Tremors",
+    "ITEN2": "Headache",
+    "ITEN3": "Diarrhea",
+    "ITEN4": "Nausea",
+    "ITEN5": "Renal dysfunction",
+    "ITEN6": "Vomiting",
+    "ITEN7": "Decreased appetite",
+    "ITEN8": "Heartburn",
+    "ITEN9": "Stomachache",
+    "ITEN10": "Neuropathy",
+    "ITEN11": "Hair loss",
+    "ITEN12": "Itching",
+    "ITEN13": "Hyperglycemia",
+    "ITEN14": "Diabetes mellitus",
+    "ITEN15": "Elevated liver enzymes",
+    "ITEN16": "Nephrotoxicity",
+    "ITEN17": "Photosensitivity",
+    "ALERT": {
+      "MESSAGE1": "Watch out for any adverse reactions and contact the hospital where you are being followed-up",
+      "MESSAGE2": "Fonte: http://www.anvisa.gov.br/",
+      "BUTTON": "Ok"
+    }
+  },
+  "TEST_HYDRATION": {
+    "TITLE": "Test without exam",
+    "LABEL1": "Hydration test based on ",
+    "LABEL2": "urine color",
+    "LABEL3": "1- Very well hydrated",
+    "LABEL4": "2- Normal state of hydration",
+    "LABEL5": "3- Normal state of hydration",
+    "LABEL6": "4- A little dehydrated",
+    "LABEL7": "5- A little dehydrated",
+    "LABEL8": "6- Dehydrated",
+    "LABEL9": "7- Dehydrated"
+  },
+  "TODAY_SCHEDULE": {
+    "TITLE": "Today",
+    "LABEL1": "Your schedule today",
+    "ITEN1": "Your Exams",
+    "ITEN2": "Your appointments",
+    "ITEN3": "Your medications",
+    "LABEL2": "of",
+    "LABEL3": "All right!",
+    "LABEL4": "There are no appointments today."
+  },
+  "TRANSPLANT_DOUBTS": {
+    "TITLE": "Questions",
+    "LABEL1": "What are immunosuppressants?",
+    "LABEL2": "The body has a very complex system (immune system) that reacts against foreign organs. As the transplanted kidney is recognized as \" foreign \", the body will react against it and try to destroy it, unless it is given medication to decrease this reaction. Such medications are called immunosuppressants.",
+    "LABEL3": "What does rejection mean?",
+    "LABEL4": "It is the body's reaction to the new kidney. Some degree of rejection is expected; some patients will experience rejection during the first or second week after transplantation. There are several ways to treat rejection and most often it is resolved.",
+    "LABEL5": "How can one know if rejection is occurring?",
+    "LABEL6": "The nephrologist performs the assessment of the occurrence or not of the rejection process. However, some signs and symptoms should be observed, such as:",
+    "ITEN1": "Pain or swelling under the transplanted kidney.",
+    "ITEN2": "Fever > 37 degrees Celsius.",
+    "ITEN3": "Decreased urination.",
+    "ITEN4": "Pain while urinating.",
+    "ITEN5": "Coughing or shortness of breath.",
+    "ITEN6": "Loss of the sense of well-being, among others.",
+    "LABEL7": "Is there any need for fluid restriction after transplantation?",
+    "LABEL8": "Most patients are able to drink as much fluid as they want after the transplantation. However, if the blood pressure is high and fluid retention (edema) occurs, the patient may be advised to restrict fluid and salt intake.",
+    "LABEL9": "Is there any need for food restriction after the transplantation?",
+    "LABEL10": "Because each individual is unique, nutritional recommendations may vary. However, there are some dietary restrictions related to medications and results of the latest tests.",
+    "LABEL11": "Is it possible to have a normal life with only one kidney?",
+    "LABEL12": "A kidney can do the work of two and a person's life will be normal, both in their personal and professional activities.",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE1": "Manual de Transplante",
+      "MESSAGE2": "Renal - ABTO",
+      "MESSAGE3": "(http://www.abto.org.br/abtovo3)",
+      "BUTTON": "Ok"
+    }
+  },
+  "TRANSPLANTED_GERAL_RECOMMENDATION": {
+    "TITLE": "Overall",
+    "LABEL1": "Recommendations after hospital discharge:",
+    "ITEN1": "To prevent infections, some doctors will advise the use of protective masks in the early days.",
+    "ITEN2": "Limit visits to a few relatives and friends at first.",
+    "ITEN3": "Keep away from persons with transmissible diseases or animals.",
+    "ITEN4": "Keep the house always clean and airy, especially the bathrooms.",
+    "ITEN5": "Wash your hands with soap and water before and after using the bathroom, eating or getting home.",
+    "ITEN6": "Control your blood pressure, pulse, temperature and weight, annotating the values daily for your doctor's knowledge. In case of alterations, report them immediately to your doctor.",
+    "ITEN7": "Create a Diary of ingested fluids and eliminated urine, as it is vitally important to control the progress of the transplant.",
+    "ITEN8": "Always use a high-factor sunscreen when you leave the house; as well as caps, hats and clothing that protect you from the sun.",
+    "ITEN9": "Do not, under any circumstances, discontinue the immunosuppressive medication.",
+    "ITEN10": "Never take medications without a prescription."
+  },
+  "TRANSPLANTED_NUTRITIONAL_RECOMMENDATION": {
+    "TITLE": "Nutritional",
+    "ITEN1": "Cook the food just before eating and never reheat the food.",
+    "ITEN2": "Store food in a refrigerator for a period of 24 hours only.",
+    "ITEN3": "Beverages, when capped, remain sterile (in plastic or glass bottles). Once opened, they can only be kept fit for consumption for 4 hours at room temperature or for 24 hours in the refrigerator. The same is true for canned products.",
+    "ITEN4": "When eating in restaurants, be sure to check the origin of the food and make sure it is fresh and of good quality.",
+    "ITEN5": "Strictly follow the diet indicated for you and do not consume foods prepared in unfamiliar places."
+  },
+  "TRANSPLANTED_WEIGHT": {
+    "TITLE": "Weight",
+    "LABEL1": "Result:",
+    "LABEL2": "There is no weight record",
+    "LABEL3": "You haven't recorded your weight yet",
+    "BUTTON": "New weight record",
+    "LOADING_MESSAGE": "Updating data...",
+    "TOAST_MESSAGE_ADD": "Weight added",
+    "TOAST_MESSAGE_DELETE": "Weight deleted"
+  },
+  "TREATMENT": {
+    "TITLE": "Treatment",
+    "LABEL1": "Fluid intake control",
+    "BUTTON1": "History",
+    "BUTTON2": "Enter consumption",
+    "LABEL2": "Weight control",
+    "BUTTON3": "Calculate weight",
+    "LABEL3": "Tests",
+    "BUTTON4": "New test",
+    "LOADING_MESSAGE": "Updating data...",
+    "MESSAGE_PLACEHOLDER": {
+      "LIQUID_CONTROLLER": {
+        "DEFAULT": "No glasses added today.",
+        "TEXT1": "Last glass added at"
+      },
+      "EXAM": {
+        "DEFAULT": "No test available.",
+        "TEXT1": "Last test performed on"
+      },
+      "WEIGHT": {
+        "DEFAULT": "No weight calculated todaye.",
+        "TEXT1": "Last calculated weight with dry weight of",
+        "TEXT2": "and weight of"
+      }
+    },
+    "TOAST_MESSAGE_ADD_CUP": "Glass added",
+    "TOAST_MESSAGE_ADD_EXAM": "Test added"
+  },
+  "TREATMENT_DRC": {
+    "TITLE": "Chronic kidney disease",
+    "LABEL1": "What is the treatment of CKD?",
+    "LABEL2": "Conservative treatment",
+    "LABEL3": "Indicated for patients with stage 1 to 4 kidney disease. It is performed during periodic medical appointments and consists of all clinical measures (medication prescription, changes in diet and lifestyle) that can be used to delay worsening of renal function, reduce symptoms and prevent complications associated with chronic kidney disease.",
+    "LABEL4": "The sooner the conservative treatment begins, the greater the chances of preserving kidney function.",
+    "LABEL5": "Peritoneal dialysis",
+    "LABEL6": "Indicated for patients who have stage 5 kidney disease. A membrane from the patient's own body, the peritoneum, which surrounds the abdominal organs, is used for blood filtration. The space between these organs is called the peritoneal cavity. A dialysis fluid is introduced into this cavity and removed through a catheter placed in the patient's belly. It can be performed in clinics or at home.",
+    "LABEL7": "Hemodialysis",
+    "LABEL8": "Indicated for patients who have stage 5 kidney disease. It is a procedure in which a machine cleans and filtrates the blood through a dialyzer. Blood is withdrawn and returned to the patient's body through an arteriovenous fistula (AVF) or catheter. In general, hemodialysis sessions are performed 3 times a week for 4 hours in specialized clinics or hospitals.",
+    "LABEL9": "Kidney transplant",
+    "LABEL10": "It is performed through surgery in which a healthy kidney, donated by a living or deceased person, is transplanted to a patient with stage 5 kidney disease and this healthy kidney performs functions that the diseased kidneys no longer can.",
+    "LABEL11": "Remember: The choice of treatment modality is individualized for each patient and will depend on careful consideration of several clinical and social aspects. Talk to your doctor.",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE": "www.sbn.org.br",
+      "BUTTON": "Ok"
+    }
+  },
+  "TREATMENT_EXAMS": {
+    "TITLE": "History of ",
+    "LABEL1": "Test date",
+    "LABEL2": "Calcium",
+    "LABEL3": "Phosphorus",
+    "LABEL4": "Potassium",
+    "LABEL5": "No tests!",
+    "LABEL6": "Don't forget to add.",
+    "LABEL7": "the result of your tests.",
+    "BUTTON1": "New test",
+    "BUTTON2": "View charts",
+    "LOADING_MESSAGE": "Updating data...",
+    "ALERT": {
+      "TITLE": "Do you want to delete this test?",
+      "BUTTONS": {
+        "_1": "Cancel",
+        "_2": "Delete"
+      }
+    },
+    "TITLE1": "tests",
+    "TITLE2": "tests of",
+    "TOAST_MESSAGE_ADD": "Test added",
+    "TOAST_MESSAGE_DELETE": "Test deleted"
+  },
+  "WEIGHT_CONTROL": {
+    "TITLE": "Calculate weight",
+    "LABEL1": "Dry weight (kg)",
+    "LABEL2": "Current weight (kg)",
+    "LABEL3": "Which dialysis session is it?",
+    "LABEL4": "1st session",
+    "LABEL5": "2nd session",
+    "LABEL6": "3rd session",
+    "LABEL7": "Extra session",
+    "BUTTON1": "Calculate weight",
+    "ALERT": {
+      "TITLE": "Do you want to delete this test?",
+      "MESSAGE1": "Excessive weight gain between hemodialysis sessions increases the risk of hypotension, cramps, nausea, headache and acute lung edema.",
+      "MESSAGE2": "Source: RIELLA, M.C.; MARTINS, C.Nutrição e o rim. 2. ed. Rio de Janeiro: Guanabara Koogan, 2013.",
+      "BUTTONS": "Ok"
+    },
+    "RESULT": {
+      "_1": "High weight gain between hemodialysis sessions",
+      "_2": "You are within the expected weight gain range"
+    },
+    "TOAST_MESSAGE_SUCCESS": "New weight record"
+  },
+  "WHAT_IS_DRC": {
+    "TITLE": "Chronic kidney disease",
+    "LABEL1": "What is Chronic Kidney Disease (CKD)?",
+    "LABEL2": "It is a disease in which the kidneys show abnormalities in their function or structure for more than 3 months, with damage to your health. In general, the kidneys lose their function slowly and without symptoms.",
+    "LABEL3": "CKD is divided into 5 phases based on Glomerular Filtration Rate (GFR): ",
+    "LABEL4": "STAGE 1 (GFR > 90mL/min)",
+    "LABEL5": "The kidneys still work well, but there is already some sign of injury, such as protein in the urine.",
+    "LABEL6": "STAGE 2 (GFR of 60-89mL/min)",
+    "LABEL7": "The kidneys show a slight decrease in their function. As in stage 1, it is important to have a diagnosis of CKD, as it is possible to prevent the next stages with adequate treatment.",
+    "LABEL8": "STAGE 3 (GFR of 30-59mL/min)",
+    "LABEL9": "The kidneys have moderately lost their efficiency and are already beginning to show the first signs of disease. If you haven’t started yet, this is the time to start treatment with a nephrologist.",
+    "LABEL10": "STAGE 4 (GFR of 15-29mL/min)",
+    "LABEL11": "Kidney function is already severely impaired and requires more attention and care.",
+    "LABEL12": "STAGE 5 (GFR < 15mL/min)",
+    "LABEL13": "The kidneys no longer function. That's when renal replacement therapy (dialysis or kidney transplantation) should start.",
+    "LABEL14": "With Renal Health, you can calculate your GFR if you have a creatinine measurement result from your blood test.",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE": "KDIGO 2012 Clinical Practice Guidelinefor the Evaluation and Management of Chronic Kidney Disease (www.kdigo.org)",
+      "BUTTONS": "Ok"
+    }
+  },
+  "WHAT_ISKIDNEYS": {
+    "TITLE": "About the kidneys",
+    "LABEL1": "What are the kidneys?",
+    "LABEL2": "The kidneys are two bean-shaped organs measuring 10 to 13 cm in an adult. They are located on both sides of the spine, approximately in the middle of the back.",
+    "LABEL3": "The kidneys are considered as the body's filtration system. It can be said that they filtrate all of a person's blood approximately 12 times an hour.",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE1": "National Kidney Foundation (www.kidney.org).",
+      "MESSAGE2": "Sociedade Brasileira de Nefrologia (www.sbn.org.br).",
+      "BUTTONS": "Ok"
+    }
+  },
+  "WHAT_MAIN_FUNCTION_KIDNEY": {
+    "TITLE": "About the kidneys",
+    "LABEL1": "What are the main functions of the kidneys?",
+    "LABEL2": "To remove waste that is produced from food degradation and normal muscle activity, such as urea and creatinine",
+    "LABEL3": "To regulate the amount of water in your body and other substances in your blood, such as sodium, potassium, phosphorus and calcium",
+    "LABEL4": "To remove drugs and toxins introduced into your body",
+    "LABEL5": "To release hormones into your blood to help regulate blood pressure, produce red blood cells and promote strong bones",
+    "ALERT": {
+      "TITLE": "Sources",
+      "MESSAGE1": "National Kidney Foundation",
+      "MESSAGE2": "(www.kidney.org)",
+      "BUTTONS": "Ok"
+    }
+  }
+}

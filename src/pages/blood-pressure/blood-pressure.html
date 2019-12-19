@@ -1,0 +1,47 @@
+<!--
+  Generated template for the BloodPressurePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class = "visual-header">
+
+    <ion-navbar>
+      <ion-title>{{ 'BLOOD_PRESSURE.TITLE' | translate }}</ion-title>
+    </ion-navbar>
+
+  </ion-header>
+
+
+  <ion-content class = "img-background" (ionScroll)="scroll($event)">
+    <ion-list no-lines class = "list-visual" id="list" >
+      <ion-card class = "card-visual" *ngFor = "let bloodPressure of bloodPressureList; let i = index">
+        <ion-item>
+          <ion-grid>
+            <ion-row>
+              <ion-col class = "date-col">
+                <label>{{bloodPressure.date_of_pressure}}</label>
+              </ion-col>
+              <ion-col>
+                <button ion-button clear>
+                  <ion-icon name = "trash" (click) = "deleteBloodPressure(bloodPressure.id,i)"></ion-icon>
+                </button>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <label>{{ 'BLOOD_PRESSURE.TITLE' | translate }}: {{bloodPressure.measure_pressure}} mmHg</label>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-item>
+      </ion-card>
+    </ion-list>
+    <img src = "../assets/imgs/placeholders/pressao_arterial.png" id = "placeholder-size" *ngIf= "placeholderFlag">
+    <label *ngIf = "placeholderFlag">
+      <p class = "img-text">Sem pressão registrada</p>
+      <p class = "img-second-text">Você ainda não registrou sua pressão arterial</p>
+    </label>
+    <div ion-fixed class = "fade" display = "false"></div>
+    <button ion-fixed ion-button (click) = "openAddBloodPressure()" class = "add-blood-pressure" id = "btn">{{ 'BLOOD_PRESSURE.BUTTON' | translate }}</button>
+  </ion-content>

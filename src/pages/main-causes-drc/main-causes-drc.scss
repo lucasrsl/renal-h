@@ -1,0 +1,66 @@
+page-main-causes-drc {
+    .second-title{
+        color: color($colors, secondary);
+    }
+    .source-text{
+        font-size: 10px;
+        text-align: right;
+
+    }
+    .p-adjust{
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .text-align{
+        text-align: center;
+    }
+    .visual-header{
+      .toolbar-title{
+        color: #ffffff;
+      }
+      .toolbar-background{
+          background-color:#546E7A;
+      }
+      .bar-button-default-md{
+          color: color($colors, secondary);
+      }
+      .bar-buttons-md{
+          margin-left: 3%;
+      }
+      .toolbar-title-md{
+        margin-left: 9%;
+      }
+      #source{
+          filter: brightness(1000%);
+          width: 25px;
+          margin-left: 12px;
+      }
+      .close-icon{
+        color: #ffffff;
+      }
+    }
+    .img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 110px;
+    }
+    .diabetes{
+      width: 70px;
+    }
+    .grid-visual{
+
+      .row{
+        margin-top: 30px;
+        display: table;
+        .col{
+          display: table-cell;
+          vertical-align: middle;
+        }
+      }
+      li{
+        margin-bottom: 5px;
+      }
+
+    }
+}

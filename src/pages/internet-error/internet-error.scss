@@ -1,0 +1,54 @@
+page-internet-error {
+  .visual-header{
+    .toolbar-title{
+      color: color($colors, primary);
+    }
+    .bar-button-default-md{
+      color: color($colors, secondary);
+    }
+    /*.toolbar-background{
+        background-color:#546E7A;
+    }
+    .bar-button-default-md{
+        color: color($colors, secondary);
+    }
+    .toolbar-title-md{
+      margin-left: 9%;
+    }
+    .close-icon{
+      color: #ffffff;
+    }*/
+  }
+  .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 20px;
+  }
+  .grid-visual{
+    .col{
+      text-align: center;
+    }
+    label{
+      //text-align: center;
+      color: #ffffff;
+      font-size: 16px;
+    }
+    .img-text{
+      .title{
+        font-weight: bold;
+      }
+    }
+  }
+  .button-group{
+    bottom: 10px;
+    position: absolute;
+    .button{
+      width: 90%;
+      border-radius: 10px;
+      background-color: #ffffff;
+      color: #000000;
+    }
+  }
+}

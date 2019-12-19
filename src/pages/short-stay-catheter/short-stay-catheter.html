@@ -1,0 +1,36 @@
+<!--
+  Generated template for the ShortStayCatheterPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class = "visual-header">
+
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button icon-only (click) = "openInformation()">
+        <img src = "../assets/imgs/fonte_branco.png" id = "source">
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button icon-only (click) = "dismiss()">
+        <ion-icon name = "close-circle" class = "close-icon"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{ 'SHORT_STAY_CATHETER.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-grid class = "grid-visual">
+    <label class = "second-title">{{ 'SHORT_STAY_CATHETER.LABEL1' | translate }}</label>
+    <ul>
+      <li>{{ 'SHORT_STAY_CATHETER.ITEN1' | translate }}</li>
+      <li>{{ 'SHORT_STAY_CATHETER.ITEN2' | translate }}</li>
+      <li>{{ 'SHORT_STAY_CATHETER.ITEN3' | translate }}</li>
+    </ul>
+  </ion-grid>
+
+</ion-content>

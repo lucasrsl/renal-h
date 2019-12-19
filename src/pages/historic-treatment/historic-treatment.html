@@ -1,0 +1,60 @@
+<!--
+  Generated template for the HistoricTreatmentPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class = "visual-header">
+
+  <ion-navbar>
+    <ion-buttons end>
+      <button ion-button icon-only (click) = "openModal('DateSelectPage')">
+        <ion-icon name = "calendar" class = "calendar-icon"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{title}} </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class = "img-background">
+  <!--<ion-grid class = "grid-visual">
+    <ion-row>
+      <ion-col>
+        <label>Ano {{selectedYear}}</label>
+      </ion-col>
+      <ion-col>
+        <ion-icon name = "calendar" (click) = "changeYear()"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>-->
+  <ion-item  class = "sub-title" no-lines *ngIf="placeholderFlag">
+    <ion-label >{{ 'HISTORIC_TREATMENT.LABEL1' | translate }}<br/> {{ 'HISTORIC_TREATMENT.LABEL2' | translate }}</ion-label>
+  </ion-item>
+
+  <ion-card>
+    <ion-card-header>
+      {{ 'HISTORIC_TREATMENT.LABEL3' | translate }}
+    </ion-card-header>
+    <ion-card-content>
+      <canvas id = "calcium"></canvas>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      {{ 'HISTORIC_TREATMENT.LABEL4' | translate }}
+    </ion-card-header>
+    <ion-card-content>
+      <canvas id = "potassium"></canvas>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      {{ 'HISTORIC_TREATMENT.LABEL5' | translate }}
+    </ion-card-header>
+    <ion-card-content>
+      <canvas id = "phosphor"></canvas>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

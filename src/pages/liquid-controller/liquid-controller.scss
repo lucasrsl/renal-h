@@ -1,0 +1,199 @@
+page-liquid-controller {
+  .header-class{
+    .toolbar-title{
+      color: color($colors, primary);
+    }
+    .bar-button-default{
+      color: color($colors, primary);
+    }
+    #source{
+      width: 25px;
+      margin-right: 10px;
+    }
+  }
+  .list-visual{
+    margin: 0px;
+    padding: 16px 16px 7px 16px !important;
+    .item{
+      background-color: transparent;
+    }
+    .item-md p{
+      font-size: 17px;
+    }
+    #copo{
+      width: 40px;
+    }
+    .button-change-volume{
+      color: #ffffff;
+      text-decoration: underline;
+
+    }
+    .how-much-to-drink{
+      text-align: left;
+      font-weight: bold;
+      color: #ffffff;
+      white-space: normal;
+      margin-right: 10%;
+    }
+    .cup-quantity{
+      margin-top: 10px;
+      color: #ffffff;
+      margin-right: 10%;
+    }
+    .line{
+      margin-top: 10px;
+      border: 1px solid rgba(224, 224, 224, 0.4);
+    }
+
+
+
+  }
+  #add-copo{
+    width: 35px;
+  }
+  .item-inherited-quantity{
+    background: transparent;
+    .label{
+      font-weight: bold;
+      color: #ffffff;
+    }
+  }
+  .historic-list{
+    @media screen and (max-width: 350px) {
+      font-size: 1.2rem;
+    }
+    padding: 0px 16px 50px 16px !important;
+    .adjust-col{
+      margin-left: 3%;
+      margin-top: 5px;
+    }
+    .adjust-col-label{
+      margin-top: 5px;
+      margin-left: 5%;
+    }
+    background: transparent;
+    .label{
+      color: #ffffff;
+    }
+    .cup-type-label{
+      color: #ffffff;
+    }
+
+  }
+  .add-cup{
+
+    height: 45px;
+    margin-top: 20px;
+    background-color: #ffffff !important;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    .button-inner{
+      color: #000000
+    }
+  }
+  #small-cup{
+    width: 22px;
+    margin-right: 6%;
+    filter: brightness(500%);
+  }
+  .cup-type-label{
+    margin-top: -20%;
+  }
+  .liquid-grid{
+    @media screen and (max-width: 350px) {
+      font-size: 1.2rem;
+    }
+    margin-top: -5px;
+    margin-left: 1%;
+    .limit-edit-button{
+      @media screen and (max-width: 350px) {
+        font-size: 1.2rem;
+      }
+      margin-left: -2%;
+      text-transform: none;
+      font-size: 13px;
+      background-color: #ffffff;
+      border-radius: 6px;
+      height: 30px;
+      .button-inner{
+        color: #000000;
+      }
+    }
+    .icon{
+      margin-right: 7px;
+    }
+    .liquid-total{
+      margin-top: 11px;
+      font-weight: bold;
+    }
+  }
+
+  #placeholder-size{
+    @media screen and (max-height: 575px) {
+      margin-top: -70px;
+    }
+    width: 36.22%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .img-text{
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+  }
+  .img-second-text{
+    margin-top: -10px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .add-cup.activated{
+    background-color: #ffffff;
+  }
+  .hide{
+    display: none;
+  }
+  .fade{
+    width: 100%;
+    height: 90px;
+    bottom: 0;
+    filter: blur(21px);
+    background-image: linear-gradient(transparent,#000000);
+    transition: opacity 0.5s;
+  }
+  .fade[display="true"]{
+    opacity: 1;
+  }
+  .fade[display="false"]{
+    opacity: 0;
+  }
+}
+.liquid-limit-class{
+  .alert-wrapper{
+    border-radius: 10px;
+    .alert-head{
+      .alert-sub-title{
+        color: #ef5350;
+      }
+    }
+  }
+  .button-inner{
+    font-weight: bold;
+    color: color($colors, secondary);
+  }
+
+}
+.alert-class{
+  .alert-wrapper{
+    border-radius: 10px;
+  }
+  .button-inner{
+    font-weight: bold;
+    color: color($colors, secondary);
+  }
+}
+
+

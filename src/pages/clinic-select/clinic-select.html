@@ -1,0 +1,47 @@
+<!--
+  Generated template for the ClinicSelectPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class = "header-class">
+  <ion-navbar>
+    <ion-title>{{ 'CLINIC_SELECT.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class = "img-background">
+  <form [formGroup] = "updateForm">
+    <ion-grid class = "grid-visual">
+      <ion-row class = "row-input">
+        <ion-col col-2 class = "col-img">
+          <img src = "../assets/imgs/icone_hospital.png">
+        </ion-col>
+        <ion-col col-10>
+          <ion-input placeholder = "{{ 'CLINIC_SELECT.INPUT.PLACEHOLDER1' | translate }}" formControlName = "clinic_name"></ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row class = "row-input">
+        <ion-col col-2 class = "col-img">
+          <ion-icon name = "pin"></ion-icon>
+        </ion-col>
+        <ion-col col-10>
+          <ion-select placeholder = "{{ 'CLINIC_SELECT.INPUT.PLACEHOLDER2' | translate }}" formControlName="clinic_state" [selectOptions]="selectState" (ionChange) = "changeCities(updateForm.value.clinic_state)">
+            <ion-option *ngFor="let states of listStates" >{{states}}</ion-option>
+          </ion-select>
+        </ion-col>
+      </ion-row>
+      <ion-row class = "row-input">
+        <ion-col col-2 class = "col-img">
+          <ion-icon name = "pin"></ion-icon>
+        </ion-col>
+        <ion-col col-10>
+          <ion-select placeholder = "{{ 'CLINIC_SELECT.INPUT.PLACEHOLDER3' | translate }}" formControlName="clinic_city" [selectOptions]="selectCitys">
+            <ion-option *ngFor="let cidades of listCitys">{{cidades.nome}}</ion-option>
+          </ion-select>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+  <button class = "btn-signUp" ion-button large [disabled]="!updateForm.valid" (click)="postUser()">{{ 'CLINIC_SELECT.OPTION' | translate }}</button>
+</ion-content>

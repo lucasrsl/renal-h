@@ -1,0 +1,73 @@
+page-clinic-select {
+  .header-class{
+    .toolbar-title{
+      color: color($colors, primary);
+    }
+    .bar-button-default-md{
+      color: color($colors, secondary);
+    }
+  }
+  .sub-title{
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .col{
+    text-align: center;
+  }
+  .col-img{
+    margin-top: 7px;
+  }
+  .row-input{
+    background-color: #ffffff;
+    margin-top: 8px;
+    width: 92%;
+    margin-left: 4%;
+    border-radius: 10px;
+  }
+  .btn-signUp{
+    height: 45px;
+    position: absolute;
+    bottom: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #ffffff !important;
+    border-radius: 10px;
+    .button-inner{
+      color: #000000
+    }
+  }
+  .item-align{
+    position: absolute;
+    bottom: 10px;
+    background: transparent;
+  }
+  .icon{
+    font-size: 22px;
+    margin-top: 2px;
+  }
+  .select{
+    max-width: none;
+    .select-icon{
+      margin-right: 4%;
+    }
+  }
+  .select-text{
+    text-align: start;
+  }
+  .input{
+    margin-left: 10px;
+    width: 95%;
+  }
+  .row-checkbox{
+    margin-top: 20px;
+  }
+  .errorValidation{
+    text-align:  right;
+    font-size: 10px;
+    color: red;
+    background: transparent;
+  }
+}

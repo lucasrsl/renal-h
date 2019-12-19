@@ -1,0 +1,82 @@
+page-add-blood-glucose {
+  .grid-visual{
+    padding: 0px 15px 15px 15px;
+    .end-buttons{
+      text-align: center;
+      margin-top: 0.7em;
+      color: color($colors, primary);
+      font-weight: bold;
+      font-size: 1.3em;
+    }
+    .line{
+      border: 1px solid #DCDCDC;
+      margin-top: -1em;
+      margin-bottom: 1em;
+      width: 90%;
+    }
+    .date-line{
+      border: 1px solid #DCDCDC;
+      margin-bottom: 1em;
+    }
+    .datetime{
+      padding: 0px 0px 0px 0px;
+      .datetime-text{
+        position: absolute;
+        bottom: 10px;
+      }
+    }
+    #img{
+      width: 25px;
+    }
+    .text-input{
+      margin: 13px 0;
+    }
+    .col-input{
+      padding-left: 0;
+    }
+
+  }
+  .content-ios{
+    .line{
+      border: 1px solid #DCDCDC;
+      margin-top: -0.8em;
+      margin-bottom: 1em;
+      width: 90%;
+    }
+  }
+  .visual-header{
+    text-align: center;
+    .toolbar-background{
+      background: transparent;
+      border-color: transparent;
+    }
+    .toolbar{
+      height: 50px;
+      min-height: 50px;
+    }
+    .title-ios{
+      padding: 0px;
+    }
+
+  }
+  .scroll-content {
+    padding: 0px 16px 16px 16px !important;
+    overflow: hidden;
+  }
+
+}
+ion-modal.add-blood-glucose-popup ion-backdrop {
+  visibility: visible !important;
+  z-index:0;
+}
+ion-modal.add-blood-glucose-popup .modal-wrapper{
+  overflow: hidden;
+  border-radius: 10px !important;
+  top: 20%;
+  height: 230px;
+  width: 80vw;
+  left: 10vw;
+  position:absolute;
+
+
+}

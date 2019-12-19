@@ -1,0 +1,49 @@
+page-test-hydration {
+    .text-size{
+        font-size: 10px;
+    }
+    .img-item{
+        background: transparent;
+        position: relative;
+        margin: auto;
+    }
+    .second-title{
+        text-align: center;
+    }
+    .item-md p{
+      color: #000000;
+    }
+    .title-background{
+      background: #C0C0C0;
+    }
+    .visual-header{
+      .toolbar-title{
+        color: #ffffff;
+      }
+      .toolbar-background{
+          background-color:#546E7A;
+      }
+      .bar-button-default-md{
+          color: color($colors, secondary);
+      }
+      .bar-buttons-md{
+          margin-left: 3%;
+      }
+      .toolbar-title-md{
+        margin-left: 9%;
+      }
+      .close-icon{
+        color: #ffffff;
+      }
+    }
+    .img-grid{
+      padding: 20px;
+      .img-row{
+        display: table;
+        .col{
+          display: table-cell;
+          vertical-align: middle;
+        }
+      }
+    }
+}

@@ -1,0 +1,43 @@
+page-faq {
+    .second-title{
+        color: color($colors, secondary);
+    }
+    .visual-header{
+      .toolbar-title{
+        color: #ffffff;
+      }
+      .toolbar-background{
+          background-color:#546E7A;
+      }
+      .bar-button-default-md{
+          color: color($colors, secondary);
+      }
+      .toolbar-title-md{
+        margin-left: 9%;
+      }
+      .close-icon{
+        color: #ffffff;
+      }
+    }
+    .accordion-group{
+      margin-top: 30px;
+      box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    }
+    .accordion-grid{
+      border-bottom: 1px solid #c9c9c9;
+    }
+    .col{
+      display: table;
+    }
+    .img{
+      display: table-cell;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .img.diabetes{
+      width: 55px;
+    }
+    li{
+      margin-bottom: 5px;
+    }
+}

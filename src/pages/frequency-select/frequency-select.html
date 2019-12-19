@@ -1,0 +1,33 @@
+<!--
+  Generated template for the FrequencySelectPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border class = "header-visual">
+
+  <ion-navbar>
+    <ion-title>{{ 'FREQUENCY_SELECT.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <ion-grid class = "grid-visual">
+      <div *ngFor="let type of frequencyType">
+        <div class = "line"></div>
+        <ion-row>
+          <ion-col class = "col-text" (click) = "selectFrequency(type)">
+            <label>{{type}}</label>
+          </ion-col>
+        </ion-row>
+      </div>
+        <ion-row class = "cancel-btn">
+          <ion-col>
+            <label (click) = "dismiss()">{{ 'FREQUENCY_SELECT.CANCELAR' | translate }}</label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+</ion-content>

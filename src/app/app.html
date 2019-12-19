@@ -1,0 +1,152 @@
+<ion-menu [swipeEnabled] = "this.activeMenu" [content]="content" persistent="true">
+  <ion-header no-border class = "header-visual">
+    <ion-toolbar>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img src = "../assets/imgs/logo_horizontal.png" id = "img">
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list no-lines class = "body-visual">
+      <button menuClose enabled detail-none ion-item (click)="openPageProfile()" class = "internet-required-button">
+        <ion-row>
+          <ion-col col-2>
+            <img src = "../assets/imgs/2. Icones Sidebar/Color/SVG/perfil.svg" id = "img">
+          </ion-col>
+          <ion-col>
+            <label>{{ 'MENU_SIDEBAR.OPT1' | translate }}</label>
+          </ion-col>
+        </ion-row>
+      </button>
+      <button menuClose enabled detail-none ion-item (click)="openPage('HowAreYouTodayPage')" *ngIf="userType == 1" class = "internet-required-button">
+        <ion-row>
+          <ion-col col-2>
+             <img src = "../assets/imgs/2. Icones Sidebar/Color/SVG/como vc esta hj.svg" id = "img">
+          </ion-col>
+          <ion-col>
+             <label>{{ 'MENU_SIDEBAR.OPT2' | translate }}</label>
+          </ion-col>
+        </ion-row>
+      </button>
+      <button menuClose enabled detail-none ion-item (click)="openPage('TodaySchedulePage')" *ngIf="userType == 2 || userType == 3" class = "internet-required-button">
+        <ion-row>
+          <ion-col col-2>
+             <img src = "../assets/imgs/2. Icones Sidebar/Color/SVG/como vc esta hj.svg" id = "img">
+          </ion-col>
+          <ion-col>
+             <label>{{ 'MENU_SIDEBAR.OPT3' | translate }}</label>
+          </ion-col>
+        </ion-row>
+      </button>
+      <button menuClose enabled detail-none ion-item (click)="openPage('TreatmentPage')" *ngIf="userType == 1 || userType == 3" class = "internet-required-button">
+        <ion-row>
+          <ion-col col-2>
+            <img src = "../assets/imgs/2. Icones Sidebar/Color/SVG/tratamento.svg" id = "img">
+          </ion-col>
+          <ion-col>
+            <label>{{ 'MENU_SIDEBAR.OPT4' | translate }}</label>
+          </ion-col>
+        </ion-row>
+      </button>
+      <button menuClose enabled detail-none ion-item (click)="openPage('HistoricPage')" *ngIf="userType == 2 || userType == 3" class = "internet-required-button">
+        <ion-row>
+          <ion-col col-2>
+            <img src = "../assets/imgs/2. Icones Sidebar/Color/SVG/informações.svg" id = "img">
+          </ion-col>
+          <ion-col>
+            <label>{{ 'MENU_SIDEBAR.OPT5' | translate }}</label>
+          </ion-col>
+        </ion-row>
+      </button>
+      <button menuClose enabled detail-none ion-item (click)="openPage('SchedulePage')" class = "internet-required-button">
+        <ion-row>
+          <ion-col col-2>
+            <img src = "../assets/imgs/2. Icones Sidebar/Color/SVG/agenda.svg" id = "img">
+          </ion-col>
+          <ion-col>
+            <label>{{ 'MENU_SIDEBAR.OPT6' | translate }}</label>
+          </ion-col>
+        </ion-row>
+      </button>
+
+      <button menuClose detail-none ion-item (click)="openPage('AboutMedicinesPage')" *ngIf="userType == 2">
+        <ion-row>
+          <ion-col col-2>
+            <img src = "../assets/imgs/2. Icones Sidebar/Color/SVG/sobre os medicamentos.svg" id = "img">
+          </ion-col>
+          <ion-col>
+            <label>{{ 'MENU_SIDEBAR.OPT7' | translate }}</label>
+          </ion-col>
+        </ion-row>
+      </button>
+      <button menuClose detail-none ion-item (click)="openPage('InformationPage')" *ngIf="userType == 1">
+        <ion-row>
+          <ion-col col-2>
+            <img src = "../assets/imgs/2. Icones Sidebar/Color/SVG/informações.svg" id = "img">
+          </ion-col>
+          <ion-col>
+            <label>{{ 'MENU_SIDEBAR.OPT8' | translate }}</label>
+          </ion-col>
+        </ion-row>
+      </button>
+      <button menuClose detail-none ion-item (click)="openPage('NotPatientPage',{menu: true,termAccepted: true})" *ngIf="userType == 3">
+        <ion-row>
+          <ion-col col-2>
+            <img src = "../assets/imgs/2. Icones Sidebar/Color/SVG/informações.svg" id = "img">
+          </ion-col>
+          <ion-col>
+            <label>{{ 'MENU_SIDEBAR.OPT12' | translate }}</label>
+          </ion-col>
+        </ion-row>
+      </button>
+      <button menuClose detail-none ion-item (click)="openPage('InformationTransplantedPage')" *ngIf="userType == 2">
+        <ion-row>
+          <ion-col col-2>
+            <img src = "../assets/imgs/2. Icones Sidebar/Color/SVG/informações.svg" id = "img">
+          </ion-col>
+          <ion-col>
+            <label>{{ 'MENU_SIDEBAR.OPT8' | translate }}</label>
+          </ion-col>
+        </ion-row>
+      </button>
+      <button menuClose detail-none ion-item (click)="openPage('NutritionalTablePage')">
+        <ion-row>
+          <ion-col col-2>
+            <img src = "../assets/imgs/2. Icones Sidebar/Color/SVG/tabela nutricional.svg" id = "img">
+          </ion-col>
+          <ion-col>
+            <label>{{ 'MENU_SIDEBAR.OPT9' | translate }}</label>
+          </ion-col>
+        </ion-row>
+      </button>
+      <button menuClose detail-none ion-item (click)="openPage('AboutPage',{param: true})">
+        <ion-row class = "adjust-row">
+          <ion-col col-2>
+            <img src = "../assets/imgs/2. Icones Sidebar/Color/SVG/sobre o app.svg" id = "img">
+          </ion-col>
+          <ion-col>
+            <label>{{ 'MENU_SIDEBAR.OPT10' | translate }}</label>
+          </ion-col>
+        </ion-row>
+      </button>
+      <button menuClose detail-none ion-item (click)="logout()" class = "exit-button">
+        <ion-row>
+          <ion-col col-2>
+            <img src = "../assets/imgs/2. Icones Sidebar/Color/SVG/sair.svg" id = "img">
+          </ion-col>
+          <ion-col>
+            <label>{{ 'MENU_SIDEBAR.OPT11' | translate }}</label>
+          </ion-col>
+        </ion-row>
+      </button>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

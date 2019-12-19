@@ -1,0 +1,26 @@
+page-select-treatment {
+  .header-class{
+    .toolbar-title{
+      color: color($colors, primary);
+    }
+  }
+  .page-visual{
+    margin-top: 10px;
+    text-align: center;
+    .sub-title{
+      font-weight: bold;
+      color: #ffffff;
+    }
+    .list-visual{
+      margin-top: 20px;
+      .button{
+        border-radius: 10px;
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+        background-color: color($colors, primary);
+      }
+    }
+
+  }
+}

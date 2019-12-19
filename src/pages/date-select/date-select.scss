@@ -1,0 +1,69 @@
+page-date-select {
+  .header-class{
+    text-align: center;
+    .toolbar-background{
+      background-color: #ffffff;
+      background: #ffffff;
+    }
+    .toolbar-content{
+      .title{
+        .toolbar-title{
+          font-size: 20px;
+
+        }
+        /*.toolbar-title-md{
+          margin-left: 10px;
+        }*/
+      }
+      .title-ios{
+        padding: 0 80px 1px;
+      }
+    }
+  }
+  .grid-visual{
+    position: absolute;
+    bottom: 10px;
+    .col{
+      text-align: center;
+      label{
+        font-size: 20px;
+        color: color($colors, secondary);
+      }
+    }
+  }
+  .item{
+    padding-left: 0;
+  }
+  .item.item-block .item-inner {
+    padding-right: 0;
+  }
+  .datetime{
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .item-date{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .scroll-content{
+    overflow: hidden;
+  }
+
+}
+ion-modal.date-select-popup ion-backdrop {
+  visibility: visible !important;
+  z-index:0;
+}
+ion-modal.date-select-popup .modal-wrapper{
+  overflow: hidden;
+  border-radius: 10px !important;
+  top: 30%;
+  width:90%;
+  height: 160px;
+  position:absolute;
+  left: 5%;
+}

@@ -1,0 +1,36 @@
+page-hypertension {
+  .visual-header{
+    .toolbar-title{
+      color: #ffffff;
+    }
+    .toolbar-title-md{
+      margin-left: 9%;
+
+    }
+    .bar-button-default-md{
+        color: color($colors, secondary);
+    }
+
+    .toolbar-background{
+        background-color:#546E7A;
+    }
+    .bar-button-default-md{
+        color: color($colors, secondary);
+    }
+    .close-icon{
+      color: #ffffff;
+    }
+  }
+  .col{
+    display: table;
+  }
+  .img{
+    display: table-cell;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+  }
+  li{
+    margin-bottom: 5px;
+  }
+}

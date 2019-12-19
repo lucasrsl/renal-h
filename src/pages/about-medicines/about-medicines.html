@@ -1,0 +1,75 @@
+<!--
+  Generated template for the AboutMedicinesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar hideBackButton = "true" class = "header-class">
+    <button ion-button menuToggle>
+      <ion-icon name = "menu"></ion-icon>
+    </button>
+    <ion-title>{{ 'ABOUT_MEDICINES_PAGE.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class = "img-background">
+  <ion-grid class = "grid-visual">
+    <ion-row>
+      <ion-col>
+          <ion-card class = "card-visual">
+            <ion-list>
+              <ion-item class="header-item-color">
+                <label class="header-text">{{ 'ABOUT_MEDICINES_PAGE.CARD1.TITLE' | translate }}</label>
+              </ion-item>
+            <button ion-item detail-none (click) = "openModal('AzatioprinaPage')">
+              <ion-label class="content-text">Azatioprina (Imuran®) 50 mg</ion-label>
+              <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+            </button>
+            <button ion-item detail-none (click) = "openModal('CiclosporinaPage')">
+              <ion-label class = "content-text">Ciclosporina (Sandimmun Neoral®)<br/>25, 50 e 100 mg</ion-label>
+              <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+            </button>
+          </ion-list>
+              <button ion-item detail-none (click)= "openModal('SirolimoPage')">
+                <ion-label class="content-text">Sirolimo (Rapamune®) 1 mg</ion-label>
+                <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+              </button>
+              <button ion-item detail-none (click) = "openModal('EverolimoPage')">
+                <ion-label class = "content-text">Everolimo (Certican®) 0,5 mg, 0,75 mg e 1 mg</ion-label>
+                <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+              </button>
+              <button ion-item detail-none (click) = "openModal('MicrofenolatoMofetilPage')">
+                <ion-label class = "content-text">Micofenolato Mofetil (Cell Cept®) 500 mg</ion-label>
+                <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+              </button>
+              <button ion-item detail-none (click) = "openModal('MicofenolatoSodicoPage')">
+                <ion-label class = "content-text">Micofenolato Sódico (Myfortic®) 360 mg</ion-label>
+                <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+              </button>
+              <button ion-item detail-none (click) = "openModal('PrednisonaPage')">
+                <ion-label class = "content-text">Prednisona 5 mg e 20 mg</ion-label>
+                <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+              </button>
+              <button ion-item detail-none (click) = "openModal('TacrolimoPage')">
+                <ion-label class = "content-text">Tacrolimo 1 mg e 5 mg</ion-label>
+                <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+              </button>
+            <ion-list>
+               <ion-item class="header-item-color">
+                   <label class="header-text">{{ 'ABOUT_MEDICINES_PAGE.CARD2.TITLE' | translate }}</label>
+              </ion-item>
+              <button ion-item detail-none (click) = "openModal('MedicationsRecommendationsPage')">
+                <ion-label class="content-text">{{ 'ABOUT_MEDICINES_PAGE.CARD2.TEXT1' | translate }}</ion-label>
+                <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+              </button>
+            </ion-list>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+</ion-content>

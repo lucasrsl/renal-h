@@ -1,0 +1,80 @@
+<ion-header class = "visual-header">
+
+  <ion-navbar>
+    <ion-title>{{ 'ADD_EXAM.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class = "img-background">
+  <form [formGroup]="examForm">
+    <ion-grid class = "grid-visual">
+      <ion-row>
+        <ion-item>
+          <ion-label floating>{{ 'ADD_EXAM.LABEL1' | translate }}</ion-label>
+          <ion-input formControlName="exam_type"  (click)="openExamSelect()" class="modal-input" readonly id = "modal-input"></ion-input>
+        </ion-item>
+      </ion-row>
+      <ion-row>
+        <ion-item>
+          <ion-label floating>{{ 'ADD_EXAM.LABEL2' | translate }}</ion-label>
+          <ion-input formControlName="specific_exam"></ion-input>
+        </ion-item>
+      </ion-row>
+      <ion-row>
+        <ion-item>
+          <ion-label floating>{{ 'ADD_EXAM.LABEL3' | translate }}</ion-label>
+          <ion-input formControlName="local_exam"></ion-input>
+        </ion-item>
+      </ion-row>
+      <ion-row>
+        <ion-item>
+          <ion-label floating>{{ 'ADD_EXAM.LABEL4' | translate }}</ion-label>
+          <ion-datetime displayFormat="DD/MM/YYYY" cancelText="{{ 'ADD_EXAM.DATE_TIME.CANCEL' | translate }}" doneText="{{ 'ADD_EXAM.DATE_TIME.DONE' | translate }}" formControlName="exam_date"></ion-datetime>
+        </ion-item>
+      </ion-row>
+      <ion-row>
+        <ion-item>
+          <ion-label floating>{{ 'ADD_EXAM.LABEL5' | translate }}</ion-label>
+          <ion-datetime displayFormat="HH:mm" cancelText="{{ 'ADD_EXAM.DATE_TIME.CANCEL' | translate }}" doneText="{{ 'ADD_EXAM.DATE_TIME.DONE' | translate }}" formControlName="exam_hour"></ion-datetime>
+        </ion-item>
+      </ion-row>
+      <!--<ion-item no-lines>
+        <ion-label>{{ 'ADD_EXAM.LABEL6' | translate }}</ion-label>
+        <ion-toggle item-end formControlName = "notification" ></ion-toggle>
+      </ion-item>
+      <ion-row>
+        <ion-col class = "col-text" col-5>
+          <label>{{ 'ADD_EXAM.LABEL7' | translate }}</label>
+        </ion-col>
+        <ion-col>
+            <ion-select selectOptions = "{cssClass: 'select-alarm'}" [selectOptions]="selectInterval" select-align-right formControlName="interval" name="interval" position-relative>
+              <ion-option value="1hra">{{ 'ADD_EXAM.SELECT.OPTION1' | translate }}</ion-option>
+              <ion-option value="2hra">{{ 'ADD_EXAM.SELECT.OPTION2' | translate }}</ion-option>
+              <ion-option value="3hra">{{ 'ADD_EXAM.SELECT.OPTION3' | translate }}</ion-option>
+              <ion-option value="24hra">{{ 'ADD_EXAM.SELECT.OPTION4' | translate }}</ion-option>
+            </ion-select>
+        </ion-col>
+      </ion-row>-->
+
+
+      <!-- <ion-row>
+        <ion-col class = "col-text" col-3>
+          <strong>Horário</strong>
+        </ion-col>
+        <ion-col>
+          <ion-input placeholder = "ex: 18:00"></ion-input>
+        </ion-col>
+      </ion-row>
+      <div class = "line"></div> -->
+      <ion-item no-lines >
+        <ion-label>Receber alarme</ion-label>
+        <ion-toggle item-end formControlName = "notification" (ngModelChange) = "openAlarmIntervalSelect($event)"></ion-toggle>
+      </ion-item>
+      <button ion-button (click)="saveExam()">
+        {{ 'ADD_EXAM.BUTTON' | translate }}
+      </button>
+    </ion-grid>
+  </form>
+</ion-content>

@@ -1,0 +1,72 @@
+page-treatment {
+  .header-class{
+    .toolbar-title{
+      color: color($colors, primary);
+    }
+    .bar-button-default-md{
+      color: color($colors, secondary);
+    }
+  }
+  .card-visual{
+    border-radius: 10px;
+    #copo{
+      width: 40px;
+      height: 40px;
+      margin-left: 15px;
+    }
+    .title-label{
+      font-size: 17px;
+      margin-left: 20px;
+
+    }
+    .fab-md{
+      width: 40px;
+      height: 40px;
+    }
+    .grid{
+      padding: 0px;
+    }
+    .col{
+      text-align: left;
+
+    }
+    .text-col{
+      margin-top: 11px;
+    }
+    .row-info{
+      font-size: 0.9em;
+      margin-top: 7px;
+      color:  #808080;
+    }
+    .line{
+      border: 1px solid #DCDCDC;
+      width: 99%;
+      margin-top: 15px;
+    }
+    .card-content-md{
+      padding: 13px 10px;
+    }
+    #add-circle{
+      width: 22px;
+      margin-left: 1em;
+      margin-top: 7px;
+    }
+    .last-update-label{
+      margin-top: 0.6em;
+      margin-left: 2.34375%;
+      white-space: normal;
+    }
+  }
+  .button-row{
+    margin-top: 10px;
+    .button{
+      background-color: color($colors, primary);
+      border-radius: 7px;
+      font-size: 1.2rem;
+      width: 90%;
+      box-shadow: none;
+      margin-left: 5%;
+    }
+  }
+
+}

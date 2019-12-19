@@ -1,0 +1,75 @@
+page-pill-select {
+  .header-visual{
+    .toolbar-background{
+      border-color: transparent;
+      background: transparent;
+    }
+    .toolbar-title{
+      font-size: 1.7rem;
+      text-align: center;
+    }
+    .toolbar{
+      min-height: 48px;
+      .toolbar-content{
+        margin-top: 20px;
+      }
+    }
+
+  }
+  .grid-visual{
+    #img{
+      width: 20px;
+    }
+    #other-img{
+      width: 25px;
+    }
+    .col{
+      margin-top: 2px;
+      margin-left: 20px;
+    }
+    .col-text{
+      margin-top: 8px;
+      margin-left: 0px;
+    }
+    .line{
+      border: 1px solid #DCDCDC;
+      width: 100%;
+      margin-top: 2px;
+    }
+    .cancel-btn{
+      text-align: center;
+      color: color($colors, secondary);
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 17px;
+      .col{
+        margin-left: 0px;
+      }
+    }
+
+
+  }
+  .content-ios{
+    .scroll-content{
+      overflow: hidden !important;
+    }
+    .grid-visual{
+      .cancel-btn{
+        margin-top: 0.8em;
+      }
+    }
+  }
+}
+ion-modal.pill-select-popup ion-backdrop {
+  visibility: visible !important;
+  z-index:0;
+}
+ion-modal.pill-select-popup .modal-wrapper{
+  overflow: hidden;
+  border-radius: 10px !important;
+  top: 25%;
+  width:85%;
+  height: 300px;
+  position:absolute;
+  left: 7.5%;
+}

@@ -1,0 +1,55 @@
+<!--
+  Generated template for the AddBloodPressurePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border class = "visual-header">
+
+    <ion-navbar>
+      <ion-title>{{ 'ADD_BLOOD_PRESSURE.TITLE' | translate }}</ion-title>
+    </ion-navbar>
+
+  </ion-header>
+
+
+  <ion-content padding>
+    <form [formGroup]= "blood_pressure_level">
+      <ion-grid class = "grid-visual">
+        <ion-row>
+          <ion-col col-2>
+            <img src = "../assets/imgs/calendario.png" id = "img">
+          </ion-col>
+          <ion-col>
+            <ion-datetime cancelText = "CANCELAR" doneText="Ok" formControlName="date_of_pressure" pickerFormat = "DD/MM/YYYY" displayFormat = "DD/MM/YYYY" placeholder = "{{ 'ADD_BLOOD_PRESSURE.PLACEHOLDER' | translate }}"></ion-datetime>
+          </ion-col>
+        </ion-row>
+        <div class = "date-line"></div>
+        <ion-row>
+          <label>{{ 'ADD_BLOOD_PRESSURE.TEXT' | translate }}</label>
+        </ion-row>
+        <ion-row>
+          <ion-col col-3 offset-2>
+            <ion-input formControlName="measure_pressure" type = "number" pattern="[0-9]*" placeholder = "120"></ion-input>
+            <div class = "line"></div>
+          </ion-col>
+          <ion-col col-2>
+            <div class = "slash"></div>
+            <!--Precisa de imagem-->
+          </ion-col>
+          <ion-col col-3>
+            <ion-input formControlName="measure_pressure2" type = "number" pattern="[0-9]*" placeholder = "80"></ion-input>
+            <div class = "line"></div>
+          </ion-col>
+        </ion-row>
+        <ion-row class = "end-buttons">
+          <ion-col>
+            <label (click) = "dismiss()">{{ 'ADD_BLOOD_PRESSURE.OPTION1' | translate }}</label>
+          </ion-col>
+          <ion-col>
+            <label (click) = "addBloodPressure()">{{ 'ADD_BLOOD_PRESSURE.OPTION2' | translate }}</label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </form>
+  </ion-content>

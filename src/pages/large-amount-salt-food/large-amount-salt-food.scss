@@ -1,0 +1,71 @@
+page-large-amount-salt-food {
+  .grid-visual{
+    .second-title{
+       color: color($colors, secondary);
+    }
+    .source-text{
+      font-size: 10px;
+      text-align: right;
+      margin-top: 20px;
+
+    }
+    .alert-text{
+      color: color($colors, danger);
+      margin-top: 2%;
+    }
+    .img-sal-visual{
+      width: 30.55%;
+      //height: 17.1875%;
+      align-self: center;
+      margin-top: 20px;
+    }
+    .text-visual{
+      margin-left: 10px;
+    }
+    li{
+      margin-bottom: 5px;
+    }
+    .img-sausage{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 120px;
+    }
+
+  }
+  .visual-header{
+    .toolbar-title{
+      color: #ffffff;
+    }
+    .title-ios{
+      padding: 0px;
+    }
+    .bar-button-default-md{
+      color: color($colors, secondary);
+    }
+    #source{
+      width: 25px;
+      margin-right: 10px;
+    }
+    .toolbar-background{
+      background-color:#546E7A;
+    }
+    .bar-button-default-md{
+      color: color($colors, secondary);
+    }
+    .bar-buttons-md{
+      margin-left: 3%;
+    }
+    .toolbar-title-md{
+      margin-left: 9%;
+    }
+    #source{
+      filter: brightness(1000%);
+      width: 25px;
+      margin-left: 12px;
+    }
+    .close-icon{
+      color: #ffffff;
+    }
+  }
+}

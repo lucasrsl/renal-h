@@ -1,0 +1,1630 @@
+{
+  "MENU_SIDEBAR": {
+    "OPT1": "Perfil",
+    "OPT2": "Hoy",
+    "OPT3": "Hoy",
+    "OPT4": "Tratamiento",
+    "OPT5": "Tratamiento",
+    "OPT6": "Agenda",
+    "OPT7": "Sobre los medicamentos",
+    "OPT8": "Informaciones",
+    "OPT9": "Tabla nutricional",
+    "OPT10": "Sobre la aplicación",
+    "OPT11": "Salir",
+    "OPT12": "No soy paciente"
+  },
+  "ABOUT_PAGE": {
+    "TITLE": "Sobre la aplicación",
+    "TEXT_TITLE1": "Descripción del proyecto",
+    "TEXT1": "Renal Health es una  aplicación desarrollada para ampliar los conocimientos de la población en general sobre la enfermedad renal y apoyar al paciente renal crónico tanto en la producción de conocimientos, como también  en el acompañamiento continuo de su estado de salud y de su tratamiento.",
+    "TEXT_TITLE2": "IMPORTANTE",
+    "TEXT2": "La eficacia de la aplicación Renal Health depende de la inserción CORRECTA de los datos y de la adhesión a las orientaciones de parte de los pacientes. Aunque usando el aplicación Renal Health, el paciente debe continuar siguiendo las orientaciones de los profesionales de salud.",
+    "STUDENTS": "Alumnos",
+    "PROFESSOR": "Profesores"
+  },
+  "ABOUT_KIDNEY_TRANSPLANTATION": {
+    "TITLE": "Trasplante renal",
+    "LABEL1": "Sepa más sobre trasplante renal",
+    "LABEL2": {
+      "PARAGRAPH_1": "Es una cirugía realizada para la colocación de un riñón sano en paciente con enfermedad renal crónica avanzada. Ese nuevo riñón realizará   las funciones que los riñones enfermos ya no pueden mantener.",
+      "PARAGRAPH_2": "Después de la indicación del trasplante, el paciente es sometido a una avaluación clínica que incluye varios exámenes."
+    },
+    "LABEL3": "Tipos de donantes",
+    "LABEL4": {
+      "PARAGRAPH_1": "Un trasplante renal puede llevarse a cabo desde donantes vivos o donantes fallecidos.",
+      "PARAGRAPH_2": "La donación de riñón entre los vivos es permitida por las  leyes brasileñas hasta el cuarto grado de parentesco y entre cónyuges, desde que el donante sea mayor de edad, tenga grupo sanguíneo compatible e pruebas de compatibilidad adecuadas.",
+      "PARAGRAPH_3": "Los donantes fallecidos son individuos que están en muerte cerebral y que, desde la autorización  familiar, los órganos son donados."
+    },
+    "LABEL5": "Lista de espera",
+    "LABEL6": "Los pacientes que ya  han sido evaluados e incluidos en lista para trasplante con donante fallecido pueden ser llamados en cualquier momento, por eso es muy importante mantener la dirección y teléfonos actualizados, y que estén en buenas condiciones de salud para la cirugía. Ese periodo de espera varía y depende de la  oportunidad de surgir un donante que sea aceptado por el equipo de trasplante y compatible con el receptor.",
+    "LABEL7": "Ventajas del trasplante renal",
+    "LABEL8": {
+      "PARAGRAPH_1": "El riñón trasplantado funciona como un riñón normal.",
+      "PARAGRAPH_2": "El paciente se siente más saludable.",
+      "PARAGRAPH_3": "Hay pocas restricciones dietéticas.",
+      "PARAGRAPH_4": "Ya no hay necesidad de diálisis, por eso el paciente tiene más tiempo libre."
+    },
+    "LABEL9": "Posibles incómodos",
+    "LABEL10": {
+      "PARAGRAPH_1": "Es necesario someterse a una cirugía.",
+      "PARAGRAPH_2": "Necesita surgir un donante compatible.",
+      "PARAGRAPH_3": "Existe la posibilidad de que el organismo pueda rechazar el nuevo riñón.",
+      "PARAGRAPH_4": "Hay necesidad de asistir a consultas periódicas y usar medicamentos para toda la vida."
+    },
+    "LABEL11": "Preguntas frecuentes",
+    "LABEL12": {
+      "PARAGRAPH_1": {
+        "TITLE": " ¿Que es prueba cruzada o cross-match?",
+        "TEXT": "Es el examen en que se mezcla  la sangre del receptor y del donante para ver se hay posibilidad de rechazo en las primeras horas pos-trasplante. Si es positivo, el trasplante no puede ser realizado, porque la posibilidad de rechazo inmediato es de casi 100%."
+      },
+      "PARAGRAPH_2": {
+        "TITLE": "¿Que significa rechazo?",
+        "TEXT": "Rechazo es el término utilizado para describir la reacción del organismo  al nuevo riñón. Algunos pacientes pueden presentar durante la primera o segunda semana después del  trasplante. Hay varias formas de prevenir y tratar el rechazo, y en la mayoría de las veces, él es resuelto."
+      },
+      "PARAGRAPH_3": {
+        "TITLE": "¿Por qué es necesario tomar medicamentos especiales después del trasplante?",
+        "TEXT": "El organismo tiene un sistema muy complejo (sistema inmune) que reacciona contra órganos extraños. Como el riñón trasplantado es reconocido como “extraño”, el organismo reaccionará contra él e intentará destruirlo. Los medicamentos inmunosupresores disminuyen esa reacción."
+      }
+    },
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE": "Manual de Trasplante Renal. Disponible en: http://www.abto.org.br/abtov03/default.aspx?mn=478&c=919&s=0&friendly=manuais-de-transplantes",
+      "BUTTON": "Ok"
+    }
+  },
+  "ABOUT_MEDICINES_PAGE": {
+    "TITLE": "Sobre los medicamentos",
+    "CARD1": {
+      "TITLE": "Sobre los medicamentos"
+    },
+    "CARD2": {
+      "TITLE": "Recomendaciones",
+      "TEXT1": "Recomendaciones sobre los medicamentos"
+    }
+  },
+  "ADD_BLOOD_GLUCOSE": {
+    "TITLE": "Agregar glucosa en sangre",
+    "PLACEHOLDER": "Seleccione la fecha",
+    "TEXT": "Glucosa en sangre",
+    "OPTION1": "CANCELAR",
+    "OPTION2": "OK"
+  },
+  "ADD_BLOOD_PRESSURE": {
+    "TITLE": "Agregar presión arterial",
+    "PLACEHOLDER": "Selecciona la fecha",
+    "TEXT": "Presión Arterial",
+    "OPTION1": "CANCELAR",
+    "OPTION2": "OK"
+  },
+  "ADD_CREATININE": {
+    "TITLE": "Agregar Creatinina",
+    "PLACEHOLDER": "Selecciona la fecha",
+    "TEXT": "Creatinina",
+    "OPTION1": "CANCELAR",
+    "OPTION2": "OK"
+  },
+  "ADD_EXAM": {
+    "TITLE": "Agregar Examen",
+    "LABEL1": "Tipo de exámenes",
+    "LABEL2": "Especifica el examen",
+    "LABEL3": "Local",
+    "LABEL4": "Fecha",
+    "LABEL5": "Horario",
+    "LABEL6": "Alarma",
+    "LABEL7": "Recibir alarma",
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "ALARM_SELECT": {
+      "TITLE": "Horario de la notificación",
+      "OPTION1": "1 hora antes",
+      "OPTION2": "2 horas antes",
+      "OPTION3": "3 horas antes",
+      "OPTION4": "24 horas antes",
+      "BUTTONS": {
+        "DONE": "OK",
+        "CANCEL": "CANCELAR"
+      }
+    },
+    "EXAM_SELECT": {
+      "TITLE": "Tipo de Exámenes",
+      "BUTTON1": "Exámenes de Laboratorio",
+      "BUTTON2": "Exámenes de Imagen",
+      "BUTTON3": "Otros",
+      "BUTTON4": "Cancelar",
+      "BUTTONS": {
+        "DONE": "OK",
+        "CANCEL": "CANCELAR"
+      }
+    },
+    "BUTTON": "Guardar",
+    "DATE_TIME": {
+      "CANCEL": "CANCELAR",
+      "DONE": "Guardar"
+    },
+    "ALARM": {
+      "TITLE": "El examen será en",
+      "TITLE2": "hora",
+      "TITLE3": "horas"
+    },
+    "TOAST_MESSAGE": "Examen registrado con éxito",
+    "ERROR": {
+      "OPTION_1": "Selecciona un tipo de examen",
+      "OPTION_2": "Especifica el examen",
+      "OPTION_3": "Completa el local del examen",
+      "OPTION_4": "Selecciona la fecha del examen",
+      "OPTION_5": "Selecciona un horario"
+    }
+  },
+  "ADD_MED": {
+    "TITLE": "Agregar Medicación",
+    "LABEL1": "Nombre del remedio",
+    "LABEL2": "Tipo de dosis",
+    "LABEL3": "Cantidad",
+    "LABEL4": "Dosis",
+    "LABEL5": "A intervalos",
+    "LABEL6": "Con las comidas",
+    "LABEL7": "Frecuencia",
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "SELECT": {
+      "OPTION1": "4 en 4 horas",
+      "OPTION2": "6 en 6 horas",
+      "OPTION3": "8 en 8 horas",
+      "OPTION4": "12 en 12 horas",
+      "OPTION5": "1x al día"
+    },
+    "LABEL8": "Dosis inicial",
+    "LABEL9": "Desayuno",
+    "LABEL10": "Almuerzo",
+    "LABEL11": "Cena",
+    "LABEL12": "Recibir alarma",
+    "LABEL13": "Guardar",
+    "DATE_TIME": {
+      "CANCEL": "CANCELAR",
+      "DONE": "Guardar"
+    },
+    "SELECT_UNITY": "Selecciona una unidad",
+    "SELECT_TIME": "Selecciona un intervalo",
+    "ALARM": {
+      "TITLE": "Hora de la medicación",
+      "TEXT1": "Necesitas tomar el remedio ",
+      "TEXT2": "con la dosis de"
+    },
+    "PLACEHOLDER": "ex: Comprimido",
+    "TOAST_MESSAGE_SUCCESS": "Remedio agregado con éxito",
+    "TOAST_MESSAGE_ERROR": "Se produjo un error interno. Por favor intenta más tarde.",
+    "ERROR": {
+      "OPTION_1": "Agrega el nombre de la medicación",
+      "OPTION_2": "Selecciona un tipo de dosis",
+      "OPTION_3": "Rellena la cantidad",
+      "OPTION_4": "Rellena la dosis",
+      "OPTION_5": "Selecciona un horario"
+    }
+  },
+  "ADD_QUERY": {
+    "TITLE": "Consulta",
+    "LABEL1": "Profesional",
+    "LABEL2": "Especialidad",
+    "LABEL3": "Local",
+    "LABEL4": "Fecha",
+    "LABEL5": "Horario",
+    "LABEL6": "Alarma",
+    "LABEL7": "Recibir el alarma",
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "ALARM_SELECT": {
+      "TITLE": "Horario de la notificación",
+      "OPTION1": "1 hora antes",
+      "OPTION2": "2 horas antes",
+      "OPTION3": "3 horas antes",
+      "OPTION4": "24 horas antes",
+      "BUTTONS": {
+        "DONE": "OK",
+        "CANCEL": "CANCELAR"
+      }
+    },
+    "BUTTON": "Guardar",
+    "DATE_TIME": {
+      "CANCEL": "CANCELAR",
+      "DONE": "Guardar"
+    },
+    "SELECT_INTERVAL": "¿Quieres ser advertido?",
+    "ALARM": {
+      "TITLE": "La consulta será en",
+      "TITLE2": "hora",
+      "TITLE3": "horas"
+    },
+    "TOAST_MESSAGE": "Consulta registrada con éxito",
+    "ERROR": {
+      "OPTION_1": "Informa el nombre del profesional",
+      "OPTION_2": "Informa le especialidad del profesional",
+      "OPTION_3": "Informa el local de la consulta",
+      "OPTION_4": "Selecciona la fecha de la consulta",
+      "OPTION_5": "Selecciona un horario"
+    }
+  },
+  "ADD_TRANSPLANTED_WEIGHT": {
+    "TITLE": "Agregar peso",
+    "PLACEHOLDER1": "Selecciona la fecha",
+    "PLACEHOLDER2": "Digitar peso",
+    "TEXT": "Peso",
+    "OPTION1": "CANCELAR",
+    "OPTION2": "OK"
+  },
+  "ADD_TREATMENT_EXAM": {
+    "TITLE": "Agregar Examen",
+    "PLACEHOLDER": "Selecciona la fecha",
+    "INPUT": {
+      "CALCIUM": "Resultado de calcio",
+      "PHOSPHOR": "Resultado de fósforo",
+      "POTASSIUM": "Resultado de potasio"
+    },
+    "OPTION": {
+      "CANCEL": "CANCELAR",
+      "OK": "OK"
+    },
+    "MESSAGE": "Datos insuficientes completa la fecha y un examen"
+  },
+  "ALARM_INTERVAL_SELECT": {
+    "TITLE": "Horario de la notificación",
+    "INTERVAL": {
+      "1": "6 Horas antes",
+      "2": "12 Horas antes",
+      "3": "24 Horas antes"
+    },
+    "OPTION": "CANCELAR"
+  },
+  "ARTERIOVENOUS_FISTULA": {
+    "TITLE": "Mantenimiento del acceso vascular",
+    "SUB_TITLE": "Fístula Arteriovenosa (FAV)",
+    "TEXT1": {
+      "PARAGRAPH_1": "Después de la cirugía de confección de la fístula, el brazo debe mantenerse alto y se debe evitar el vendaje muy apretado. El flujo de la fístula, llamado de frémito, debe ser conferido diariamente.",
+      "PARAGRAPH_2": "Después de confeccionada, son necesarias aproximadamente cuatro a seis semanas para el primer uso de la fístula.",
+      "PARAGRAPH_3": "Los pacientes deben realizar ejercicios con el brazo en donde ha sido confeccionada la fístula para acelerar la maduración. En general, están orientados ejercicios como apretar una pelota de goma.",
+      "PARAGRAPH_4": "Después de la retirada de agujas de la fístula, debe realizarse compresión moderada durante, aproximadamente, 10 a 20 minutos.",
+      "PARAGRAPH_5": "Está atento: si surgen en el brazo de la fístula, cambios de color de piel, dolor, hormigueo, pérdida de sensibilidad, aumento de temperatura y lesiones o ampollas, la enfermera  o el médico que lo acompañan deben ser avisados.",
+      "PARAGRAPH_6": "Evita cargar bolsas pesadas con el brazo de la fístula y dormir sobre él, ya que puede causar una disminución del flujo de sangre.",
+      "PARAGRAPH_7": "Es prohibido verificar la presión arterial en el brazo de la fístula.",
+      "PARAGRAPH_8": "No es aconsejable tomar inyecciones o sacarle sangre al brazo que contiene la fístula."
+    },
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE": "DAUGIRDAS, J. T.; BLAKE, P. G.; ING,T. 8. Manual de la Diálise. 4 ed. Rio de Janeiro:Guanabara Koogan, 2008.",
+      "BUTTON": "Ok"
+    }
+  },
+  "AZATIOPRINA": {
+    "TITLE": "¿Que es Azatioprina?",
+    "TEXT1": "Azatioprina pertenece a una clase de medicamentos llamados inmunosupresores. Es usada para ayudar al cuerpo a aceptar el órgano trasplantado y también para tratar la artritis reumatoide.",
+    "SUB_TITLE": "Principales reacciones adversas",
+    "TEXT2": {
+      "PARAGRAPH_1": "Anemia",
+      "PARAGRAPH_2": "Disminución de glóbulos blancos, rojos e plaquetas de la sangre",
+      "PARAGRAPH_3": "Náuseas",
+      "PARAGRAPH_4": "Vómitos",
+      "PARAGRAPH_5": "Diarrea",
+      "PARAGRAPH_6": "Dolor abdominal",
+      "PARAGRAPH_7": "Toxicidad al hígado"
+    },
+    "ATTENTION": "ATENÇÃO: La lista completa de las reacciones adversas se encuentra en el folleto de ese medicamento.",
+    "ALERT": {
+      "MESSAGE": "Está atento a la aparición de alguna reacción adversa y contacta al hospital donde te acompañan.",
+      "BUTTON": "Ok"
+    }
+  },
+  "BIG_QUANTITY_PHOSPHORUS_FOOD": {
+    "TITLE": "Cantidad de fósforo en los alimentos",
+    "SUB_TITLE": "Alimentos con gran cantidad de fósforo",
+    "TEXT": {
+      "PARAGRAPH_1": "Huevo",
+      "PARAGRAPH_2": "Yogurt",
+      "PARAGRAPH_3": "Leche",
+      "PARAGRAPH_4": "Queso",
+      "PARAGRAPH_5": "Carne de res, pescado y pollo",
+      "PARAGRAPH_6": "Hígado de buey",
+      "PARAGRAPH_7": "Sardina",
+      "PARAGRAPH_8": "Cacahuete, castaña de anacardo",
+      "PARAGRAPH_9": "Alimentos industrializados",
+      "PARAGRAPH_10": "Linguiça",
+      "PARAGRAPH_11": "Salchicha",
+      "PARAGRAPH_12": "Jamón",
+      "PARAGRAPH_13": "Refrescos a base de cola",
+      "PARAGRAPH_14": "Cerveza",
+      "PARAGRAPH_15": "Galletas rellenas",
+      "PARAGRAPH_16": "Pasteles",
+      "PARAGRAPH_17": "Frijoles cocidos",
+      "PARAGRAPH_18": "Chocolate",
+      "PARAGRAPH_19": "Galleta de sal y agua"
+    },
+    "ATTENTION": "ATENÇÃO: Para ayudar en su disminución, los médicos prescriben los quelantes de fósforo. Ellos impiden que el fósforo de las comidas sea absorbido por el organismo.",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE": "MARTINS, C.T.B.; RIBEIRO JÚNIOR, E.(Orgs.). <br/>Preguntas y respuestas sobre nutrición en diálisis. São Paulo: RCN Editora, 2008. NONATO, M. La elección correcta en la enfermedad renal crónica un manual para pacientes y miembros de la  familia. Edición del autor, 2017.",
+      "BUTTON": "Ok"
+    }
+  },
+  "BLOOD_GLUCOSE": {
+    "TITLE": "Glucosa en sangre",
+    "RESULT": "Resultado",
+    "BUTTON": "Nuevo registro de glucosa en sangre",
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "TOAST_MESSAGE_ADD": "Glucosa en sangre agregada",
+    "TOAST_MESSAGE_DELETE": "Glucosa en sangre eliminada"
+  },
+  "BLOOD_PRESSURE": {
+    "TITLE": "Presión Arterial",
+    "RESULT": "Resultado",
+    "BUTTON": "Nuevo registro de presión",
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "TOAST_MESSAGE_ADD": "Presión arterial agregada",
+    "TOAST_MESSAGE_DELETE": "Presión arterial eliminada"
+  },
+  "CHANGE_PASSWORD": {
+    "TITLE": "Cambiar contraseña",
+    "TEXT1": "Nueva contraseña",
+    "TEXT2": "Confirmar nueva contraseña",
+    "VALIDATION_ERROR1": "Contraseña con mínimo de 8 caracteres",
+    "VALIDATION_ERROR2": "Contraseña no compatible",
+    "OPTION": {
+      "CANCEL": "CANCELAR",
+      "OK": "OK"
+    },
+    "ERROR_MESSAGE": "Datos inválidos",
+    "TOAST_MESSAGE_SUCCESS": "Contraseña modificada con éxito",
+    "TOAST_MESSAGE_ERROR": "Falla en modificar la contraseña"
+  },
+  "CICLOSPORINA": {
+    "TITLE": "Ciclosporina (SANDIMMUN NEORAL®) 25, 50 e 100 mg",
+    "LABEL1": "¿Que es Ciclosporina?",
+    "LABEL2": "La Ciclosporina es un remedio inmunosupresor que actúa controlando el sistema de defensa del organismo, siendo utilizado para evitar el rechazo de órganos trasplantados o para tratar algunas enfermedades.",
+    "LABEL3": "Principales reacciones adversas:",
+    "LABEL4": {
+      "PARAGRAPH_1": "Temblores",
+      "PARAGRAPH_2": "Aumento de la cantidad de pelos en el cuerpo",
+      "PARAGRAPH_3": "Presión alta",
+      "PARAGRAPH_4": "Hipertrofia gingival",
+      "PARAGRAPH_5": "Aumento de niveles de colesterol, triglicéridos, pudiendo también ocurrir hormigueos",
+      "PARAGRAPH_6": "Toxicidad renal y hepática"
+    },
+    "LABEL5": "ATENÇÃO: La lista completa de las reacciones adversas se encuentra en la bula de esa medicación.",
+    "ALERT": {
+      "MESSAGE": "Está atento al surgimiento de alguna reacción adversa y contacta al  hospital donde eres acompañado <br/> <br/> Fuente: http:/www.medicinanet.com.br/bula/detalhes/1381/reacoes adversas-Ciclosporina.html",
+      "BUTTON": "Ok"
+    }
+  },
+  "CLINIC_SELECT": {
+    "TITLE": "Seleccionar clínica o hospital",
+    "MESSAGE": {
+      "LOADING_1": "Actualizando datos...",
+      "LOADING_2": "Creando Usuario..."
+    },
+    "INPUT": {
+      "PLACEHOLDER1": "Clínica o hospital",
+      "PLACEHOLDER2": "Estado",
+      "PLACEHOLDER3": "Ciudad"
+    },
+    "OPTION": "Avanzar",
+    "SELECT_1": "Elige la ciudad",
+    "SELECT_2": "Elige el estado",
+    "TOAST_MESSAGE_SUCCESS": "Usuario creado con éxito",
+    "TOAST_MESSAGE_ERROR": "El email ya está en uso"
+  },
+  "CREATININE": {
+    "TITLE": {
+      "TITLE1": "Creatinina",
+      "TITLE2": "Creatinina de"
+    },
+    "TEXT1": "Resultado",
+    "BUTTON1": "Nuevo examen de creatinina",
+    "BUTTON2": "Ver gráficos",
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "PLACEHOLDER_TEXT": {
+      "TEXT1": "Sin registro de creatinina",
+      "TEXT2": "Aún no has registrado tu creatinina"
+    },
+    "ALERT": {
+      "TITLE": "Selecciona el Año",
+      "PLACEHOLDER": "Año",
+      "BUTTONS": {
+        "CANCELAR": "CANCELAR",
+        "SELECT": "Seleccionar"
+      }
+    },
+    "TOAST_MESSAGE_ADD": "Creatinina añadida",
+    "TOAST_MESSAGE_DELETE": "Creatinina Eliminada"
+  },
+  "CREATININE_GRAPH": {
+    "TITLE": {
+      "TITLE1": "Creatinina",
+      "TITLE2": "Creatinina de"
+    },
+    "PLACEHOLDER": {
+      "PART_1": "Agrega tus exámenes para",
+      "PART_2": "Ver los gráficos"
+    },
+    "CARD_HEADER": "Creatinina",
+    "MONTHS": [
+      "Ene",
+      "Feb",
+      "Mar",
+      "Abr",
+      "May",
+      "Jun",
+      "Jul",
+      "Ago",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dic"
+    ],
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "ALERT": {
+      "TITLE": "Selecciona el Año",
+      "PLACEHOLDER": "Año",
+      "BUTTONS": {
+        "CANCELAR": "CANCELAR",
+        "SELECT": "Seleccionar"
+      }
+    }
+  },
+  "CUP_SELECT": {
+    "OPTION": {
+      "1": "Un vaso lleno - 200ml",
+      "2": "Un vaso casi lleno - 150ml",
+      "3": "Medio vaso - 100ml",
+      "4": "Agua para el medicamento - 50ml"
+    },
+    "CANCEL": "CANCELAR",
+    "OK": "OK"
+  },
+  "DATE_SELECT": {
+    "TITLE": "Selecciona el año",
+    "CANCEL": "Cancelar",
+    "OK": "Ok",
+    "PLACEHOLDER": "Año"
+  },
+  "END_TREATMENT": {
+    "TITLE": "Cambio de tratamiento",
+    "LABEL1": "Para qué modalidad de tratamiento",
+    "LABEL2": "¿Vas  a mudar?",
+    "BUTTON": "Diálisis peritoneal",
+    "BUTTON_TREATMENT": {
+      "OPTION_1": "Trasplante renal",
+      "OPTION_2": "Hemodiálisis",
+      "OPTION_3": "Trasplante renal"
+    },
+    "LOADING": "Actualizando datos...",
+    "ALERT": {
+      "TITLE": "¿Estás seguro de que quieres cambiar el tratamiento?",
+      "BUTTONS": {
+        "CANCEL": "CANCELAR",
+        "OK": "OK"
+      }
+    },
+    "TOAST_MESSAGE_END_TREATMENT": "Tratamiento encerrado",
+    "TOAST_MESSAGE_SELECT_TREATMENT": "Tratamiento Seleccionado con éxito"
+  },
+  "EVEROLIMO": {
+    "TITLE1": "Everolimo (Certican®)",
+    "TITLE2": "0,5 mg, 0,75 mg e 1 mg",
+    "LABEL1": "¿Que es Everolimo?",
+    "PARAGRAPH_1": "El Everolimo es utilizado para ayudar en la prevención del rechazo de riñón, corazón o hígado trasplantados. Debe ser utilizado junto con otros inmunosupresores.",
+    "LABEL2": "Principales reacciones adversas:",
+    "ITEN1": "Mayor probabilidad de infecciones",
+    "ITEN2": "Anemia, disminución de plaquetas y problemas de coagulación",
+    "ITEN3": "Aumento de colesterol y triglicéridos",
+    "ITEN4": "Insomnio, ansiedad, dolor de cabeza",
+    "ITEN5": "Tos",
+    "ITEN6": "Diarrea, náuseas, vómitos",
+    "ITEN7": "Comienzo de diabetes",
+    "ITEN8": "Presión arterial alta",
+    "LABEL3": "ATENCIÓN: La lista completa de las reacciones adversas se encuentra en la bula de esa medicación.",
+    "ALERT": {
+      "MESSAGE": "Está atento al surgimiento de alguna reacción adversa y contacta al hospital donde eres acompañado ",
+      "BUTTON": "OK"
+    }
+  },
+  "EXAM_SELECT": {
+    "TITLE": "Tipo de Exámenes",
+    "BUTTON1": "Exámenes de Laboratorio",
+    "BUTTON2": "Exámenes de Imagen",
+    "BUTTON3": "Otros",
+    "BUTTON4": "Cancelar"
+  },
+  "EXAMS": {
+    "TITLE": "Exámenes",
+    "LABEL1": "Fecha del examen",
+    "COL": "Local:",
+    "LABEL2": "Sin exámenes",
+    "LABEL3": "No te olvides de marcar",
+    "LABEL4": "tus exámenes.",
+    "BUTTON": "Nuevo examen",
+    "ALARM": {
+      "ACTIVE": "Alarma activada",
+      "DISABLED": "Alarma desactivada"
+    },
+    "TOAST_MESSAGE_SUCCESS": "La Alarma del examen fue excluida con éxito",
+    "TOAST_MESSAGE_ERROR": "Ocurrió un error interno. Intenta más tarde"
+  },
+  "FAQ": {
+    "TITLE": "Dudas frecuentes",
+    "LABEL1": "¿Cómo saber se mis riñones están bien? ¿Qué exámenes debo hacer?",
+    "ACCORDION1": "Está atento al color y al aspecto de tu orina. En general, ella debe de ser “amarillo-oro”. Orina rojiza o con mucha espuma puede ser señal de problemas de los riñones.",
+    "ACCORDION2": "Si tienes dolor o dificultad para orinar, procura a un médico.",
+    "ACCORDION3": "Esté atento a la cantidad de orina que suele hacer y con cual  frecuencia",
+    "ACCORDION4": "Presencia de hinchazón (edema) en la cara  o en las piernas puede ser señal de problemas en los riñones.",
+    "ACCORDION5": "Al menos 1 vez al año, le pide al médico que solicite un examen de orina y de la creatinina en sangre.",
+    "LABEL2": "He recibido mi examen de rutina que mostró aumento de los niveles de urea y/o creatinina. ¿Necesito hacer hemodiálisis?",
+    "LABEL3": "Es necesario que tu examen sea visto por un médico, que orientará sobre lo que debe hacerse. En general, cambios en la función renal tienen diversas causas, y dependerá de su médico conducirlo de la mejor manera.",
+    "LABEL4": "¿Quién tiene más riesgo de desarrollar ERC?",
+    "ITEN1": "Ancianos (mayores de 60 años)",
+    "ITEN2": "Familiares de personas con enfermedad renal",
+    "ITEN3": "Diabéticos",
+    "ITEN4": "Hipertensos",
+    "LABEL5": "Aunque no eres parte de ninguno de esos grupos, no descuida de tu salud y haz exámenes regularmente.",
+    "LABEL6": "¿Cómo evitar el surgimiento de la ERC?",
+    "ITEN5": "Control adecuado de la presión arterial, de la glucosa en sangre (\"azúcar en la sangre\") y del peso corporal",
+    "ITEN6": "Adopción de hábitos de vida saludables",
+    "ITEN7": "Práctica de actividades físicas regulares",
+    "ITEN8": "Ingesta adecuada de agua",
+    "ITEN9": "Uso correcto de los medicamentos prescritos por tu médico",
+    "ITEN10": "No fumar",
+    "ITEN11": "Evitar uso exagerado de bebidas alcohólicas",
+    "ITEN12": "Seguir dieta con poca cantidad de sal",
+    "ITEN13": "No tomar antiinflamatorios y ningún  otro medicamento sin la orientación del médico",
+    "LABEL7": "Esas son algunas de las acciones que ayudan a prevenir el surgimiento de la ERC además de otras enfermedades."
+  },
+  "FREQUENCY_SELECT": {
+    "TITLE": "Intervalo",
+    "CANCELAR": "Cancelar"
+  },
+  "GLOMERULAR_FILTER_RATE": {
+    "TITLE": "Tasa de Filtración Glomerular (TFG)",
+    "LABEL1": "Sexo",
+    "LABEL2": "Masculino",
+    "LABEL3": "Femenino",
+    "LABEL4": "Raza negra",
+    "LABEL5": "Sí",
+    "LABEL6": "No",
+    "LABEL7": "Edad",
+    "LABEL8": "Valor de creatinina",
+    "BUTTON1": "CONFERIR RESULTADO",
+    "LABEL9": "Resultado de tu TFG: ",
+    "LABEL10": " ml/min/1.73m2",
+    "LABEL11": "Situación de tu Tasa de Filtración",
+    "LABEL12": "Función renal normal",
+    "LABEL13": "Reducción discreta de la función renal",
+    "LABEL14": "Reducción discreta a moderada ",
+    "LABEL15": " de la función renal",
+    "LABEL16": "Reducción moderada a grave ",
+    "LABEL17": " de la función renal ",
+    "LABEL18": "Reducción grave de la función renal",
+    "LABEL19": "Insuficiencia Renal",
+    "ALERT": {
+      "MESSAGE": "Rellena todos los campos correctamente"
+    }
+  },
+  "GRAFT": {
+    "TITLE": "Mantenimiento del acceso vascular",
+    "LABEL1": "Injertos (PTFE)",
+    "LABEL2": "• Los cuidados son similares a los cuidados con la fístula arteriovenosa, pero el PTFE tiene un período de maduración más corto, en general, 2 o 3 semanas.",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE": "DAUGIRDAS, J. T.; BLAKE, P. G.; ING,T. 8. Manual de Diálisis. 4 ed. Rio de Janeiro:Guanabara Koogan, 2008.",
+      "BUTTON": "OK"
+    }
+  },
+  "HISTORIC": {
+    "TITLE": "Tratamiento",
+    "LABEL1": "Presión Arterial",
+    "BUTTON1": "Nuevo registro",
+    "LABEL2": "Peso",
+    "LABEL3": "Glucosa en sangre",
+    "LABEL4": "Creatinina",
+    "PLACEHOLDER": {
+      "CREATININE": "No hay registro de creatinina",
+      "BLOOD_PRESSURE": "No hay registro de presión arterial",
+      "WEIGHT": "No hay registro de peso",
+      "GLUCOSE": "No hay registro de glucosa en sangre"
+    },
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "PLACEHOLDER_MESSAGE": "Última medicación hecha en ",
+    "TOAST_MESSAGE": {
+      "BLOOD_PRESSURE": "Presión arterial adicionada",
+      "WEIGHT": "Peso adicionado",
+      "BLOOD_GLUCOSE": "Glucosa en sangre adicionada",
+      "CREATININE": "Creatinina adicionada"
+    }
+  },
+  "HISTORIC_TREATMENT": {
+    "LABEL1": "Adiciona tus exámenes para ",
+    "LABEL2": " visualizar los gráficos",
+    "LABEL3": "Calcio",
+    "LABEL4": "Potasio",
+    "LABEL5": "Fósforo",
+    "MONTHS": [
+      "Ene",
+      "Feb",
+      "Mar",
+      "Abr",
+      "May",
+      "Jun",
+      "Jul",
+      "Ago",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dic"
+    ],
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "ALERT": {
+      "TITLE": "Selecciona el Año",
+      "PLACEHOLDER": "Año",
+      "BUTTONS": {
+        "CANCELAR": "CANCELAR",
+        "SELECT": "Seleccionar"
+      }
+    },
+    "TITLE": {
+      "TITLE1": "Exámenes",
+      "TITLE2": "Exámenes de"
+    }
+  },
+  "HISTORIC_WEIGHT": {
+    "TITLE": "Histórico de peso",
+    "LABEL1": "Peso actual",
+    "LABEL2": "Peso seco",
+    "LABEL3": "Sesión de diálisis",
+    "LABEL4": "Sin peso calculado",
+    "LABEL5": "Todavía no has hecho el cálculo de tu peso",
+    "LABEL6": " kg",
+    "BUTTON": "Calcular peso",
+    "LOADING_MESSAGE": "Actualizando datos..."
+  },
+  "HOW_ARE_YOU_TODAY": {
+    "TITLE": "Hoy",
+    "LABEL1": "Tu agenda de hoy",
+    "ITEN1": "Tus exámenes",
+    "ITEN2": "Tus consultas",
+    "ITEN3": "Tus medicaciones",
+    "LABEL2": "de",
+    "LABEL3": "¡Todo cierto!",
+    "LABEL4": "No hay compromisos hoy.",
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "STATUS": {
+      "TEXT1": " Todavía puedes beber hoy",
+      "TEXT2": "¡Atención! Todavía puedes beber hoy",
+      "TEXT3": "¡Cuidado! Alcanzaste el límite de consumo diario recomendado",
+      "TEXT4": "¡Cuidado! Pasaste del límite de consumo diario recomendado",
+      "VOLUME": "Vasos"
+    }
+  },
+  "HYPERTENSION": {
+    "TITLE1": "Sabe más sobre la ",
+    "TITLE2": "Hipertensión",
+    "LABEL1": "El control de la Hipertensión es fundamental para la reducción del riesgo de enfermedades cardiovasculares a medio y largo plazo.",
+    "LABEL2": "Medidas importantes para mantener la presión bajo control:",
+    "ITEN1": "Reducir el consumo de comidas saladas",
+    "ITEN2": "Evitar beber mucho líquido (agua, jugos, tés, café, etc.)",
+    "ITEN3": "Hacer  uso de las medicaciones antihipertensivas, según prescripción médica."
+  },
+  "INFORMATION": {
+    "TITLE": "Informaciones",
+    "COL1": "Generales",
+    "LABEL1": "Sobre los riñones",
+    "LABEL2": "¿Que son riñones?",
+    "LABEL3": "¿Cuales son las funciones principales de los riñones?",
+    "LABEL4": "Enfermedad Renal Crónica (ERC)",
+    "LABEL5": "¿Que es ERC",
+    "LABEL6": "¿Cuales las principales causas de la ERC?",
+    "LABEL7": "Señales de enfermedad renal",
+    "LABEL8": "¿Cómo es el tratamiento de la ERC?",
+    "LABEL9": "¿Cómo prevenir la ERC?",
+    "LABEL10": "Dudas más frecuentes",
+    "LABEL11": "Cuestiones",
+    "LABEL12": "En tratamiento",
+    "LABEL13": "Posibles síntomas durante la hemodiálisis",
+    "LABEL14": "Síntomas",
+    "LABEL15": "Control de la Hipertensión",
+    "LABEL16": "Sabe más sobre la Hipertensión",
+    "LABEL17": "Mantenimiento del acceso vascular",
+    "LABEL18": "Catéter de corta permanencia",
+    "LABEL19": "Fístula Arteriovenosa (FAV)",
+    "LABEL20": "Injertos (PTFE)",
+    "LABEL21": "Trasplante renal",
+    "LABEL22": "Sabe más sobre trasplante renal"
+  },
+  "INFORMATION_TRANSPLANTED": {
+    "TITLE": "Informaciones",
+    "COL1": "Generales",
+    "LABEL1": "Sobre los riñones",
+    "LABEL2": "¿Que son riñones?",
+    "LABEL3": "¿Cuales las principales funciones de los riñones?",
+    "LABEL4": "Enfermedad Renal Crónica (ERC)",
+    "LABEL5": "¿Que es la ERC?",
+    "LABEL6": "¿Cuales las principales causas de la ERC?",
+    "LABEL7": "Señales de enfermedad renal",
+    "LABEL8": "¿Cómo es el tratamiento de la ERC?",
+    "LABEL9": "¿Cómo prevenir la ERC?",
+    "LABEL10": "Dudas más frecuentes",
+    "LABEL11": "Cuestiones",
+    "LABEL12": "En tratamiento",
+    "LABEL13": "Esté atento",
+    "LABEL14": "Señales y síntomas",
+    "LABEL15": "Recomendaciones",
+    "LABEL16": "Generales",
+    "LABEL17": "Nutricionales",
+    "LABEL18": "Asistencia en otro hospital",
+    "LABEL19": "Dudas frecuentes",
+    "LABEL20": "Dudas"
+  },
+  "INTERCURREN_HEMODIALYSIS": {
+    "TITLE": "Síntomas",
+    "LABEL1": "Hipotensión",
+    "LABEL2": "(Presión arterial baja)",
+    "LABEL3": "Una de las causas es la remoción de líquidos (ultrafiltración) durante el tratamiento.",
+    "LABEL4": "Como prevenir: reducir el consumo de comidas muy saladas, no ganar mucho peso entre las sesiones, no se alimentar inmediatamente antes o durante la hemodiálisis.",
+    "LABEL5": "Calambres",
+    "LABEL6": "Causas principales: la hipotensión, paciente con bajo peso seco y la alta velocidad en la retirada de líquidos.",
+    "LABEL7": "Como evitar: no ganar mucho peso entre las sesiones de hemodiálisis.",
+    "LABEL8": "Náuseas y vómitos",
+    "LABEL9": "Pueden tener varias causas, pero la principal es la hipotensión.",
+    "LABEL10": "Como evitar: la principal medida preventiva es evitar los episodios de hipotensión",
+    "LABEL11": "Dolor de cabeza (cefalalgia)",
+    "LABEL12": "Sus causas, en general, son desconocidas. En pacientes que beben café, la cefalalgia puede ser una manifestación de abstinencia de la cafeína, porque su concentración en la sangre es reducida durante la hemodiálisis.",
+    "LABEL13": "Habla con los profesionales de salud que te acompañan.",
+    "LABEL14": "Fiebre y escalofríos",
+    "LABEL15": "Pueden ser señales de infección relacionada al acceso vascular, al propio sistema de diálisis o a otros factores.",
+    "LABEL16": "Si has presentado eses síntomas en casa, comunica al equipo antes de empezar la hemodiálisis, para que seas  evaluado. Si ocurren durante la sesión, el equipo conducirá su tratamiento.",
+    "LABEL17": "Picor (prurito)",
+    "LABEL18": "Puede ser una manifestación de hipersensibilidad discreta al dialisador (capilar) o a los componentes de la línea de sangre, o incluso a la Heparina.",
+    "LABEL19": "Habla con los profesionales de salud que te acompañan."
+  },
+  "INTERNET_ERROR": {
+    "TITLE": "Sin conexión",
+    "LABEL1": "Conexión indisponible",
+    "LABEL2": "Verifica tu internet e intenta de nuevo más tarde",
+    "BUTTON1": "Intentar de nuevo",
+    "BUTTON2": "Volver al menú"
+  },
+  "LARGE_AMOUNT_SALT_FOOD": {
+    "TITLE1": "Cantidad de sodio ",
+    "TITLE2": "en los alimentos",
+    "LABEL1": "Alimentos con gran cantidad",
+    "LABEL2": "de sodio:",
+    "LABEL3": "ATENCIÓN: Las palabras 'sodio' e 'sal' son usadas como si fueran lo mismo, pero no lo son. El sodio está presente en muchos alimentos y el sal de cocina es su principal fuente.",
+    "ITEN1": "Cubitos de caldo o pollo para sazonar alimentos",
+    "ITEN2": "Salchichón",
+    "ITEN3": "Aceituna",
+    "ITEN4": "Queso parmesano, plato, mozzarella, requesón cremoso",
+    "ITEN5": "Tocino frito",
+    "ITEN6": "Galleta de sal y agua",
+    "ITEN7": "Mortadela, jamón",
+    "ITEN8": "Salchicha",
+    "ITEN9": "Margarina con sal",
+    "ITEN10": "Pizza de mozzarella",
+    "ITEN11": "Maíz enlatado",
+    "ITEN12": "Salsa de tomate enlatada",
+    "ITEN13": "Paquete de sopa",
+    "ITEN14": "Sardinas y atún enlatados",
+    "ITEN15": "Salsa de soya (shoyu)",
+    "ITEN16": "Carne seca",
+    "ITEN17": "Castañas y cacahuetes tostados y salados",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE": "CUPPARI, L; AVESANI, C.M; KAMIMURA, M. A. Nutrición en la Enfermedad Renal Crónica. 1. ed. Barueri, SP: Manole, 2013. MARTINS, C.T.B.; RIBEIRO JUNIOR, E. (Orgs.). Preguntas y respuestas sobre nutrición en diálisis. São Paulo: RCN Editora, 2008.",
+      "BUTTON": "Ok"
+    }
+  },
+  "LARGE_AMOUNT_POTASSIUM_FOODS": {
+    "TITLE1": "Cantidad de potasio",
+    "TITLE2": "en los alimentos",
+    "LABEL1": "Alimentos con gran cantidad",
+    "LABEL2": "de potasio:",
+    "LABEL3": "ATENCIÓN: La cocción en agua de frutas, y verduras pelados reduce 60% del potasio contenido en ellos.",
+    "ITEN1": "1 Plátano enano medio",
+    "ITEN2": "Medio vaso de agua de coco",
+    "ITEN3": "Frutas secas (ciruela, uva-pasa, albaricoque)",
+    "ITEN4": "Extracto de tomate, tomate seco",
+    "ITEN5": "Jugo de caña de azúcar",
+    "ITEN6": "1 concha pequeña de frijoles",
+    "ITEN7": "3 cucharas (sopa) de remolacha cruda",
+    "ITEN8": "1 platillo (té) de acelga cruda",
+    "ITEN9": "1 tajada media de papaya",
+    "ITEN10": "1 naranja pera media",
+    "ITEN11": "Chocolate, achocolatado",
+    "ITEN12": "Caldo de frijoles, de soya, garbanzos y lentejas",
+    "ITEN13": "Salsa de frutas",
+    "ITEN14": "Jugos concentrados de frutas",
+    "ITEN15": "Vinos",
+    "ITEN16": "Refrescos a base de naranja",
+    "ITEN17": "Frutas oleaginosas (cacahuete, castaña, avellana, almendras, piñón, nueces)",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE": "MARTINS, C.T.B.; RIBEIRO JÚNIOR, E.(Orgs.). Preguntas y respuestas sobre nutrición en diálisis. São Paulo: RCN Editora, 2008. NONATO, M. La elección correcta  en la enfermedad renal crónica un manual para pacientes y familiares. Edición del autor, 2017. CUPPARI, L.(coord.). Nutrición: en las enfermedades crónicas no-transmisibles. Barueri, SP: Manole, 2009.",
+      "BUTTON": "Ok"
+    }
+  },
+  "LIQUID_CONTROLLER": {
+    "TITLE": "Control de líquidos",
+    "LABEL1": "Límite diario recomendado",
+    "LABEL2": "Cantidad ingerida",
+    "LABEL3": "¡Atención!",
+    "LABEL4": "Aún no hay registro de líquido ingerido hoy.",
+    "LABEL5": "Agrega el líquido que bebiste",
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "ALERT": {
+      "TITLE": "Límite diario de líquidos",
+      "TITLE2": "Le pregunta a tu médico",
+      "INPUT_PLACEHOLDER": "Digita la cantidad en ml",
+      "BUTTONS": {
+        "CANCEL": "CANCELAR",
+        "SELECT": "Ok"
+      }
+    },
+    "OPTIONS": {
+      "OPTION1": "Un vaso lleno - 200ml",
+      "OPTION2": "Un vaso casi lleno - 150ml",
+      "OPTION3": "Medio vaso - 100ml",
+      "OPTION4": "Agua para el medicamento - 50ml"
+    },
+    "ALERT2": {
+      "TITLE": "Control de líquidos",
+      "MESSAGE": "Como en la ERC los riñones no consiguen eliminar, a través de la orina, todo el líquido que tú has ingerido, es común que el exceso se acumule en tu organismo, pudiendo causar hinchazón, aumento de la presión y hasta  el edema pulmonar agudo (exceso de líquido no pulmón).",
+      "BUTTON": "Ok"
+    },
+    "STATUS": {
+      "OPTION1": "Aún puedes beber hoy",
+      "OPTION2": "¡Atención! aún puedes beber hoy",
+      "OPTION3": "¡Cuidado! Has alcanzado el límite de consumo diario recomendado",
+      "OPTION4": "¡Cuidado! Has pasado del límite de consumo diario recomendado",
+      "VOLUME": "Vasos"
+    },
+    "TOAST_MESSAGE_LIMIT_CHANGE": "Límite diario modificado",
+    "TOAST_MESSAGE_CUP_ADD": "Vaso adicionado"
+  },
+  "LOGIN": {
+    "PLACEHOLDER": "Contraseña",
+    "BUTTON": "Acceder",
+    "LABEL_BUTTON_1": "Registrarse",
+    "LABEL_BUTTON_2": "Olvidé mi contraseña",
+    "LABEL_BUTTON_3": {
+      "PART_1": "Quisiera",
+      "PART_2": "informaciones sobre Enfermedad Renal"
+    },
+    "LOADING_MESSAGE": "Espera ...",
+    "TOAST": {
+      "MESSAGE": {
+        "OPTION1": "Datos incorrectos",
+        "OPTION2": "Error al conectarse al servidor"
+      }
+    },
+    "ALERT": {
+      "TITLE": "Olvidé mi contraseña",
+      "MESSAGE": "Digita el e-mail registrado",
+      "BUTTONS": {
+        "OPTION1": "CANCELAR",
+        "OPTION2": "Ok"
+      },
+      "ERROR": {
+        "SUCCESS": "Correo electrónico enviado con nueva contraseña",
+        "FAIL_1": "¡No hay usuario con este correo electrónico!",
+        "FAIL_2": "Email incorrecto"
+      }
+    },
+    "TOAST_MESSAGE_SUCCESS": "Usuario conectado con éxito"
+  },
+  "LOW_MEDIUM_AMOUNTS_POTASSIUM_FOODS": {
+    "TITLE1": "Cantidad de potasio",
+    "TITLE2": "en los alimentos",
+    "LABEL1": "Alimentos con pequeña y media",
+    "LABEL2": "cantidad de potasio:",
+    "LABEL3": "ATENÇÃO: La carambola, además de su contenido de potasio, tiene una sustancia tóxica que puede causar desde hipo hasta coma y la muerte de pacientes con ERC. Por lo tanto, NUNCA",
+    "ITEN1": "1 pera media",
+    "ITEN2": "1 plátano manzana media",
+    "ITEN3": "1 caqui medio",
+    "ITEN4": "2 platillo de té de jabuticaba",
+    "ITEN5": "1 tajada media de ananás",
+    "ITEN6": "10 fresas",
+    "ITEN7": "10 acerolas",
+    "ITEN8": "1 tajada media de sandía",
+    "ITEN9": "Medio mango de tamaño medio",
+    "ITEN10": "1 ciruela fresca media",
+    "ITEN11": "Medio vaso de jugo de limón",
+    "ITEN12": "Medio durazno mediano",
+    "ITEN13": "5 hojas de lechuga",
+    "ITEN14": "2 platillos de té de berro",
+    "ITEN15": "Medio pepino pequeño",
+    "ITEN16": "1 platillo de té de repollo",
+    "ITEN17": "1 tomate pequeño",
+    "ITEN18": "3 rábanos medianos",
+    "ITEN19": "1 pimiento mediano",
+    "ITEN20": "Media zanahoria mediana",
+    "ITEN21": "1 platillo de té de escarola",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE": "MARTINS, C.T.B.; RIBEIRO JÚNIOR, E. (Orgs.). Preguntas y respuestas sobre nutrición en diálisis. São Paulo: RCN Editora, 2008.",
+      "BUTTON": "Ok"
+    }
+  },
+  "MAIN_CAUSES_DRC": {
+    "TITLE": "Enfermedad Renal Crónica",
+    "LABEL1": "¿Cuales las principales causas de la ERC?",
+    "ITEN1": "Hipertensión",
+    "ITEN2": "Diabetes",
+    "ITEN3": "Glomerulonefritis (enfermedades que causan inflamaciones y daños a los riñones)",
+    "ITEN4": "Riñones poliquísticos",
+    "ITEN5": "Malformaciones de los riñones",
+    "ITEN6": "Lupus",
+    "ITEN7": "Causas obstructivas (cálculos renales, tumores y aumento de la próstata)",
+    "ITEN8": "Infección urinaria (repetidas veces)",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE": "National Kidney Foundation(www.kidney.org)",
+      "BUTTON": "Ok"
+    }
+  },
+  "MAIN_SYMPTOMS_DRC": {
+    "TITLE": "Enfermedad Renal Crónica",
+    "LABEL1": "Señales de enfermedad renal",
+    "LABEL2": "Debilitado y cansado",
+    "LABEL3": "Con náuseas",
+    "LABEL4": "Hinchado",
+    "ITEN1": "Presión arterial elevada (aunque usando medicación)",
+    "ITEN2": "Hinchazón (edema) alrededor de los ojos y en las piernas",
+    "ITEN3": "Debilidad constante",
+    "ITEN4": "Falta de apetito",
+    "ITEN5": "Anemia (lividez)",
+    "ITEN6": "Náuseas y vómitos frecuentes",
+    "ITEN7": "Dificultad de orinar",
+    "ITEN8": "Quemazón o dolor cuando orina",
+    "ITEN9": "Orinar muchas veces, principalmente por la noche",
+    "ITEN10": "Orina rojiza (hematuria)",
+    "ITEN11": "Orina con mucha espuma (proteinuria)",
+    "ITEN12": "Dolor de espalda baja",
+    "ITEN13": "Historia de cálculos renales",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE1": "Sociedad Brasileña de Nefrología",
+      "MESSAGE2": "(http://sbn.org.br/publico/doencas-comuns/sinais-de-doenca-renal/)",
+      "BUTTON": "Ok"
+    }
+  },
+  "MEDICATIONS": {
+    "TITLE": "Medicaciones",
+    "LABEL1": "Intervalo",
+    "LABEL2": "Frecuencia",
+    "LABEL3": "Dosis inicial",
+    "LABEL4": "¡Sin medicaciones!",
+    "LABEL5": "No olvida de adicionar",
+    "LABEL6": "Tus remedios.",
+    "BUTTON": "Nuevo medicamento",
+    "ALARM": {
+      "OPTION1": "Activar alarma",
+      "OPTION2": "Desactivar alarma",
+      "MESSAGE1": "Alarma activado",
+      "MESSAGE2": "Alarma desactivado"
+    },
+    "ALARM_OPTIONS": {
+      "TITLE": "Opciones",
+      "OPTIONS": {
+        "_1": "Excluir",
+        "_2": "Editar",
+        "_3": "Cancelar"
+      }
+    },
+    "TOAST_MESSAGE_SUCCESS": "Registro de los medicamentos há sido eliminado com éxito",
+    "TOAST_MESSAGE_ERROR": "Ocurrió un error interno. Intenta más tarde"
+  },
+  "MEDICATIONS_RECOMMENDATIONS": {
+    "TITLE": "Recomendaciones sobre medicamentos",
+    "ITEN1": "Toma tus medicaciones como le indique tu médico. Respeta los horarios y las dosis que él prescribió.",
+    "ITEN2": "No interrumpe el tratamiento con tus medicaciones sin antes consultar a tu médico o al equipo de salud que te acompaña.",
+    "ITEN3": "Mantén tus medicaciones guardadas fuera del alcance de los niños. Almacena lejos del calor y de la luz directa, en un lugar seco e aireado. No guarda medicamentos expirados (debes devolverlos al hospital)",
+    "ITEN4": "En cada consulta, el médico que te acompaña hará la evaluación de tus exámenes de sangre, y los ajustes necesarios en tu medicación. Informa la presencia de cualquier efecto negativo relacionado al uso de tus medicamentos.",
+    "ITEN5": "Si hay olvido, toma tan pronto como recuerdes, si todavía es el mismo día. Nunca tomar la dosis en doble. Si erres la dosis, ten en cuenta el hecho y comenta con el médico en la próxima consulta.",
+    "ITEN6": "Jamás tomar cualquier medicamento que no ha sido prescrito por el médico.",
+    "ITEN7": "Llevar siempre contigo  tu última receta.",
+    "ITEN8": "Mantener siempre las medicaciones en sus embalajes originales.",
+    "ITEN9": "Aprender los nombres de los medicamentos y saber para qué ellos sirven.",
+    "ITEN10": "No cambiar los medicamentos de caja, ni juntarlos con otros.",
+    "ITEN11": "Si surgen efectos imprevistos, como vómitos, urticaria, dolor de cabeza, dolor de estómago, informar inmediatamente al médico.",
+    "ITEN12": "Si un médico que no sea del servicio que te acompaña prescribir alguna medicación y tú tienes duda si puedes tomarla, entra en contacto con el equipo del trasplante.",
+    "ITEN13": "No toma los inmunosupresores antes de la colecta de sangre para los exámenes de laboratorio y recuérdate de tomarlos después de la colecta.",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE": "Manual de Trasplante Renal - ABTO (http://www.abto.org.br/)",
+      "BUTTON": "Ok"
+    }
+  },
+  "MEDIUM_QUANTITY_PHOSPHORUS_FOOD": {
+    "TITLE1": "Cantidad de fósforo",
+    "TITLE2": "en los alimentos",
+    "LABEL1": "Alimentos con pequeña y media cantidad de fósforo:",
+    "ITEN1": "Frutas",
+    "ITEN2": "Legumbres",
+    "ITEN3": "Verduras",
+    "ITEN4": "Papa",
+    "ITEN5": "Arroz",
+    "ITEN6": "Maíz",
+    "ITEN7": "Yuca",
+    "ITEN8": "Leche de soya",
+    "ITEN9": "Jugo de fruta",
+    "ITEN10": "Refresco a base de guaraná  limón",
+    "ITEN11": "Queso minas frescal",
+    "ITEN12": "Ricotta",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE": "CUPPARI, L; AVESANI, CM; KAMIMURA, M. A. Nutrición en la Enfermedad Renal Crónica. 1. ed.Barueri, SP: Manole, 2013. NONATO, M. La elección correcta en la enfermedad renal crónica un manual para pacientes y miembros de la familia. Edición del autor, 2017.",
+      "BUTTON": "Ok"
+    }
+  },
+  "MICOFENOLATO_SODICO": {
+    "TITLE": "Micofenolato Sódico (Myfortic®) 360 mg",
+    "LABEL1": "¿Que es el Micofenolato?",
+    "LABEL2": "El Micofenolato es usado para prevenir el rechazo al trasplante renal. Es usado junto a otros medicamentos como Ciclosporina y Corticosteroides.",
+    "LABEL3": "Principales reacciones adversas:",
+    "LABEL4": "ATENÇÃO: La lista completa de las reacciones adversas se encuentra en la bula de esa medicación.",
+    "ITEN1": "Diarrea",
+    "ITEN2": "Disminución de las células blancas de la sangre",
+    "ITEN3": "Vómitos",
+    "ITEN4": "Estreñimiento",
+    "ITEN5": "Náuseas",
+    "ITEN6": "Acidez estomacal",
+    "ITEN7": "Dolor de estómago",
+    "ITEN8": "Pérdida de apetito",
+    "ITEN9": "Gases",
+    "ITEN10": "Gastritis",
+    "ALERT": {
+      "MESSAGE1": "Está atento al surgimiento de alguna reacción adversa y contacta al hospital donde eres acompañado ",
+      "MESSAGE2": "Fuente: http:/www.saude.rs.gov.br/upload/1427829457_IMUNOSSUPRESSAO%20EM%20TRANSPLANTES.pdf",
+      "BUTTON": "Ok"
+    }
+  },
+  "MICROFENOLATO_MOFETIL": {
+    "TITLE": "Micofenolato Mofetil (Cell Cept®) 500 mg",
+    "LABEL1": "¿Que es el Micofenolato?",
+    "LABEL2": "El Micofenolato es usado para prevenir el rechazo al trasplante renal. Es usado junto a otros medicamentos como Ciclosporina e Corticosteroides.",
+    "LABEL3": "Principales reacciones adversas:",
+    "LABEL4": "ATENÇÃO: La lista completa de las reacciones adversas se encuentra en la bula de esa medicación.",
+    "ITEN1": "Diarrea",
+    "ITEN2": "Disminución de las células blancas de la sangre",
+    "ITEN3": "Vómitos",
+    "ITEN4": "Estreñimiento",
+    "ITEN5": "Náuseas",
+    "ITEN6": "Acidez estomacal",
+    "ITEN7": "Dolor de estómago",
+    "ITEN8": "Pérdida de apetito",
+    "ITEN9": "Gases",
+    "ALERT": {
+      "MESSAGE1": "Está atento al surgimiento de alguna reacción adversa y contacta al hospital donde eres acompañado",
+      "MESSAGE2": "Fuente: http:/www.saude.rs.gov.br/upload/1427829457_IMUNOSSUPRESSAO%20EM%20TRANSPLANTES.pdf",
+      "BUTTON": "Ok"
+    }
+  },
+  "NOT_PATIENT": {
+    "TITLE": "No soy paciente",
+    "COL1": "Informaciones",
+    "LABEL1": "Sobre los riñones:",
+    "LABEL2": "¿Qué son riñones?",
+    "LABEL3": "¿Cuales las principales funciones de los riñones?",
+    "LABEL4": "Enfermedad Renal Crónica (ERC)",
+    "LABEL5": "¿Que es ERC?",
+    "LABEL6": "¿Cuales las principales causas da ERC?",
+    "LABEL7": "Señales de la enfermedad renal",
+    "LABEL8": "¿Cómo es o tratamiento de la ERC?",
+    "LABEL9": "¿Cómo prevenir la ERC?",
+    "LABEL10": "Dudas frecuentes",
+    "LABEL11": "Cuestiones",
+    "LABEL12": "Testes",
+    "LABEL13": "Test sin examen",
+    "LABEL14": "Testa tu hidratación",
+    "LABEL15": "Cuestionario",
+    "LABEL16": "Test con examen",
+    "LABEL17": "Tasa de filtración glomerular"
+  },
+  "NUTRITIONAL_TABLE": {
+    "TITLE": "Tabla nutricional",
+    "LABEL1": "Fósforo",
+    "LABEL2": "Alimentos con gran cantidad",
+    "LABEL3": "Alimentos con media y pequeña cantidad",
+    "LABEL4": "Potasio",
+    "LABEL5": "Alimentos con gran cantidad",
+    "LABEL6": "Alimentos con media y pequeña cantidad",
+    "LABEL7": "Sodio",
+    "LABEL8": "Alimentos con gran cantidad"
+  },
+  "PILL_SELECT": {
+    "TITLE": "Tipo de la Dosificación",
+    "LABEL1": "Ampolla",
+    "LABEL2": "Comprimido",
+    "LABEL3": "Gotas",
+    "LABEL4": "Solución (ml)",
+    "LABEL5": "CANCELAR"
+  },
+  "PREDNISONA": {
+    "TITLE": "Prednisona 5 mg e 20 mg",
+    "LABEL1": "¿Que es Prednisona?",
+    "LABEL2": "La Prednisona está indicada para el tratamiento de enfermedades endócrinas, osteomusculares, reumáticas, del colágeno, dermatológicas, alérgicas, oftálmicas, respiratorias, hematológicas, neoplásicas y otras que respondan a la terapia con corticosteroides.",
+    "LABEL3": "Principales reacciones adversas:",
+    "LABEL4": "ATENÇÃO: La lista completa de las reacciones adversas se encuentra en la bula de esa medicación.",
+    "ITEN1": "Úlcera péptica",
+    "ITEN2": "Catarata",
+    "ITEN3": "Espina",
+    "ITEN4": "Aumento del apetito",
+    "ITEN5": "Diabetes mellitus",
+    "ITEN6": "Retención de líquidos",
+    "ITEN7": "Presión alta",
+    "ITEN8": "Osteoporosis",
+    "ALERT": {
+      "MESSAGE1": "Está atento al surgimiento de alguna reacción adversa y contacta al hospital donde eres acompañado",
+      "MESSAGE2": "Fuente: http:/www.medicinanet.com.br/bula/detalhes/4208/reacoes_adversas_prednisona.html",
+      "BUTTON": "Ok"
+    }
+  },
+  "PREVENT_DRC": {
+    "TITLE": "Enfermedad Renal Crónica",
+    "LABEL1": "¿Cómo puedo prevenir la ERC?",
+    "ITEN1": "Practicar ejercicios físicos regularmente",
+    "ITEN2": "Evitar el exceso en el consumo de carne roja e grasa",
+    "ITEN3": "Controlar el peso corporal",
+    "ITEN4": "Controlar la presión arterial",
+    "ITEN5": "Controlar el colesterol y la glucosa en la sangre",
+    "ITEN6": "No fumar",
+    "ITEN7": "No abusar de las bebidas alcohólicas",
+    "ITEN8": "Realizar, una vez al año, exámenes laboratorio para evaluar la salud de los riñones: dosificación de creatinina en la  sangre y análisis de orina",
+    "ITEN9": "Consultar regularmente tu médico",
+    "ITEN10": "No hacer uso de medicamentos, como los antiinflamatorios, sin la prescripción médica",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE1": "Sociedad Brasileña de Nefrología",
+      "MESSAGE2": "(http://sbn.org.br/publico/previna-se/como-se-previnir/)",
+      "BUTTON": "Ok"
+    }
+  },
+  "PROFILE": {
+    "TITLE": "Perfil",
+    "LABEL1": "pt/BR",
+    "LABEL2": "en/US",
+    "LABEL3": "es/ES",
+    "LABEL4": "Tratamiento actual",
+    "LABEL5": "Guardar",
+    "LABEL6": "Cambiar contraseña",
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "SELECT_TITLE1": "Elige el estado",
+    "SELECT_TITLE2": "Elige la ciudad",
+    "TREATMENT": {
+      "TYPE1": "Hemodiálisis",
+      "TYPE2": "Trasplante renal",
+      "TYPE3": "Conservador"
+    },
+    "ALERT": {
+      "TITLE": "Elige el lenguaje",
+      "BUTTONS": {
+        "_1": "Cancelar",
+        "_2": "Guardar"
+      }
+    },
+    "TOAST_MESSAGE_SUCCESS": "Usuario modificado con éxito",
+    "TOAST_MESSAGE_ERROR": "Falla al modificar al usuario"
+  },
+  "QUERY": {
+    "TITLE": "Consultas",
+    "LABEL1": "Fecha de la consulta",
+    "LABEL2": "¡Sin consultas!",
+    "LABEL3": "No olvides marcar",
+    "LABEL4": "tus consultas.",
+    "BUTTON": "Nueva consulta",
+    "ALARM": {
+      "OPTION1": "Activar alarma",
+      "OPTION2": "Desactivar alarma",
+      "MESSAGE1": "Alarma activada",
+      "MESSAGE2": "Alarma desactivada"
+    },
+    "TOAST_MESSAGE_SUCCESS": "Consulta eliminada com éxito"
+  },
+  "QUESTION": {
+    "TITLE": "Cuestionario",
+    "LABEL1": "Email",
+    "LABEL2": "Nombre completo",
+    "LABEL3": "Contesta a las cuestiones de ese test y averigua si tienes algún de los principales factores de riesgo para Enfermedad Renal Crónica.",
+    "LABEL4": "Sí",
+    "LABEL5": "No",
+    "BUTTON": "Comprobar resultado",
+    "LOADING_MESSAGE": "Aguarda...",
+    "QUIZ": [
+      "1- Yo tengo entre 50 e 59 años de edad",
+      "2- Yo tengo entre 60 e 69 años de edad",
+      "3- Yo tengo 70 años de edad o más",
+      "4- Yo soy mujer",
+      "5- Yo he tenido/tengo anemia",
+      "6- Yo tengo presión alta",
+      "7- Yo soy diabético",
+      "8- He tenido un ataque cardíaco (infarto) o derrame/AVC/AVE",
+      "9- Yo tengo insuficiencia cardíaca congestiva o insuficiencia cardíaca",
+      "10- Yo  tengo problema de circulación/enfermedad circulatoria en mis piernas",
+      "11- Mi examen mostró que tengo pérdida de proteína en mi orina"
+    ],
+    "ALERT": {
+      "RESULT": {
+        "_1": "Tú, probablemente, no tienes una enfermedad renal ahora, pero, al menos una vez al año, debes hacer esa investigación.",
+        "_2": "Tú tienes 1 chance en 5 de tener enfermedad renal crónica. <br/> <br/> En la próxima visita a un médico, un simple examen de sangre debe ser pedido. Solamente un profesional de salud puede determinar con certeza si tú tienes enfermedad renal."
+      },
+      "BUTTON": "Ok"
+    },
+    "ERRORS": {
+      "OPTION1": "Email no informado",
+      "OPTION2": "Email inválido",
+      "OPTION3": "Nombre no informado",
+      "OPTION4": "Cuestionario incompleto"
+    }
+  },
+  "SCHEDULE": {
+    "TITLE": "Agenda",
+    "LABEL1": "Medicaciones",
+    "LABEL2": "Próxima medicación:",
+    "LABEL3": "A las",
+    "COL1": "No hay medicaciones agendadas",
+    "BUTTON1": "Lista",
+    "BUTTON2": "Nuevo medicamento",
+    "LABEL4": "Calendario de exámenes",
+    "LABEL5": "Próximo examen: día ",
+    "LABEL6": "No hay exámenes agendados",
+    "BUTTON3": "Nuevo examen",
+    "LABEL7": "Consultas",
+    "LABEL8": "Próxima consulta: día ",
+    "LABEL9": "No hay consultas agendadas",
+    "BUTTON4": "Nueva consulta"
+  },
+  "SELECT_TREATMENT": {
+    "TITLE": "Selecciona el tratamiento",
+    "LABEL1": "¡Ola, sé bienvenido!",
+    "LABEL2": "¿Tú eres un paciente en que tratamiento?",
+    "BUTTON1": "Hemodiálisis",
+    "BUTTON2": "Trasplante renal",
+    "BUTTON3": "Tratamiento conservador",
+    "BUTTON4": "Diálisis peritoneal",
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "TOAST_MESSAGE_SUCCESS": "Tratamiento Seleccionado con éxito"
+  },
+  "SERVICE_TERM": {
+    "TITLE": "Termo de uso del aplicativo",
+    "LABEL1": "El Renal Health es un aplicativo desarrollado por un equipo de investigadores de la área de salud de la Universidad de Fortaleza para informar a la población sobre la enfermedad renal crónica (ERC) y ayudar a los pacientes renales que están en tratamiento a que sigan a las orientaciones y a mejor entender sobre la enfermedad.",
+    "LABEL2": "Algunos datos que coloques en el aplicativo serán colectados por los investigadores para la realización de pesquisas, dentro del contexto académico, con el objetivo de evaluar o desempeño del aplicativo e si su uso está asociado a la reducción de las intercurrencias en el tratamiento y de las complicaciones de la ERC.",
+    "LABEL3": "La identidad de los usuarios es mantenida en sigilo, o sea, tu  participación es anónima y tus datos personales no serán divulgados",
+    "LABEL4": "Es importante recordar que, aunque usando el aplicativo Renal Health, el paciente deberá seguir las orientaciones de los profesionales de salud que lo acompañan. Además, la eficacia del aplicativo Renal Health depende de la digitación correcta de los datos del paciente y de la adhesión a las orientaciones.",
+    "LABEL5": "En el caso de esclarecimientos de dudas, por favor entra en contacto con los coordinadores del Proyecto Renal Health:",
+    "LABEL6": "Dr. Geraldo Bezerra",
+    "LABEL7": "(E-mail: geraldobezerrajr@unifor.br)",
+    "LABEL8": "Enfermera Juliana Oliveira",
+    "LABEL9": "(E-mail: julianaoliveira@edu.unifor.br)",
+    "LABEL10": "Universidad de Fortaleza Dirección: Avenida Washington Soares, 1321, Fortaleza-Ceará. Teléfono: (85) 3477 3280",
+    "LABEL11": "Al aceptar ese Termo de Uso, tendrás acceso a todas funcionalidades del aplicativo Renal Health y permitirás que tus datos sean recolectados anónimamente por investigadores.",
+    "BUTTON1": "Aceptar",
+    "BUTTON2": "Rechazar",
+    "LOADING_MESSAGE": "Creando Usuario...",
+    "TOAST_MESSAGE_SUCCESS": "Usuario creado con éxito"
+  },
+  "SHORT_STAY_CATHETER": {
+    "TITLE": "Mantenimiento del acceso vascular",
+    "LABEL1": "Catéter de corta permanencia:",
+    "ITEN1": "Durante el manejo del catéter, el equipo de profesionales de la diálisis y el paciente deben usar máscaras.",
+    "ITEN2": "La luz y las puntas del catéter nunca deben permanecer expuestas al medio ambiente.",
+    "ITEN3": "El vendaje del catéter debe ser mantenido siempre seco y solo deberá ser cambiado por profesionales de salud entrenados para la realización de vendajes estériles. Los pacientes deben protegerlo de cualquier contacto con el agua porque  vendajes húmedos pueden favorecer el surgimiento de infecciones.",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE": "DAUGIRDAS, J. T.; BLAKE, P. G.; ING,T. S. Manual da Diálise.4 ed. Rio de Janeiro:Guanabara Koogan, 2008.",
+      "BUTTON": "Ok"
+    }
+  },
+  "SIGN_UP": {
+    "TITLE": "Te cadastra",
+    "ITEN1": "Email inválido",
+    "ITEN2": "Email no compatible",
+    "ITEN3": "Contraseña con mínimo de 8 caracteres",
+    "ITEN4": "Contraseña no compatible",
+    "ITEN5": "Fecha de Nacimiento",
+    "ITEN6": "Campo Obligatorio",
+    "BUTTON": "Avanzar",
+    "PLACEHOLDER_1": "Nombre",
+    "PLACEHOLDER_2": "Apellido",
+    "PLACEHOLDER_3": "Email",
+    "PLACEHOLDER_4": "Confirmar Email",
+    "PLACEHOLDER_5": "Contraseña",
+    "PLACEHOLDER_6": "Confirmar Contraseña",
+    "TOAST_MESSAGE": "Llena todos los campos correctamente"
+  },
+  "SIGNAL_AND_SYMPTONS": {
+    "TITLE": "Señales y síntomas",
+    "LABEL1": "Si identificas algunos de eses señales y síntomas, busca inmediatamente el servicio de trasplante que te acompaña.",
+    "ITEN1": "Dolor o hinchazón en el sitio de la cirugía",
+    "ITEN2": "Temperatura superior 37,5 grados",
+    "ITEN3": "Disminución de la cantidad de orina",
+    "ITEN4": "Alto aumento de peso en poco tiempo",
+    "ITEN5": "Hinchazón (edema) de párpados, manos o pies",
+    "ITEN6": "Dolor al orinar",
+    "ITEN7": "Orina con sangre o con mal olor",
+    "ITEN8": "Aumento en la presión sanguínea con la mínima mayor que 100 mm Hg",
+    "ITEN9": "Tos o falta de aliento",
+    "ITEN10": "Pérdida de la sensación de bienestar",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE1": "Manual de Trasplante",
+      "MESSAGE2": "Renal - ABTO<br/>(http://www.abto.org.br/abtovo3)",
+      "BUTTON": "Ok"
+    }
+  },
+  "SIROLIMO": {
+    "TITLE": "Sirolimo (Rapamune®) 1 mg",
+    "LABEL1": "¿Que es Sirolimo?",
+    "LABEL2": "El Sirolimo es un inmunosupresor (medicamento que inhibe el sistema inmunológico) indicado para prevención del rechazo de órganos en trasplantados renales.",
+    "LABEL3": "Principales reacciones adversas:",
+    "LABEL4": "Buscar inmediata atención médica en la ocurrencia de cualquier una de las reacciones adversas anteriores.",
+    "LABEL5": "ATENCIÓN: La lista completa de las reacciones adversas se encuentra en la bula de esa medicación.",
+    "ITEN1": "Espinas",
+    "ITEN2": "Enrojecimiento en la piel",
+    "ITEN3": "Gingivitis",
+    "ITEN4": "Inflamación de la boca",
+    "ITEN5": "Disminución de las células blancas, rojas y plaquetas en la sangre",
+    "ITEN6": "Retraso de cicatrización",
+    "ITEN7": "Acumulación de linfa",
+    "ITEN8": "Aumento en los niveles de colesterol y triglicéridos",
+    "ITEN9": "Diabetes mellitus",
+    "ITEN10": "Pérdida de proteína en la orina",
+    "ALERT": {
+      "MESSAGE1": "Está atento al surgimiento de alguna reacción adversa y entra en contacto con el hospital donde eres acompañado",
+      "MESSAGE2": "Fuente: http:/www.365saude.com.br/pt-public-health-safety/pt-medical-research/1009074901.html",
+      "BUTTON": "Ok"
+    }
+  },
+  "TACROLIMO": {
+    "TITLE": "Tacrolimo 1 mg e 5 mg",
+    "LABEL1": "¿Qué es el Tacrolimo?",
+    "LABEL2": "Tacrolimo es recomendado después que te sometas a un trasplante de riñón o hígado para evitar que o tu sistema inmunológico rechace el órgano trasplantado.",
+    "LABEL3": "Principales reacciones adversas:",
+    "LABEL4": "Las cápsulas de Tacrolimo deben ser ingeridas con líquido ( preferiblemente agua) y con el estómago vacío o, al menos, 1 hora antes de las comidas o 2 a 3 horas después de las comidas, para obtener una absorción máxima del medicamento.",
+    "LABEL5": "ATENCIÓN: La lista completa de las reacciones adversas se encuentra en la bula de esa medicación.",
+    "ITEN1": "Temblores",
+    "ITEN2": "Dolor de cabeza",
+    "ITEN3": "Diarrea",
+    "ITEN4": "Náuseas",
+    "ITEN5": "Disfunción renal",
+    "ITEN6": "Vómitos",
+    "ITEN7": "Disminución del apetito",
+    "ITEN8": "Acidez estomacal",
+    "ITEN9": "Dolor de estómago",
+    "ITEN10": "Neuropatía",
+    "ITEN11": "Caída de cabello",
+    "ITEN12": "Picazón",
+    "ITEN13": "Hiperglucemia",
+    "ITEN14": "Diabetes mellitus",
+    "ITEN15": "Elevación de enzimas hepáticas",
+    "ITEN16": "Toxicidad renal",
+    "ITEN17": "Fotosensibilidad",
+    "ALERT": {
+      "MESSAGE1": "Está atento al surgimiento de alguna reacción adversa y entra en contacto con el hospital donde eres acompañado",
+      "MESSAGE2": "Fuente: http://www.anvisa.gov.br/",
+      "BUTTON": "Ok"
+    }
+  },
+  "TEST_HYDRATION": {
+    "TITLE": "Test sin examen",
+    "LABEL1": "Test de hidratación basado en la ",
+    "LABEL2": "coloración de la orina",
+    "LABEL3": "1- Muy bien hidratado",
+    "LABEL4": "2- Estado normal de hidratación",
+    "LABEL5": "3- Estado normal de hidratación",
+    "LABEL6": "4- Un poco deshidratado",
+    "LABEL7": "5- Un poco deshidratado",
+    "LABEL8": "6- Deshidratado",
+    "LABEL9": "7- Deshidratado"
+  },
+  "TODAY_SCHEDULE": {
+    "TITLE": "Hoy",
+    "LABEL1": "Tu agenda de hoy",
+    "ITEN1": "Tus Exámenes",
+    "ITEN2": "Tus consultas",
+    "ITEN3": "Tus Medicaciones",
+    "LABEL2": "de",
+    "LABEL3": "¡Todo cierto!",
+    "LABEL4": "No hay compromisos hoy."
+  },
+  "TRANSPLANT_DOUBTS": {
+    "TITLE": "Dudas",
+    "LABEL1": "¿Qué son inmunosupresores?",
+    "LABEL2": "El organismo tiene un sistema muy complejo (sistema inmunológico) que reacciona contra órganos extraños. Como el riñón trasplantado es reconocido como \"extraño\", el organismo reaccionará contra él e intentará destruirlo, a menos que sea dada una medicación para disminuir esa reacción. Tales medicamentos son llamados de medicamentos inmunosupresores.",
+    "LABEL3": "¿Qué significa rechazo?",
+    "LABEL4": "Es la reacción del cuerpo al nuevo riñón. Algún grado de rechazo es esperado; algunos pacientes presentarán rechazo durante la primera o segunda semana después del trasplante. Existen varias maneras de tratar el rechazo y en la mayoría de las veces él es solucionado.",
+    "LABEL5": "¿Cómo saber si está habiendo rechazo?",
+    "LABEL6": "El nefrólogo hace la evaluación de la existencia o no del proceso de rechazo. Pero, algunos señales y síntomas deben ser observados, como:",
+    "ITEN1": "Dolor o hinchazón bajo el riñón trasplantado.",
+    "ITEN2": "Fiebre mayor de 37 grados.",
+    "ITEN3": "Disminución de la orina.",
+    "ITEN4": "Dolor al orinar.",
+    "ITEN5": "Tos o falta de aliento.",
+    "ITEN6": "Pérdida de la sensación de bienestar, entre otros.",
+    "LABEL7": "¿Hay necesidad de restricción de líquidos después del trasplante?",
+    "LABEL8": "La mayoría de los pacientes es capaz de beber tanto líquido como quiera después del trasplante. Sin embargo, si la presión sanguínea está elevada y hay retención de líquido (edema), el paciente podrá ser orientado para restringir la ingestión de líquidos y de sal.",
+    "LABEL9": "¿Hay necesidad de restricción de alimentos después del trasplante?",
+    "LABEL10": "Como cada individuo es único, las recomendaciones nutricionales pueden variar. Sin embargo, hay algunas restricciones dietéticas relacionadas a los medicamentos y a los resultados de los exámenes más recientes.",
+    "LABEL11": "¿Es posible llevar una vida normal con solamente un riñón?",
+    "LABEL12": "Un riñón puede hacer el trabajo de dos y la vida de la persona será normal, en sus actividades personales como profesionales.",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE1": "Manual de Trasplante",
+      "MESSAGE2": "Renal - ABTO",
+      "MESSAGE3": "(http://www.abto.org.br/abtovo3)",
+      "BUTTON": "Ok"
+    }
+  },
+  "TRANSPLANTED_GERAL_RECOMMENDATION": {
+    "TITLE": "Generales",
+    "LABEL1": "Recomendaciones después del alta hospitalaria:",
+    "ITEN1": "Para evitar infecciones, algunos médicos van orientar el uso de máscaras de protección en los primeros días.",
+    "ITEN2": "Limitar, en el inicio, las visitas de muchos parientes y amigos.",
+    "ITEN3": "Mantenerse alejado del contacto con personas portadoras de enfermedades contagiosas o de animales.",
+    "ITEN4": "Conservar la casa siempre limpia y aireada, especialmente los baños.",
+    "ITEN5": "Lavar las manos con agua y jabón antes y después de usar el baño, comer o legar en casa.",
+    "ITEN6": "Hacer el control de la presión arterial, pulso, temperatura y del peso, anotando diariamente para conocimiento del médico. Habiendo alteración, comunicarlo inmediatamente.",
+    "ITEN7": "Hacer un diario de los líquidos ingeridos y de la orina eliminada, porque es de vital importancia para control de la evaluación del trasplante.",
+    "ITEN8": "Utilizar siempre un protector solar de alto factor al salir de casa; así como gorros, sombreros y ropas que protejan del sol.",
+    "ITEN9": "No suspender, bajo ninguna hipótesis, la medicación inmunosupresora.",
+    "ITEN10": "Jamás tomar medicamentos sin la prescripción médica."
+  },
+  "TRANSPLANTED_NUTRITIONAL_RECOMMENDATION": {
+    "TITLE": "Nutricionales",
+    "ITEN1": "Cocinar la comida poco antes de ingerir y nunca recalentar los alimentos.",
+    "ITEN2": "Mantener los alimentos en nevera solo por un período de 24 horas.",
+    "ITEN3": "Las bebidas, mientras cerradas, se mantienen estériles (en botellas de plástico o vidrio). Una vez abiertas, se conservan bien solamente 4 horas en temperatura ambiente o por 24 horas en la nevera. Lo mismo se aplica a los enlatados.",
+    "ITEN4": "Cuando comas en restaurantes, no te olvides de verificar la procedencia de los alimentos y te asegura de que sean frescos y de buena calidad.",
+    "ITEN5": "Seguir estrictamente la dieta indicada para tu caso y no consumir alimentos preparados en lugares desconocidos."
+  },
+  "TRANSPLANTED_WEIGHT": {
+    "TITLE": "Peso",
+    "LABEL1": "Resultado:",
+    "LABEL2": "Sin registro de peso",
+    "LABEL3": "Todavía no registraste tu peso",
+    "BUTTON": "Nuevo registro de peso",
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "TOAST_MESSAGE_ADD": "Peso añadido",
+    "TOAST_MESSAGE_DELETE": "Peso eliminado"
+  },
+  "TREATMENT": {
+    "TITLE": "Tratamiento",
+    "LABEL1": "Control de líquidos",
+    "BUTTON1": "Histórico",
+    "BUTTON2": "Introducir consumo",
+    "LABEL2": "Control de peso",
+    "BUTTON3": "Calcular peso",
+    "LABEL3": "Exámenes",
+    "BUTTON4": "Nuevo examen",
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "MESSAGE_PLACEHOLDER": {
+      "LIQUID_CONTROLLER": {
+        "DEFAULT": "Ningún vaso añadido hoy.",
+        "TEXT1": "Último vaso añadido a las"
+      },
+      "EXAM": {
+        "DEFAULT": "Ningún examen disponible.",
+        "TEXT1": "Último examen hecho en"
+      },
+      "WEIGHT": {
+        "DEFAULT": "Ningún peso calculado hoy.",
+        "TEXT1": "Último peso calculado con peso seco de",
+        "TEXT2": "y peso de"
+      }
+    },
+    "TOAST_MESSAGE_ADD_CUP": "Vaso añadido",
+    "TOAST_MESSAGE_ADD_EXAM": "Examen añadido"
+  },
+  "TREATMENT_DRC": {
+    "TITLE": "Enfermedad Renal Crónica",
+    "LABEL1": "¿Cómo es el tratamiento de la ERC?",
+    "LABEL2": "Tratamiento conservador",
+    "LABEL3": "Indicado a los pacientes que tengan enfermedad renal en los estadios 1 al 4. Es realizado durante consultas médicas periódicas y consiste en todas las medidas clínicas (prescripción de remedios, modificaciones en la dieta y en el estilo de vida) que pueden ser utilizadas para retardar el empeoramiento de la función renal, reducir los síntomas y prevenir las complicaciones relacionadas con la enfermedad renal crónica.",
+    "LABEL4": "Cuanto antes comience el tratamiento conservador, mayores las chances de preservar la función de los riñones.",
+    "LABEL5": "Diálisis peritoneal",
+    "LABEL6": "Indicada para pacientes que tienen enfermedad renal en lo estadio 5. Para la filtración de la sangre es utilizada una membrana del propio cuerpo del paciente, el peritoneo, que envuelve los órganos abdominales. El espacio entre eses órganos es llamado de cavidad peritoneal. Un líquido de diálisis es introducido en esa cavidad y retirado, a través de un catéter colocado en la barriga del paciente. Puede ser realizada en clínicas o en casa.",
+    "LABEL7": "Hemodiálisis",
+    "LABEL8": "Indicada para pacientes que tienen enfermedad renal en el estadio 5. Es un procedimiento en que una máquina limpia y filtra la sangre, por medio de un dializador. La sangre es tomada y devuelta a cuerpo del paciente a través de una fístula arteriovenosa (FAV) o catéter. En general, las sesiones de hemodiálisis son realizadas 3 veces por semana, durante 4 horas, en clínicas especializadas o hospitales.",
+    "LABEL9": "Trasplante renal",
+    "LABEL10": "Es realizado a través de una cirugía en la que un riñón saludable, donado por una persona viva o fallecida, es colocado en un paciente con enfermedad renal en el estadio 5 y pasa a realizar las funciones que los riñones enfermos ya no lo hacen.",
+    "LABEL11": "Te recuerda: La elección de la modalidad del tratamiento es individualizada para cada paciente y dependerá del análisis criteriosa de diversos aspectos clínicos y sociales. Habla con tu médico.",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE": "www.sbn.org.br",
+      "BUTTON": "Ok"
+    }
+  },
+  "TREATMENT_EXAMS": {
+    "TITLE": "Histórico de ",
+    "LABEL1": "Fecha del examen",
+    "LABEL2": "Calcio",
+    "LABEL3": "Fósforo",
+    "LABEL4": "Potasio",
+    "LABEL5": "¡Sin exámenes!",
+    "LABEL6": "No te olvides de adicionar.",
+    "LABEL7": "el resultado de tus exámenes.",
+    "BUTTON1": "Nuevo examen",
+    "BUTTON2": "Ver gráficos",
+    "LOADING_MESSAGE": "Actualizando datos...",
+    "ALERT": {
+      "TITLE": "¿Deseas excluir ese examen?",
+      "BUTTONS": {
+        "_1": "Cancelar",
+        "_2": "Excluir"
+      }
+    },
+    "TITLE1": "exámenes",
+    "TITLE2": "exámenes de",
+    "TOAST_MESSAGE_ADD": "Examen añadido",
+    "TOAST_MESSAGE_DELETE": "Exame excluido"
+  },
+  "WEIGHT_CONTROL": {
+    "TITLE": "Calcular peso",
+    "LABEL1": "Peso seco (kg)",
+    "LABEL2": "Peso actual (kg)",
+    "LABEL3": "¿Cual la sesión de la Diálisis?",
+    "LABEL4": "1ª sesión",
+    "LABEL5": "2ª sesión",
+    "LABEL6": "3ª sesión",
+    "LABEL7": "Sesión extra",
+    "BUTTON1": "Calcular peso",
+    "ALERT": {
+      "TITLE": "¿Deseas excluir ese examen?",
+      "MESSAGE1": "El aumento de peso excesivo entre las sesiones de hemodiálisis aumenta el riesgo de hipotensión, calambres, náuseas, dolor de cabeza y edema agudo de pulmón.",
+      "MESSAGE2": "Fonte: RIELLA, M.C.; MARTINS, C.Nutrição e o rim. 2. ed. Rio de Janeiro: Guanabara Koogan, 2013.",
+      "BUTTONS": "Ok"
+    },
+    "RESULT": {
+      "_1": "Aumento de peso entre las sesiones de hemodiálisis elevado",
+      "_2": "Tu estás dentro del aumento de peso esperado"
+    },
+    "TOAST_MESSAGE_SUCCESS": "Nuevo registro de peso"
+  },
+  "WHAT_IS_DRC": {
+    "TITLE": "Enfermedad Renal Crónica",
+    "LABEL1": "¿Que es la Enfermedad Renal Crónica (DRC)?",
+    "LABEL2": "Es cuando los riñones presentan anormalidades en su funcionamiento o su estructura por más de 3 meses, con perjuicios para su salud. En general, los riñones van perdiendo sus funciones lentamente y sin presentar síntomas.",
+    "LABEL3": "A ERC es dividida en 5 fases con base en la Tasa de Filtración Glomerular (TFG): ",
+    "LABEL4": "ESTADIO 1 (TFG más de 90ml/min)",
+    "LABEL5": "Los riñones aún funcionan bien, pero ya aparece algún señal de lesión, como proteína en la orina.",
+    "LABEL6": "ESTADIO 2 (TFG de 60-89ml/min)",
+    "LABEL7": "Los riñones tienen una ligera disminución en su funcionamiento. Así como en el estadio 1, importante ter el diagnóstico de ERC, porque es posible prevenir las próximas fases con el tratamiento adecuado.",
+    "LABEL8": "ESTADIO 3 (TFG de 30-59ml/min)",
+    "LABEL9": "Los riñones pierden su eficiencia de manera moderada y ya empiezan a dar los primeros señales de enfermedad. Si todavía no empezó, este es el momento de comenzar un tratamiento con el nefrólogo.",
+    "LABEL10": "ESTADIO 4 (TFG de 15-29ml/min)",
+    "LABEL11": "El funcionamiento renal ya está bastante perjudicado y exige más atención y cuidados.",
+    "LABEL12": "ESTADIO 5 (TFG menos de 15ml/min)",
+    "LABEL13": "Los riñones ya no funcionan. Es cuando se debe comenzar la Terapia Renal Sustitutiva (diálisis o trasplante renal).",
+    "LABEL14": "Con el Renal Health, tu puedes calcular tu TFG si posees un resultado de la dosificación de creatinina recogida en tu examen de sangre.",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE": "KDIGO 2012 Clinical Practice Guidelinefor the Evaluation and Management of Chronic Kidney Disease (www.kdigo.org)",
+      "BUTTONS": "Ok"
+    }
+  },
+  "WHAT_ISKIDNEYS": {
+    "TITLE": "Sobre los riñones",
+    "LABEL1": "¿Que son los riñones?",
+    "LABEL2": "Los riñones son dos órganos, que tienen la forma de un grano de frijol, midiendo en un adulto de 10 a 13 cm. Ellos están localizados en ambos lados de la columna vertebral, aproximadamente en el medio de la espalda.",
+    "LABEL3": "Los riñones son considerados como el sistema de filtración corporal. Se puede decir que ellos filtran toda la sangre de una persona aproximadamente 12 veces por hora.",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE1": "National Kidney Foundation (www.kidney.org).",
+      "MESSAGE2": "Sociedad Brasileña de Nefrología (www.sbn.org.br).",
+      "BUTTONS": "Ok"
+    }
+  },
+  "WHAT_MAIN_FUNCTION_KIDNEY": {
+    "TITLE": "Sobre los riñones",
+    "LABEL1": "¿Cuales las principales funciones de los riñones?",
+    "LABEL2": "Eliminar residuos que son producidos a partir de la degradación de los alimentos y de la actividad normal de los músculos, como urea y creatinina",
+    "LABEL3": "Regular la cantidad de agua de tu cuerpo y de otras sustancias en tu sangre, como sodio, potasio, fósforo e calcio",
+    "LABEL4": "Eliminar las drogas y toxinas introducidas en tu cuerpo",
+    "LABEL5": "Liberar hormonas en tu sangre para ayudar a regular la presión sanguínea, producir los glóbulos rojos de la sangre y promover huesos fuertes",
+    "ALERT": {
+      "TITLE": "Fuentes",
+      "MESSAGE1": "National Kidney Foundation",
+      "MESSAGE2": "(www.kidney.org)",
+      "BUTTONS": "Ok"
+    }
+  }
+}

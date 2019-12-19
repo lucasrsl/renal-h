@@ -1,0 +1,62 @@
+page-medications-recommendations {
+  .visual-header{
+    .toolbar-title{
+      color: #ffffff;
+    }
+    .toolbar-background{
+        background-color:#546E7A;
+    }
+    .bar-button-default-md{
+        color: color($colors, secondary);
+    }
+    .bar-buttons-md{
+        margin-left: 3%;
+    }
+    .toolbar-title-md{
+      margin-left: 9%;
+      font-size: 1.4rem;
+    }
+    #source{
+        filter: brightness(1000%);
+        width: 25px;
+        margin-left: 12px;
+    }
+    .close-icon{
+      color: #ffffff;
+    }
+    .info-icon{
+      color: #ffffff;
+    }
+    .title-ios{
+      padding: 0 60px 1px;
+    }
+  }
+  .img-med{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 45px;
+  }
+  .img-pills{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90px;
+    bottom: 10px;
+  }
+  img{
+    max-width: none;
+  }
+  .second-title{
+    color: color($colors, secondary);
+  }
+  .alert-text{
+    color: color($colors, danger);
+    margin-top: 2%;
+  }
+  li{
+    margin-bottom: 5px;
+  }
+}

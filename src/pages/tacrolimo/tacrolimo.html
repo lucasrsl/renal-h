@@ -1,0 +1,63 @@
+<!--
+  Generated template for the TacrolimoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class = "visual-header">
+
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button icon-only (click) = "openInformation()">
+        <img src = "../assets/imgs/fonte_branco.png" id = "source">
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button icon-only (click) = "dismiss()">
+        <ion-icon name = "close-circle" class = "close-icon"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{ 'TACROLIMO.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <label class = "second-title">{{ 'TACROLIMO.LABEL1' | translate }}</label>
+        <label>
+          <p>
+              {{ 'TACROLIMO.LABEL2' | translate }}
+          </p>
+        </label>
+        <label class = "second-title">{{ 'TACROLIMO.LABEL3' | translate }}</label>
+        <ul>
+          <li> {{ 'TACROLIMO.ITEN1' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN2' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN3' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN4' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN5' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN6' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN7' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN8' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN9' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN10' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN11' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN12' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN13' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN14' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN15' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN16' | translate }}</li>
+          <li> {{ 'TACROLIMO.ITEN17' | translate }}</li>
+        </ul>
+        <label>
+          <p>{{ 'TACROLIMO.LABEL4' | translate }}</p>
+          <p class = "alert-text">{{ 'TACROLIMO.LABEL5' | translate }}</p>
+        </label>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

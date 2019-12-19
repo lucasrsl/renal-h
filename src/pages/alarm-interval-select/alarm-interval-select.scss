@@ -1,0 +1,61 @@
+page-alarm-interval-select {
+  .visual-header{
+    .toolbar-background{
+      border-color: transparent;
+      background: transparent;
+    }
+    .toolbar-title{
+      font-size: 1.7rem;
+      text-align: center;
+    }
+    .toolbar{
+      min-height: 48px;
+      .toolbar-content{
+        margin-top: 20px;
+      }
+    }
+
+  }
+  .grid-visual{
+    .col{
+      margin-top: 2px;
+      margin-left: 20px;
+    }
+    .col-text{
+      margin-top: 8px;
+      margin-left: 0px;
+    }
+    .line{
+      border: 1px solid #DCDCDC;
+      width: 100%;
+      margin-top: 2px;
+    }
+
+    .cancel-btn{
+      text-align: center;
+      color: color($colors, secondary);
+      font-weight: bold;
+      margin-top: 1.2em;
+      font-size: 17px;
+      margin-left: 0px;
+    }
+  }
+  .content-ios{
+    .scroll-content{
+      overflow: hidden !important;
+    }
+  }
+}
+ion-modal.alarm-interval-select-popup ion-backdrop {
+  visibility: visible !important;
+  z-index:0;
+}
+ion-modal.alarm-interval-select-popup .modal-wrapper{
+  top: 25%;
+  width:85%;
+  height: 225px;
+  position:absolute;
+  left: 7.5%;
+  overflow: hidden;
+  border-radius: 10px !important;
+}

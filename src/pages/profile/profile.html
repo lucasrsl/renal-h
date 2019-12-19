@@ -1,0 +1,163 @@
+<ion-header class = "header-class" id = "header-class">
+
+  <ion-navbar hideBackButton = "true">
+    <button ion-button menuToggle>
+        <ion-icon name = "menu"></ion-icon>
+    </button>
+    <ion-title>{{ 'PROFILE.TITLE' | translate }}</ion-title>
+
+    <ion-buttons end class="change-language">
+      <button ion-button clear (click)="changeLanguage()">
+        <label *ngIf="language==1" alt = "" >pt/BR</label>
+        <label *ngIf="language==2" alt = "" >en/US</label>
+        <label *ngIf="language==3" alt = "" >es/ES</label>
+        <!--<img *ngIf="language==1" src="assets/imgs/brazil.png" alt="">
+        <img *ngIf="language==2" src="assets/imgs/usa.png" alt="">
+        <img *ngIf="language==3" src="assets/imgs/spain.png" alt="">-->
+        <ion-icon class= "language-icon" item-end name= "md-arrow-dropdown"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class = "img-background">
+  <form [formGroup] = "updateForm">
+    <ion-grid class = "grid-visual" id = "grid-visual">
+      <ion-row>
+        <ion-col >
+          <label>
+            <p class = "title first" >{{ 'PROFILE.LABEL4' | translate }}</p>
+            <p class = "actual-treatment">{{actualTreatment}}</p>
+          </label>
+        </ion-col>
+        <ion-col col-3 class = "btn-col">
+          <button ion-button class = "btn-change-treatment" (click) = "endTreatment()">
+            <ion-icon name = "swap"></ion-icon>
+          </button>
+        </ion-col>
+      </ion-row>
+
+      <!--<ion-row>
+        <ion-col class = "sub-title-col">
+          <label>
+            {{actualTreatment}}
+          </label>
+        </ion-col>
+      </ion-row>-->
+      <div class = "line"></div>
+      <ion-row>
+        <ion-col>
+          <label>
+            <p class = "title" >{{full_name}}</p>
+          </label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col >
+          <label>
+            <p class = "title last" >{{email}}</p>
+          </label>
+        </ion-col>
+      </ion-row>
+      <!-- <ion-row class = "row-checkbox">
+        <ion-col col-1>
+          <ion-checkbox [(ngModel)] = "clinicCheckbox"></ion-checkbox>
+        </ion-col>
+        <ion-col col-4>
+          <label>Mudar Clinica</label>
+        </ion-col>
+      </ion-row> -->
+      <!--<ion-row class = "row-input">
+        <ion-col col-2 class = "col-img">
+          <ion-icon name = "person"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-input disabled placeholder = "{{full_name}}" formControlName="full_name"></ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row class = "row-input">
+        <ion-col col-2 class = "col-img">
+          <ion-icon name = "mail"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-input placeholder = "{{email}}" readonly = "true"></ion-input>
+        </ion-col>
+      </ion-row>-->
+      <ion-row class = "row-input">
+        <ion-col col-2 class = "col-img">
+          <img src = "../assets/imgs/icone_hospital.png">
+        </ion-col>
+        <ion-col col-10>
+          <ion-input placeholder = "{{clinic}}" formControlName = "clinic_name"></ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row class = "row-input">
+        <ion-col col-2 class = "col-img">
+          <ion-icon name = "pin"></ion-icon>
+        </ion-col>
+        <ion-col col-10>
+          <ion-select placeholder = "{{estado}}" formControlName="clinic_state" [selectOptions]="selectState" (ionChange) = "changeState(updateForm.value.clinic_state)">
+            <ion-option *ngFor="let states of listStates" >{{states}}</ion-option>
+          </ion-select>
+        </ion-col>
+      </ion-row>
+      <ion-row class = "row-input">
+        <ion-col col-2 class = "col-img">
+          <ion-icon name = "pin"></ion-icon>
+        </ion-col>
+        <ion-col col-10>
+          <ion-select placeholder = "{{cidade}}" formControlName="clinic_city" [selectOptions]="selectCitys" (ionChange) = "canUpdateUser = true">
+            <ion-option *ngFor="let cidades of listCitys">{{cidades.nome}}</ion-option>
+          </ion-select>
+        </ion-col>
+      </ion-row>
+      <!-- <ion-row class = "row-checkbox">
+        <ion-col col-1>
+          <ion-checkbox [(ngModel)] = "passwordCheckbox"></ion-checkbox>
+        </ion-col>
+        <ion-col col-4>
+          <label>Mudar Senha</label>
+        </ion-col>
+      </ion-row> -->
+      <!---<ion-row class = "row-input">
+        <ion-col col-2 class = "col-img">
+          <ion-icon name = "lock"></ion-icon>
+        </ion-col>
+        <ion-col col-10>
+          <ion-input  formControlName="password" placeholder="Nova senha"></ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row class = "row-input">
+        <ion-col col-2 class = "col-img">
+          <ion-icon name = "lock"></ion-icon>
+        </ion-col>
+        <ion-col col-10>
+          <ion-input formControlName = "passwordConf" placeholder = "Confirmar nova senha"></ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-item no-lines *ngIf = "updateForm.get('password').hasError('minlength') && updateForm.get('password').touched" class = "errorValidation">
+          <div>Senha com minimo de 8 caracteres</div>
+        </ion-item>
+      </ion-row>
+      <ion-row>
+        <ion-item no-lines *ngIf = "passwordValid == true && updateForm.value.password != null && updateForm.get('passwordConf').touched" class = "errorValidation">
+          <div>Senha não compatível</div>
+        </ion-item>
+      </ion-row>-->
+    </ion-grid>
+  </form>
+  <ion-grid class = "button-grid" id = "button-grid">
+    <button ion-button [disabled] = "updateForm.invalid || !canUpdateUser" class = "button-salvar" (click) = "updateUser()">
+        {{ 'PROFILE.LABEL5' | translate }}
+    </button>
+    <button ion-button class = "button-salvar" (click) = "changePassword()">
+        {{ 'PROFILE.LABEL6' | translate }}
+    </button>
+    <!--<button ion-button class = "button-terminar" (click) = "endTreatment()">
+      Mudança de tratamento
+    </button>-->
+  </ion-grid>
+</ion-content>

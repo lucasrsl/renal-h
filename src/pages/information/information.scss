@@ -1,0 +1,66 @@
+page-information {
+  .header-class{
+    .toolbar-title{
+      color: color($colors, primary);
+    }
+    .bar-button-default-md{
+      color: color($colors, secondary);
+    }
+  }
+  .grid-visual{
+    .content-text{
+      font-size: 13px;
+      margin-left: 15px;
+
+      @media screen and (max-width: 330px){
+        font-size: 1.2rem;
+      }
+    }
+    li{
+      margin-bottom: 5px;
+    }
+    .header-text{
+        font-size: 15px;
+        margin-left: 8px;
+        color: #000000;
+        @media screen and (max-width: 330px){
+          font-size: 1.4rem;
+        }
+    }
+    .header-item-color{
+      background: #546E7A;
+    }
+    .card-visual{
+      width: 98%;
+      margin-left: 1% !important;
+
+      .header-text{
+        color: #ffffff;
+        font-weight: bold;
+      }
+      .item{
+        border-bottom: 1px solid rgb(241, 241, 241) !important;
+        .icon{
+          color: #7e7e7e;
+          font-size: 1.8rem;
+          margin-top: 20px;
+        }
+      }
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px rgb(126, 126, 126);
+
+    }
+  }
+  .scroll-content{
+    padding: 8px 9px 16px 9px !important;
+  }
+  .title-margin{
+    margin-top: 10px;
+  }
+  .title-visual{
+    font-size: 1.7rem;
+    color: #ffffff;
+  }
+
+
+}

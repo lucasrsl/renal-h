@@ -1,0 +1,166 @@
+.text-right{
+  text-align: right;
+}
+.img-background{
+  background-image: url('../assets/imgs/background_bluegray.png') !important;
+  background-size: cover;
+}
+.text-align{
+    text-align: center;
+}
+[position-relative]{
+  position: relative;
+}
+.icon-color{
+    color: grey;
+}
+.bar-button-default{
+  color: color($colors, primary) !important;
+}
+.loading-md .loading-wrapper{
+  border-radius: 10px !important;
+}
+
+@import "../assets/sideMenu.scss";
+
+page-app{
+  .body-visual{
+    margin-left: 12px;
+    margin-top: 0;
+    .item{
+      margin-top: 10px;
+      color: #3F88B3;
+      background: transparent;
+      border-bottom: 1px solid rgb(235, 235, 235) !important;
+      @media screen and (max-width: 342px) {
+        font-size: 1.4rem;
+      }
+      @media screen and (max-height: 630px) {
+        height: 32px;
+        margin-top: 7px;
+      }
+      @media screen and (max-height: 650px) {
+        height: 28px;
+        margin-top: 7px;
+      }
+      @media screen and (max-height: 680px){
+        margin-top: 7px;
+      }
+    }
+    #img{
+      max-width: 55%;
+      margin-right: 10px;
+      margin-top: 0.2em;
+    }
+    .exit-button{
+      position: absolute;
+      bottom: 0;
+      margin-bottom: 0.8em;
+      border-bottom: 0px !important;
+    }
+    .col{
+      align-self: center;
+    }
+    .label{
+      margin: 1px 8px 13px 0;
+    }
+  }
+  .header-visual{
+    .b, strong{
+      font-size: 20px;
+      margin-left: 25px;
+      color: color($colors, primary) !important;
+    }
+    .toolbar-background-ios{
+      background-color: #ffffff;
+      border-style: none;
+    }
+    .toolbar-background-md{
+      border-color: transparent;
+      background: transparent;
+    }
+    .toolbar-content-ios{
+      #img{
+        margin-top: 45px;
+      }
+
+    }
+    #img{
+      margin-top: 25px;
+      margin-left: 5%;
+      width: 70%;
+    }
+
+  }
+  .col{
+    padding: unset !important;
+  }
+  .adjust-row{
+    margin-top: 4px;
+  }
+}
+@media only screen and (max-width: 360px){
+  .toolbar-title{
+    font-size: 1.4rem;
+    white-space: normal;
+  }
+}
+.toolbar-title{
+  white-space: normal;
+}
+.toolbar-title-md{
+  font-size: 1.6rem;
+  white-space: normal;
+  padding: 0;
+}
+
+//Alert Toast Default
+ion-toast.toast-alert{
+  transform: scale(.95);
+
+}
+
+ion-toast.toast-alert.success{
+  div.toast-wrapper{
+    background:rgba(5, 198, 134, 1);
+    border-radius: 10px;
+  }
+}
+ion-toast.toast-alert.error{
+  div.toast-wrapper{
+    background: rgba(225, 93, 93, 1);
+    border-radius: 10px;
+  }
+}
+ion-modal.page-popup ion-backdrop {
+  opacity: 0.6 !important;
+  visibility: visible !important;
+  z-index:0;
+}
+ion-modal.page-popup .modal-wrapper{
+  border-radius: 10px !important;
+  top: 5%;
+  width:94%;
+  height: 90%;
+  position:absolute;
+  left: 3%;
+  .scroll-content{
+    overflow: hidden;
+    overflow-y: auto;
+
+  }
+  .scroll-content::-webkit-scrollbar {
+    width: 10px;
+
+  }
+  .scroll-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  .scroll-content::-webkit-scrollbar-thumb {
+    background: rgb(202, 202, 202);
+  }
+}
+.button-md{
+    font-weight: normal;
+    text-transform: none;
+}

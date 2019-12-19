@@ -1,0 +1,47 @@
+<!--
+  Generated template for the BloodGlucosePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class = "visual-header">
+
+  <ion-navbar>
+    <ion-title>{{ 'BLOOD_GLUCOSE.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class = "img-background" (ionScroll)="scroll($event)">
+  <ion-list no-lines class = "list-visual" id = "list">
+    <ion-card class = "card-visual" *ngFor = "let bloodGlucose of bloodGlucoseList; let i = index">
+      <ion-item>
+        <ion-grid>
+          <ion-row>
+            <ion-col class = "date-col">
+              <label>{{bloodGlucose.date_of_glucose}}</label>
+            </ion-col>
+            <ion-col>
+              <button ion-button clear>
+                <ion-icon name = "trash" (click) = "deleteBloodGlucose(bloodGlucose.id,i)"></ion-icon>
+              </button>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <label>{{ 'BLOOD_GLUCOSE.RESULT' | translate }}: {{bloodGlucose.blood_glucose}} mg/dl</label>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+    </ion-card>
+  </ion-list>
+  <img src = "../assets/imgs/placeholders/glicemia_placeholder.png" id = "placeholder-size" *ngIf= "placeholderFlag">
+  <label *ngIf = "placeholderFlag">
+    <p class = "img-text">Sem glicemia registrada</p>
+    <p class = "img-second-text">Você ainda não registrou sua glicemia</p>
+  </label>
+  <div ion-fixed class = "fade" display = "false"></div>
+  <button ion-fixed ion-button (click) = "openAddBloodGlucose()" class = "add-glucose" id = "btn">{{ 'BLOOD_GLUCOSE.BUTTON' | translate }}</button>
+</ion-content>

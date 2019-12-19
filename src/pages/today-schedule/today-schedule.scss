@@ -1,0 +1,64 @@
+page-today-schedule {
+  .header-class{
+    .toolbar-title{
+      color: color($colors, primary);
+    }
+    .bar-button-default-md{
+      color: color($colors, secondary);
+    }
+  }
+  .grid-visual{
+    .line{
+      border: 1px solid	#E0E0E0;
+      width: 100%;
+      margin-top: 7px;
+      padding: 0px;
+    }
+    .item{
+      background-color: transparent;
+
+    }
+    .exam-type{
+
+        white-space: normal;
+
+    }
+    .your-shedule{
+      font-weight: bold;
+      text-align: left;
+      font-size: 1em;
+      display: block;
+    }
+  }
+  .label{
+    color: #ffffff;
+  }
+  #img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 47.22%;
+    margin-top: 40%;
+  }
+  .img-text{
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+  }
+  .img-second-text{
+    margin-top: -10px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .list-shedule-visual{
+    .col{
+      color: #ffffff;
+    }
+  }
+
+}
+.labels-timer{
+  display: block;
+}
+

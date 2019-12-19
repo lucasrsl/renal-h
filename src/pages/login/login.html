@@ -1,0 +1,47 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content padding class="img-background">
+    <img src="../../assets/imgs/bandeira.png"   class="img-bandeira" (click) = "openPage('AboutPage')" >
+  <ion-grid class = "grid-visual">
+    <ion-row>
+      <ion-col class="custom-align">
+        <img src="../../assets/imgs/renal-health.png" class="custom-img" />
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list no-lines class = "list-visual">
+      <form [formGroup]="loginForm" (ngSubmit)="postLogin()">
+        <ion-item class = "input-box">
+          <ion-input class="back-custon" type="email" formControlName="email" placeholder="E-mail"></ion-input>
+          <ion-icon  class="icon-color" name="ios-person" item-left></ion-icon>
+        </ion-item>
+        <ion-item class = "input-box">
+          <ion-input no-lines class="back-custon" type="password" formControlName="password" placeholder="{{ 'LOGIN.PLACEHOLDER' | translate }}"></ion-input>
+          <ion-icon class="icon-color" name="ios-lock" item-left></ion-icon>
+        </ion-item>
+        <ion-item no-lines>
+          <button  class="btn-login" [disabled]="loginForm.invalid" name="btn-login" type="submit" ion-button large>{{ 'LOGIN.BUTTON' | translate }}</button>
+        </ion-item>
+      </form>
+    </ion-list>
+  <ion-list no-lines class = "list-visual">
+    <div class = "label-buttons">
+      <ion-item no-lines>
+        <button ion-button class = "label-button" clear (click) = "pushSignUp()"><u>{{ 'LOGIN.LABEL_BUTTON_1' | translate }}</u></button>
+      </ion-item>
+      <ion-item no-lines>
+        <button ion-button class = "label-button" clear (click) = "forgetPassword()"><u>{{ 'LOGIN.LABEL_BUTTON_2' | translate }}</u></button>
+      </ion-item>
+      <ion-item no-lines>
+        <button ion-button class = "not-patient-button" (click) = "pushNotPatient()">{{ 'LOGIN.LABEL_BUTTON_3.PART_1' | translate }} <br/>{{ 'LOGIN.LABEL_BUTTON_3.PART_2' | translate }} </button>
+      </ion-item>
+
+    </div>
+  </ion-list>
+
+
+
+</ion-content>

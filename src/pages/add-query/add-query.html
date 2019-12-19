@@ -1,0 +1,62 @@
+<ion-header class = "visual-header">
+  <ion-navbar>
+    <ion-title>{{type}} {{ 'ADD_QUERY.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class = "img-background">
+  <form [formGroup] = "medical_appointment">
+    <ion-grid class = "grid-visual">
+      <ion-row>
+        <ion-item>
+          <ion-label floating>{{ 'ADD_QUERY.LABEL1' | translate }}</ion-label>
+          <ion-input formControlName = "professional_name"></ion-input>
+        </ion-item>
+      </ion-row>
+      <ion-row>
+        <ion-item>
+          <ion-label floating>{{ 'ADD_QUERY.LABEL2' | translate }}</ion-label>
+          <ion-input formControlName = "medical_specialty"></ion-input>
+        </ion-item>
+      </ion-row>
+      <ion-row>
+        <ion-item>
+          <ion-label floating>{{ 'ADD_QUERY.LABEL3' | translate }}</ion-label>
+          <ion-input formControlName = "local_appointment"></ion-input>
+        </ion-item>
+      </ion-row>
+      <ion-row>
+        <ion-item>
+          <ion-label floating>{{ 'ADD_QUERY.LABEL4' | translate }}</ion-label>
+          <ion-datetime formControlName="date_appointment" cancelText="{{ 'ADD_QUERY.DATE_TIME.CANCEL' | translate }}" doneText="{{ 'ADD_QUERY.DATE_TIME.DONE' | translate }}" displayFormat="DD/MM/YYYY"></ion-datetime>
+        </ion-item>
+      </ion-row>
+      <ion-row>
+        <ion-item>
+          <ion-label floating>{{ 'ADD_QUERY.LABEL5' | translate }}</ion-label>
+          <ion-datetime formControlName="hour" cancelText="{{ 'ADD_QUERY.DATE_TIME.CANCEL' | translate }}" doneText="{{ 'ADD_QUERY.DATE_TIME.DONE' | translate }}" displayFormat="HH:mm"></ion-datetime>
+        </ion-item>
+      </ion-row>
+      <!--<ion-item no-lines>
+        <ion-label>{{ 'ADD_QUERY.LABEL6' | translate }}</ion-label>
+        <ion-toggle item-end formControlName = "notification" ></ion-toggle>
+      </ion-item>
+      <ion-item no-lines>
+          <ion-label>{{ 'ADD_QUERY.LABEL7' | translate }}</ion-label>
+          <ion-select selectOptions = "selectOptions" [selectOptions]="selectInterval" select-align-right formControlName="interval" name="interval" position-relative>
+            <ion-option value="1hra">{{ 'ADD_QUERY.SELECT.OPTION1' | translate }}</ion-option>
+            <ion-option value="2hra">{{ 'ADD_QUERY.SELECT.OPTION2' | translate }}</ion-option>
+            <ion-option value="3hra">{{ 'ADD_QUERY.SELECT.OPTION3' | translate }}</ion-option>
+            <ion-option value="24hra">{{ 'ADD_QUERY.SELECT.OPTION4' | translate }}</ion-option>
+          </ion-select>
+      </ion-item>-->
+      <ion-item no-lines >
+        <ion-label>Receber alarme</ion-label>
+        <ion-toggle item-end formControlName = "notification" (ngModelChange) = "openAlarmIntervalSelect($event)"></ion-toggle>
+      </ion-item>
+      <button ion-button type="submit" (click) = "saveQuery()">
+        {{ 'ADD_QUERY.BUTTON' | translate }}
+      </button>
+    </ion-grid>
+  </form>
+</ion-content>

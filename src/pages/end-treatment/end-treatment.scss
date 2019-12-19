@@ -1,0 +1,36 @@
+page-end-treatment {
+  .visual-header{
+    .toolbar-title{
+        color: color($colors, primary);
+        text-align: center;
+
+    }
+    .toolbar-title-md{
+      margin-left: -7.5%;
+    }
+    .bar-button-default-md{
+        color: color($colors, secondary);
+    }
+  }
+  .label-item{
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .grid-visual{
+    margin-top: 10px;
+    position: absolute;
+    .button{
+      @media screen and (max-width: 330px) {
+        height: 36px;
+        font-size: 1.4rem;
+      }
+      margin-top: 15px;
+      align-self: center;
+      border-radius: 10px;
+      width: 90%;
+      background-color: color($colors, primary);
+    }
+  }
+}

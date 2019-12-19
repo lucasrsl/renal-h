@@ -1,0 +1,75 @@
+<!--
+  Generated template for the SignUpPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class = "visual-header">
+  <ion-navbar>
+    <ion-title>{{ 'SIGN_UP.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class = "img-background">
+  <ion-grid class = "signUp">
+    <ion-row>
+      <ion-col>
+        <ion-list>
+          <form [formGroup]="user">
+          <ion-item class = "margin-bottom">
+            <ion-icon class = "icon-color" item-start name = "person"></ion-icon>
+            <ion-input type = "text" placeholder = "{{ 'SIGN_UP.PLACEHOLDER_1' | translate }}" formControlName="full_name" ></ion-input>
+          </ion-item>
+          <ion-item class = "margin-bottom">
+            <ion-icon class = "icon-color" item-start name = "person"></ion-icon>
+            <ion-input type = "text" placeholder = "{{ 'SIGN_UP.PLACEHOLDER_2' | translate }}" formControlName="secondName"></ion-input>
+          </ion-item>
+          <ion-item class = "margin-bottom" id = "emailItem">
+            <ion-icon class = "icon-color" item-start name = "mail"></ion-icon>
+            <ion-input type = "email" placeholder = "{{ 'SIGN_UP.PLACEHOLDER_3' | translate }}" formControlName="email"></ion-input>
+          </ion-item>
+          <ion-item no-lines *ngIf = "invalidEmail == true && user.get('email').touched && getEmail() != ''"  class = "errorValidation">
+            <div>{{ 'SIGN_UP.ITEN1' | translate }}</div>
+          </ion-item>
+          <ion-item class = "margin-bottom" id = "emailConfItem">
+            <ion-icon class = "icon-color" item-start name = "mail"></ion-icon>
+            <ion-input type = "email" placeholder = "{{ 'SIGN_UP.PLACEHOLDER_4' | translate }}" formControlName = "emailValConf" id= "emailValConf"></ion-input>
+            <ion-icon *ngIf = "getEmail() == getEmailConf() && getEmail() != null && getEmail() != '' && invalidConfEmail == false && user.get('email').touched" class = "icon-checkmark" item-end name ="checkmark"></ion-icon>
+          </ion-item>
+          <ion-item no-lines *ngIf = "user.controls['emailValConf'].hasError('invalid') && user.controls['emailValConf'].touched" class = "errorValidation">
+            <div>{{ 'SIGN_UP.ITEN2' | translate }}</div>
+          </ion-item>
+          <ion-item class = "margin-bottom" id = "passwordItem">
+            <ion-icon class = "icon-color" item-start name = "lock"></ion-icon>
+            <ion-input type = "{{type}}" placeholder = "{{ 'SIGN_UP.PLACEHOLDER_5' | translate }}" formControlName= "password" clearOnEdit = "false"></ion-input>
+            <button ion-button clear item-end (click) = "buttonShowPassword()">
+              <ion-icon class = "icon-color" name = "eye" ></ion-icon>
+            </button>
+          </ion-item>
+          <ion-item no-lines *ngIf = "user.get('password').hasError('minlength') && user.get('password').touched" class = "errorValidation">
+            <div>{{ 'SIGN_UP.ITEN3' | translate }}</div>
+          </ion-item>
+          <ion-item class = "margin-bottom">
+            <ion-icon class = "icon-color" item-start name = "lock"></ion-icon>
+            <ion-input type = "{{type}}" placeholder = "{{ 'SIGN_UP.PLACEHOLDER_6' | translate }}" formControlName= "passwordConf" id = "passwordConf" clearOnEdit = "false"></ion-input>
+            <ion-icon *ngIf = "getPassword() == getPasswordConf() && getPassword() != null && getPassword() != '' && !user.get('password').hasError('minlength')" class = "icon-checkmark" item-end name ="checkmark"></ion-icon>
+          </ion-item>
+          <ion-item no-lines *ngIf = "getPassword() != getPasswordConf() && getPassword() !=null && user.get('passwordConf').touched && !user.valid" class = "errorValidation">
+            <div>{{ 'SIGN_UP.ITEN4' | translate }}</div>
+          </ion-item>
+
+          <ion-item class = "margin-bottom" id="dateTimeItem">
+            <ion-icon class = "icon-color" item-start name= "calendar"></ion-icon>
+            <ion-datetime displayFormat = "DD/MM/YYYY" formControlName = "birth_date" placeholder = "{{ 'SIGN_UP.ITEN5' | translate }}" (ionCancel)= "dateTimeValidationBorder()" (ionChange)= "dateTimeValidationBorder()"></ion-datetime>
+          </ion-item>
+          <ion-item no-lines class = "item-background" *ngIf= "user.get('birth_date').touched && getMyDate() == '' || getMyDate() == null ">
+            <div class = "errorValidation">{{ 'SIGN_UP.ITEN6' | translate }}</div>
+          </ion-item>
+          <button class = "btn-signUp" ion-button (click)="foward()">{{ 'SIGN_UP.BUTTON' | translate }}</button>
+          </form>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

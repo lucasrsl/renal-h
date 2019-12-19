@@ -1,0 +1,37 @@
+progress-bar {
+  .progress-outer {
+    width: 96%;
+    margin: 10px 2%;
+    text-align: center;
+    background-color: #efefef;
+    border: 3px solid #ffffff;
+    color: #fff;
+    border-radius: 10px;
+  }
+
+  .progress-inside {
+      border-radius: 10px;
+      max-width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      height: 15px;
+      transition: width 2s;
+
+
+  }
+  .progress-inside[data-color="green"]{
+    background-color: #9CCC65;
+  }
+  .progress-inside[data-color="red"]{
+    background-color: rgb(204, 101, 101);
+  }
+  .progress-inside[data-color="yellow"]{
+    background-color: #FFC107;
+  }
+  .max-value{
+    float: left;
+    position: relative;
+    margin-left: 2.5%;
+    margin-top: 5px;
+  }
+}

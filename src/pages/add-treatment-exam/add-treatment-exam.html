@@ -1,0 +1,72 @@
+<!--
+  Generated template for the AddTreatmentExamPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border class = "visual-header">
+
+  <ion-navbar>
+    <ion-title>{{ 'ADD_TREATMENT_EXAM.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <form [formGroup]= "exam">
+  <ion-grid class = "grid-visual">
+    <ion-row>
+      <ion-col col-2>
+        <img src = "../assets/imgs/calendario.png" id = "img">
+      </ion-col>
+      <ion-col>
+        <ion-datetime cancelText = "CANCELAR" doneText="OK" formControlName="date_of_exam" pickerFormat = "DD/MM/YYYY" displayFormat = "DD/MM/YYYY" placeholder = "{{ 'ADD_TREATMENT_EXAM.PLACEHOLDER' | translate }}" (ionCancel) = "validatorLine('invalid')" (ionChange)="validatorLine('normal')"></ion-datetime>
+      </ion-col>
+    </ion-row>
+    <div class = "date-line" date-value="normal" id="date-line"></div>
+    <ion-item class = "calcium-item" calcium-value = "normal" id = "calcium-item"  >
+      <ion-label floating>{{ 'ADD_TREATMENT_EXAM.INPUT.CALCIUM' | translate }} (mg)</ion-label>
+      <ion-input formControlName="calcium" type = "number" value="0.00" (ionChange)="formataNumero($event)"></ion-input>
+    </ion-item>
+    <ion-item class = "phosphorus-item" phosphorus-value = "normal" id = "phosphorus-item"  >
+      <ion-label floating>{{ 'ADD_TREATMENT_EXAM.INPUT.PHOSPHOR' | translate }} (mg)</ion-label>
+      <ion-input formControlName="phosphorus" type = "number" value="0.00" (ionChange)="formataNumero($event)"></ion-input>
+    </ion-item>
+    <ion-item class = "potassium-item" potassium-value = "normal" id = "potassium-item"  >
+      <ion-label floating>{{ 'ADD_TREATMENT_EXAM.INPUT.POTASSIUM' | translate }} (mg)</ion-label>
+      <ion-input formControlName="potassium" type = "number" value="0.00" (ionChange)="formataNumero($event)"></ion-input>
+    </ion-item>
+
+    <!--<ion-row>
+      <label>Cálcio</label>
+    </ion-row>
+    <ion-row>
+      <ion-input formControlName="calcium" type = "number" pattern="[0-9]*" placeholder = "Resultado"></ion-input>
+    </ion-row>
+    <div class = "line"></div>
+    <ion-row>
+      <label>Fósforo</label>
+    </ion-row>
+    <ion-row>
+      <ion-input formControlName="phosphorus" type = "number" pattern="[0-9]*" placeholder = "Resultado"></ion-input>
+    </ion-row>
+    <div class = "line"></div>
+    <ion-row>
+      <label>Potássio</label>
+    </ion-row>
+    <ion-row>
+      <ion-input formControlName="potassium" type = "number" pattern="[0-9]*" placeholder = "Resultado"></ion-input>
+    </ion-row>
+    <div class = "line"></div>-->
+    <ion-row class = "end-buttons">
+      <ion-col>
+        <label (click) = "dismiss()">{{ 'ADD_TREATMENT_EXAM.OPTION.CANCEL' | translate }}</label>
+      </ion-col>
+      <ion-col>
+        <label (click) = "addTreatmentExam()">{{ 'ADD_TREATMENT_EXAM.OPTION.OK' | translate }}</label>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  </form>
+</ion-content>

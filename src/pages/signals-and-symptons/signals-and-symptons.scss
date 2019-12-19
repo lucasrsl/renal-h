@@ -1,0 +1,47 @@
+page-signals-and-symptons {
+  .second-title{
+    color: color($colors, secondary);
+  }
+  li{
+    margin-bottom: 5px;
+  }
+  .img-blood-pressure{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100px;
+  }
+  .img{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 150px;
+  }
+  .visual-header{
+    .toolbar-title{
+      color: #ffffff;
+    }
+    .toolbar-background{
+        background-color:#546E7A;
+    }
+    .bar-button-default-md{
+        color: color($colors, secondary);
+    }
+    .bar-buttons-md{
+        margin-left: 3%;
+    }
+    .toolbar-title-md{
+      margin-left: 9%;
+    }
+    #source{
+        filter: brightness(1000%);
+        width: 25px;
+        margin-left: 12px;
+    }
+    .close-icon{
+      color: #ffffff;
+    }
+  }
+}

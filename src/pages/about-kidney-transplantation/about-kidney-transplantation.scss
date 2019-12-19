@@ -1,0 +1,53 @@
+page-about-kidney-transplantation {
+  .second-title{
+    color: color($colors, secondary);
+  }
+  .item-img{
+      background: transparent;
+      position: relative;
+      margin: auto;
+      height: 60%;
+      width:  60%;
+  }
+  .source-text{
+      font-size: 10px;
+      text-align: right;
+
+  }
+  .visual-header{
+      .toolbar-title{
+          color: #ffffff;
+      }
+      .toolbar-background{
+          background-color:#546E7A;
+      }
+      .bar-button-default-md{
+          color: color($colors, secondary);
+      }
+      .bar-buttons-md{
+          margin-left: 3%;
+      }
+      .toolbar-title-md{
+        margin-left: 9%;
+      }
+      #source{
+          filter: brightness(1000%);
+          width: 25px;
+          margin-left: 12px;
+      }
+      .close-icon{
+        color: #ffffff;
+      }
+  }
+  .accordion-group{
+    margin-top: 30px;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+  }
+  .accordion-grid{
+    border-bottom: 1px solid #c9c9c9;
+  }
+  li{
+    margin-bottom: 5px;
+  }
+}

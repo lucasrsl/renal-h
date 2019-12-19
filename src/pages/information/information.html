@@ -1,0 +1,127 @@
+<!--
+  Generated template for the InformationPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar class = "header-class">
+    <button ion-button menuToggle>
+      <ion-icon name = "menu"></ion-icon>
+    </button>
+    <ion-title>{{ 'INFORMATION.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class = "img-background">
+  <ion-grid class = "grid-visual">
+    <ion-row>
+      <ion-col>
+          <strong class = "title-visual">{{ 'INFORMATION.COL1' | translate }}</strong>
+          <ion-card class = "card-visual">
+            <ion-list>
+              <ion-item class="header-item-color">
+                <label class="header-text">{{ 'INFORMATION.LABEL1' | translate }}</label>
+              </ion-item>
+            <button ion-item detail-none (click) = "openModal('WhatIskidneysPage')">
+              <ion-label class="content-text">{{ 'INFORMATION.LABEL2' | translate }}</ion-label>
+              <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+            </button>
+            <button ion-item detail-none (click) = "openModal('WhatMainFunctionKidneyPage')">
+              <ion-label class = "content-text">{{ 'INFORMATION.LABEL3' | translate }}</ion-label>
+              <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+            </button>
+          </ion-list>
+            <ion-list>
+              <ion-item class="header-item-color">
+                <label class="header-text">{{ 'INFORMATION.LABEL4' | translate }}</label>
+              </ion-item>
+              <button ion-item detail-none (click)= "openModal('WhatIsDrcPage')">
+                <ion-label class="content-text">{{ 'INFORMATION.LABEL5' | translate }}</ion-label>
+                <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+              </button>
+              <button ion-item detail-none (click) = "openModal('MainCausesDrcPage')">
+                <ion-label class = "content-text">{{ 'INFORMATION.LABEL6' | translate }}</ion-label>
+                <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+              </button>
+              <button ion-item detail-none (click) = "openModal('MainSymptomsDrcPage')">
+                <ion-label class = "content-text">{{ 'INFORMATION.LABEL7' | translate }}</ion-label>
+                <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+              </button>
+              <button ion-item detail-none (click) = "openModal('TreatmentDrcPage')">
+                <ion-label class = "content-text">{{ 'INFORMATION.LABEL8' | translate }}</ion-label>
+                <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+              </button>
+              <button ion-item detail-none (click) = "openModal('PreventDrcPage')">
+                <ion-label class = "content-text">{{ 'INFORMATION.LABEL9' | translate }}</ion-label>
+                <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+              </button>
+            </ion-list>
+            <ion-list>
+              <ion-item class="header-item-color">
+                  <label class="header-text">{{ 'INFORMATION.LABEL10' | translate }}</label>
+            </ion-item>
+            <button ion-item detail-none (click) = "openModal('FaqPage')">
+              <ion-label class="content-text">{{ 'INFORMATION.LABEL11' | translate }}</ion-label>
+              <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+            </button>
+          </ion-list>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row class = "title-margin">
+        <ion-col>
+          <strong class = "title-visual">{{ 'INFORMATION.LABEL12' | translate }}</strong>
+          <ion-card class = "card-visual">
+            <ion-list>
+              <ion-item class="header-item-color">
+                <label class="header-text">{{ 'INFORMATION.LABEL13' | translate }}</label>
+              </ion-item>
+            <button ion-item detail-none (click) = "openModal('IntercurrenHemodialysisPage')">
+              <ion-label class="content-text">{{ 'INFORMATION.LABEL14' | translate }}</ion-label>
+              <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+            </button>
+          </ion-list>
+            <ion-list>
+              <ion-item class="header-item-color">
+                <label class="header-text">{{ 'INFORMATION.LABEL15' | translate }}</label>
+              </ion-item>
+              <button ion-item detail-none (click)= "openModal('HypertensionPage')">
+                <ion-label class="content-text">{{ 'INFORMATION.LABEL16' | translate }}</ion-label>
+                <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+              </button>
+            </ion-list>
+            <ion-list>
+            <ion-item class="header-item-color">
+                  <label class="header-text">{{ 'INFORMATION.LABEL17' | translate }}</label>
+            </ion-item>
+            <button ion-item detail-none (click) = "openModal('ShortStayCatheterPage')">
+              <ion-label class="content-text">{{ 'INFORMATION.LABEL18' | translate }}</ion-label>
+              <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+            </button>
+            <button ion-item detail-none (click) = "openModal('ArteriovenousFistulaPage')">
+              <ion-label class="content-text">{{ 'INFORMATION.LABEL19' | translate }}</ion-label>
+              <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+            </button>
+            <button ion-item detail-none (click) = "openModal('GraftPage')">
+              <ion-label class="content-text">{{ 'INFORMATION.LABEL20' | translate }}</ion-label>
+              <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+            </button>
+          </ion-list>
+          <ion-item class="header-item-color">
+            <label class="header-text">{{ 'INFORMATION.LABEL21' | translate }}</label>
+          </ion-item>
+          <ion-list>
+            <button ion-item detail-none (click) = "openModal('AboutKidneyTransplantationPage')">
+              <ion-label class="content-text">{{ 'INFORMATION.LABEL22' | translate }}</ion-label>
+              <ion-icon class= "icon-color" item-end name= "md-arrow-dropright"></ion-icon>
+            </button>
+          </ion-list>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,88 @@
+<!--
+  Generated template for the TreatmentDrcPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class = "visual-header">
+
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button icon-only (click) = "openInformation()">
+        <img src = "../assets/imgs/fonte_branco.png" id = "source">
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button icon-only (click) = "dismiss()">
+        <ion-icon name = "close-circle" class = "close-icon"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{ 'TREATMENT_DRC.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <label class = "second-title">{{ 'TREATMENT_DRC.LABEL1' | translate }}</label>
+  <div class = "accordion-group">
+    <accordion>
+      <label class = "accordion-title">{{ 'TREATMENT_DRC.LABEL2' | translate }}</label>
+      <label class = "accordion-text">
+        <img src = "../assets/imgs/Imagens informações/doctor (2).png" class = "doctor-img">
+        <p>{{ 'TREATMENT_DRC.LABEL3' | translate }}</p>
+        <p>{{ 'TREATMENT_DRC.LABEL4' | translate }}</p>
+
+
+      </label>
+    </accordion>
+    <accordion>
+      <label class = "accordion-title">{{ 'TREATMENT_DRC.LABEL5' | translate }}</label>
+      <label class = "accordion-text">
+          {{ 'TREATMENT_DRC.LABEL6' | translate }}
+      </label>
+    </accordion>
+    <accordion>
+      <label class = "accordion-title">{{ 'TREATMENT_DRC.LABEL7' | translate }}</label>
+      <label class = "accordion-text">
+          {{ 'TREATMENT_DRC.LABEL8' | translate }}
+      </label>
+    </accordion>
+    <accordion>
+      <label class = "accordion-title">{{ 'TREATMENT_DRC.LABEL9' | translate }}</label>
+      <label class = "accordion-text">
+          {{ 'TREATMENT_DRC.LABEL10' | translate }}
+      </label>
+    </accordion>
+  </div>
+
+  <!--<label>
+
+    <p class = "alert-title">• Tratamento conservador:</p>
+    <p>
+      O tratamento conservador consiste em todas as medidas clínicas(remédios, modificações na dieta e estilo de vida) que podem ser utilizadas para
+      retardar piora da função renal, reduzir os sintomas e previnir complicações ligadas à doença renal crônica. Apesar dessas medidas, a DRC é
+      progressiva e irreversível até o momento. Porém, com o tratamento conservador é possivel reduzir a velocidade desta progressão ou até mesmo,
+      estabilizar a doença. Quanto mais precoce começar o tratamento conservador maiores chances para preservar a função dos rins.
+    </p>
+    <p class = "alert-title">• Diálise peritoneal:</p>
+    <p>É uma opção de tratamento através da qual o processo de filtração do sangue ocorre dentro do corpo do paciente, com auxílio de um filtro
+    natural como substituto da função renal. Esse filtro é denominado peritônio. É uma membrana porosa e semipermeável, que reveste os principais órgãos
+    abdominais. O espaço entre esses órgãos é a cavidade peritoneal. Um líquido de diálise é colocado na cavidade e drenado, através de um cateter
+    implantado no</p> Precisa completar
+    <p class = "alert-title">• Hemodiálise:</p>
+    <p>Hemodiálise é um procedimento através do qual uma máquina limpa e filtra o sangue, ou seja, faz parte do trabalho que o rim doente não pode fazer.
+    O procedimento libera o corpo dos resíduos prejudiciais à saúde, como o excesso de sal e de líquidos. Também controla a pressão arterial e ajuda
+    o corpo a manter o equilíbrio de substâncias como sódio, potássio, uréia e creatinina. As sessões de hemodiálise são realizadas geralmente em clínicas
+    especializadas ou hospitais.</p>
+    <p class = "alert-title">• Transplante:</p>
+    <p>No transplante renal, um rim saudável de uma pessoa viva ou falecida é doado a um paciente portador de insuficiência renal crônica avançada.
+    Através de uma cirurgia, esse rim é implantado no paciente e passa a exercer as funções de filtração e eliminação de</p> falta completar
+    <p>O transplante renal é considerado a mais completa alternativa de substituição da função renal. Tendo como principal vantagem a melhor qualidade
+    de vida, pois o transplante renal garante mais liberdade na rotina diária do paciente.</p>
+
+  </label>-->
+  <p class = "alert-text">{{ 'TREATMENT_DRC.LABEL11' | translate }}</p>
+
+
+</ion-content>

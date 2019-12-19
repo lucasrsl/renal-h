@@ -1,0 +1,80 @@
+<ion-header class = "visual-header">
+  <ion-navbar>
+    <ion-title>{{ 'EXAMS.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class = "img-background" (ionScroll)="scroll($event)">
+    <ion-list class = "list-visual">
+      <ion-card *ngFor = "let info of exams; let i = index;">
+        <ion-item>
+          <!--<ion-grid>
+            <ion-row>
+              <ion-col>
+                <label>
+                  <p>Data do exame</p>
+                  <p>{{info.dateHour}}</p>
+                </label>
+              </ion-col>
+              <ion-col col-2>
+                <button class="btn-alarm" ion-button color="light" id="{{'btnAlarm'+i}}" (click)="enableNotification(info.alarms,'btnAlarm'+i)" clear>
+                  <ion-icon name="notifications"></ion-icon>
+                  <ion-icon class="icon-disabled" name="notifications-off"></ion-icon>
+                </button>
+              </ion-col>
+              <ion-col col-2>
+                <button ion-button color="light" class = "trash-button" clear (click)="deleteExams(info)">
+                  <ion-icon name = "trash"></ion-icon>
+                </button>
+              </ion-col>
+            </ion-row>
+          </ion-grid>-->
+
+
+
+          <ion-grid class = "grid-visual">
+            <ion-row>
+              <ion-col class = "date-col">
+                <label>
+                  <p class = "date-text">{{ 'EXAMS.LABEL1' | translate }}</p>
+                  <p>{{info.dateHour}}</p>
+                </label>
+              </ion-col>
+              <ion-col col-2>
+                <button class="btn-alarm" ion-button color="light" id="{{'btnAlarm'+i}}" (click)="enableNotification(info.alarms,'btnAlarm'+i, info.id)" clear>
+                  <ion-icon name="notifications"></ion-icon>
+                  <ion-icon class="icon-disabled" name="notifications-off"></ion-icon>
+                </button>
+              </ion-col>
+              <ion-col col-2>
+                <button ion-button color="light" class = "trash-button" clear (click)="deleteExams(info)">
+                  <ion-icon name = "trash"></ion-icon>
+                </button>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col col-12 class="col-type">
+                <strong>{{info.exam_type}}</strong>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col col-2>
+                <strong>{{ 'EXAMS.COL' | translate }}</strong>
+              </ion-col>
+              <ion-col offset-1>
+                {{info.local_exam}}
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-item>
+      </ion-card>
+
+    </ion-list>
+    <img src = "../assets/imgs/placeholders/exames.png" id = "placeholder-size" *ngIf= "placeholderFlag">
+    <label *ngIf = "placeholderFlag">
+      <p class = "img-text">{{ 'EXAMS.LABEL2' | translate }}</p>
+      <p class = "img-second-text">{{ 'EXAMS.LABEL3' | translate }}<br/> {{ 'EXAMS.LABEL4' | translate }}</p>
+    </label>
+    <div ion-fixed class = "fade" display = "false"></div>
+    <button ion-fixed ion-button (click) = "openAddExam()" class = "add-exam" id = "btn">{{ 'EXAMS.BUTTON' | translate }}</button>
+</ion-content>

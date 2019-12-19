@@ -1,0 +1,28 @@
+<ion-header class = "visual-header">
+  <ion-navbar>
+    <ion-title>{{ 'EXAM_SELECT.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid class = "grid-visual">
+    <button ion-button clear btn-options full (click)="selectExamType('Exames de Laboratório')">
+      {{ 'EXAM_SELECT.BUTTON1' | translate }}
+    </button>
+    <div class = "line"></div>
+    <button ion-button clear btn-options full (click)="selectExamType('Exames de Imagem')">
+      {{ 'EXAM_SELECT.BUTTON2' | translate }}
+    </button>
+    <div class = "line"></div>
+    <button ion-button clear btn-options full (click)="selectExamType('Outros')">
+      {{ 'EXAM_SELECT.BUTTON3' | translate }}
+    </button>
+    <div class = "line"></div>
+    <button ion-button clear full (click)="dismiss()">
+      {{ 'EXAM_SELECT.BUTTON4' | translate }}
+    </button>
+
+  </ion-grid>
+
+
+</ion-content>

@@ -1,0 +1,30 @@
+<!--
+  Generated template for the DateSelectPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border class = "header-class">
+
+  <ion-navbar>
+    <ion-title>{{'DATE_SELECT.TITLE' | translate}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <ion-item class = "item-date">
+      <ion-datetime cancelText = "{{ 'DATE_SELECT.CANCEL' | translate }}" doneText = "{{ 'DATE_SELECT.OK' | translate }}" displayFormat="YYYY" placeholder = "{{ 'DATE_SELECT.PLACEHOLDER' | translate }}" [(ngModel)] = "date"></ion-datetime>
+    </ion-item>
+  <ion-grid class = "grid-visual">
+  <ion-row>
+    <ion-col>
+      <label (click) = "dismiss()">{{ 'DATE_SELECT.CANCEL' | translate }}</label>
+    </ion-col>
+    <ion-col>
+      <label (click) = "changeYear()">{{ 'DATE_SELECT.OK' | translate }}</label>
+    </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

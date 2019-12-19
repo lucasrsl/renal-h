@@ -1,0 +1,72 @@
+<!--
+  Generated template for the TreatmentPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class = "header-class">
+
+  <ion-navbar>
+    <ion-buttons end>
+      <button ion-button icon-only (click) = "openInformation()">
+        <ion-icon name = "help-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{ 'LIQUID_CONTROLLER.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class = "img-background" (ionScroll)="scroll($event)">
+      <ion-list padding class = "list-visual" no-lines id = "hud">
+        <ion-item>
+          <label>
+          <p class = "how-much-to-drink">{{textStatus}}</p>
+          <p class = "cup-quantity"> {{textLiquid}}</p>
+          </label>
+          <img src = "../assets/imgs/water_cup.png" id = "copo" item-end>
+        </ion-item>
+        <progress-bar [Progress]= "dailyVolumeProgress" [MaxValue]= "dailyVolumeMax"></progress-bar>
+        <ion-grid class = "liquid-grid">
+          <ion-row>
+            <ion-col class = "liquid-total">
+              <label>{{totalLiquid}}/{{dailyVolumeMax}}ml</label>
+            </ion-col>
+            <ion-col>
+            <button ion-button (click)= "changeDailyVolume()" class = "limit-edit-button">
+              <ion-icon name = "create"></ion-icon>
+              <label>{{ 'LIQUID_CONTROLLER.LABEL1' | translate }}</label>
+            </button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        <div class = "line"></div>
+      </ion-list>
+
+      <ion-item no-lines class = "item-inherited-quantity">
+        <label>{{ 'LIQUID_CONTROLLER.LABEL2' | translate }}</label>
+      </ion-item>
+      <ion-list padding class = "historic-list" id = "list">
+        <ion-grid *ngFor= "let item of historic">
+          <ion-row>
+            <ion-col col-1>
+              <img src = {{item.icon}} id = "small-cup">
+            </ion-col>
+            <ion-col col-8 class = "adjust-col">
+              <label class = "cup-type-label">{{item.text}}</label>
+            </ion-col>
+            <ion-col class = "adjust-col-label">
+              <label item-end class = "label">{{item.hora}}</label>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-list>
+      <img src = "../assets/imgs/placeholders/controle_de_liq.png" id = "placeholder-size" *ngIf = "placeholderFlag" >
+      <label *ngIf = "placeholderFlag">
+        <p class = "img-text">{{ 'LIQUID_CONTROLLER.LABEL3' | translate }}</p>
+        <p class = "img-second-text">{{ 'LIQUID_CONTROLLER.LABEL4' | translate }}</p>
+      </label>
+      <div ion-fixed class = "fade" display = "false"></div>
+      <button ion-fixed ion-button (click) = "openCupSelect()" class = "add-cup" id="add-cup">{{ 'LIQUID_CONTROLLER.LABEL5' | translate }}</button>
+</ion-content>

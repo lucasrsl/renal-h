@@ -1,0 +1,372 @@
+<!--<ion-header class = "header-class">
+  <ion-navbar>
+    <ion-buttons end>
+      <button ion-button icon-only (click) = "dismiss()">
+        <ion-icon name = "close-circle" class = "close-icon"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Adicionar Medicação</ion-title>
+  </ion-navbar>
+</ion-header>-->
+<ion-header class = "header-class">
+  <ion-navbar hideBackButton = "true">
+    <ion-buttons left>
+      <button ion-button icon-only (click)="viewCtrl.dismiss()" class = "button-back">
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{ 'ADD_MED.TITLE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class = "img-background">
+  <!--<form [formGroup]="medicationForm">
+    <ion-slides pager = true>
+      <ion-slide>
+        <ion-item>
+          <ion-input formControlName="name" keyboard-event = "name" id = "teste"></ion-input>
+          <ion-label floating>Nome da medicação</ion-label>
+        </ion-item>
+        <ion-row class = "row-options">
+          <ion-col col-5>
+            <button ion-button clear (click) = "dismiss()">Cancelar</button>
+          </ion-col>
+          <ion-col offset-2 col-5>
+            <button ion-button clear (click) = "slideToNext()" [disabled]='!medicationForm.get("name").valid'>Próximo</button>
+          </ion-col>
+        </ion-row>
+      </ion-slide>
+      <ion-slide>
+        <ion-item>
+          <ion-input readonly (click) = "openPillSelect()" class = "modal-input" formControlName="presentation_type" ></ion-input>
+          <ion-label floating>Tipo da dosagem</ion-label>
+        </ion-item>
+        <ion-row class = "row-options">
+          <ion-col col-5>
+            <button ion-button clear (click) = "slideToPrev()">Voltar</button>
+          </ion-col>
+          <ion-col offset-2 col-5>
+            <button ion-button clear (click) = "slideToNext()" [disabled]='!medicationForm.get("presentation_type").valid'>Próximo</button>
+          </ion-col>
+        </ion-row>
+      </ion-slide>
+      <ion-slide *ngIf="medicationForm.get('presentation_type').value != 'Solução(ml)'">
+        <ion-item>
+          <ion-input formControlName="quantity" type = "number" pattern="[0-9]*"></ion-input>
+          <ion-label floating>Quantidade</ion-label>
+        </ion-item>
+        <ion-row class = "row-options">
+          <ion-col col-5>
+            <button ion-button clear (click) = "slideToPrev()">Voltar</button>
+          </ion-col>
+          <ion-col offset-2 col-5>
+            <button ion-button clear (click) = "slideToNext()" [disabled]='!medicationForm.get("quantity").valid'>Próximo</button>
+          </ion-col>
+        </ion-row>
+      </ion-slide>
+      <ion-slide>
+        <ion-row>
+          <ion-col>
+            <ion-item>
+              <ion-input formControlName="dosageQuantity" type = "number" pattern="[0-9]*"></ion-input>
+              <ion-label floating>Dosagem</ion-label>
+            </ion-item>
+          </ion-col>
+          <ion-col col-4 class = "col-select">
+            <ion-select [selectOptions]="selectUnity" formControlName="unityDose" name="unityDose" position-relative>
+              <ion-option value="Mg">Mg</ion-option>
+              <ion-option value="Ml">Ml</ion-option>
+              <ion-option value="mg/ml">Mg/Ml</ion-option>
+              <ion-option value="u.i">U.i</ion-option>
+            </ion-select>
+            <div class = "line"></div>
+          </ion-col>
+        </ion-row>
+        <ion-row class = "row-options">
+          <ion-col col-5>
+            <button ion-button clear (click) = "slideToPrev()">Voltar</button>
+          </ion-col>
+          <ion-col offset-2 col-5>
+            <button ion-button clear (click) = "slideToDifferentSize(1,'foward')" [disabled]='!medicationForm.get("dosageQuantity").valid || !medicationForm.get("unityDose").valid'>Próximo</button>
+          </ion-col>
+        </ion-row>
+      </ion-slide>
+      <ion-slide>
+        <ion-grid>
+          <ion-row>
+            <label class = "slide-title">Frequência</label>
+          </ion-row>
+          <ion-row class = "row-first-option">
+            <label (click) = "slideToLast(true)">EM INTERVALOS</label>
+          </ion-row>
+          <ion-row class = "row-second-option">
+            <label (click) = "slideToLast(false)">COM AS REFEIÇÕES</label>
+          </ion-row>
+          <ion-row class = "row-options frequency-options">
+            <ion-col col-5>
+              <button ion-button clear (click) = "slideToDifferentSize(0,'back')">Voltar</button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-slide>
+
+      <ion-slide *ngIf=lastSlideSelect>
+        <ion-grid>
+          <ion-row>
+            <label class = "slide-title">Frequência</label>
+          </ion-row>
+          <ion-row class = "slide-sub-title">
+            <label>EM INTERVALOS</label>
+          </ion-row>
+          <ion-row>
+            <ion-item>
+              <ion-label floating>Horário da primeira dose</ion-label>
+              <ion-datetime displayFormat="HH:mm" cancelText="CANCELAR" doneText="Salvar" formControlName="startDosage"></ion-datetime>
+            </ion-item>
+          </ion-row>
+          <ion-row>
+            <ion-item>
+              <ion-label floating>Tempo de intervalo</ion-label>
+              <ion-input readonly (click) = "openFrequencySelect()" formControlName="intervalTime"></ion-input>
+            </ion-item>
+          </ion-row>
+          <ion-row class = "row-options">
+            <ion-col col-5>
+              <button ion-button clear (click) = "slideToDifferentSize(1,'back')">Voltar</button>
+            </ion-col>
+            <ion-col offset-2 col-5>
+              <button ion-button clear (click) = "postMedication(true)">Salvar</button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-slide>
+      <ion-slide *ngIf="!lastSlideSelect">
+        <ion-grid class = "grid-visual">
+          <ion-row>
+            <label class = "slide-title">Frequência</label>
+          </ion-row>
+          <ion-row>
+            <label class = "slide-sub-title">COM AS REFEIÇÕES</label>
+          </ion-row>
+          <ion-row>
+            <ion-item>
+              <ion-label floating>Café da manhã</ion-label>
+              <ion-datetime displayFormat="HH:mm" cancelText="CANCELAR" doneText="Salvar"></ion-datetime>
+            </ion-item>
+          </ion-row>
+          <ion-row>
+            <ion-item>
+              <ion-label floating>Almoço</ion-label>
+              <ion-datetime displayFormat="HH:mm" cancelText="CANCELAR" doneText="Salvar"></ion-datetime>
+            </ion-item>
+          </ion-row>
+          <ion-row>
+            <ion-item>
+              <ion-label floating>Jantar</ion-label>
+              <ion-datetime displayFormat="HH:mm" cancelText="CANCELAR" doneText="Salvar"></ion-datetime>
+            </ion-item>
+          </ion-row>
+          <ion-row class = "row-options">
+            <ion-col col-5>
+              <button ion-button clear (click) = "slideToDifferentSize(1,'back')">Voltar</button>
+            </ion-col>
+            <ion-col offset-2 col-5>
+              <button ion-button clear (click) = "slideToNext()">Salvar</button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-slide>
+    </ion-slides>
+  </form>-->
+
+  <form [formGroup]="medicationForm">
+    <ion-grid class = "grid-visual">
+      <ion-row>
+        <ion-item>
+          <ion-label floating>{{ 'ADD_MED.LABEL1' | translate }}</ion-label>
+          <ion-input formControlName="name"></ion-input>
+        </ion-item>
+        <!--<ion-col class = "col-text" col-3>
+          <strong>Nome</strong>
+        </ion-col>
+        <ion-col>
+          <ion-input placeholder="nome do remédio" formControlName="name"></ion-input>
+        </ion-col>-->
+      </ion-row>
+      <ion-row>
+        <ion-item>
+          <ion-label floating>{{ 'ADD_MED.LABEL2' | translate }}</ion-label>
+          <ion-input readonly formControlName="presentation_type" (click) = "openPillSelect()" class = "modal-input" id="modal-input"></ion-input>
+        </ion-item>
+        <!--<ion-col class = "col-text" col-6>
+          <strong>Tipo da dosagem</strong>
+        </ion-col>
+        <ion-col>
+        <ion-input [class.new-selected] = "pillModified == true" formControlName="presentation_type" placeholder = "ex: Comprimido" disabled (click) = "openPillSelect()" class = "modal-input"></ion-input>
+        </ion-col>-->
+      </ion-row>
+      <ion-row>
+        <ion-item class = "input-quantity" display = "enabled">
+          <ion-label floating>{{ 'ADD_MED.LABEL3' | translate }}</ion-label>
+          <ion-input name = "quantity" formControlName = "dosage" type = "number" pattern="[0-9]*" id = "input-quantity"></ion-input>
+        </ion-item>
+      </ion-row>
+      <ion-row class = "input-row">
+        <ion-col col-7 class = "col-input">
+          <ion-item class = "input-dosage">
+            <ion-input formControlName="dosageQuantity" type = "number" pattern="[0-9]*" ></ion-input>
+            <ion-label floating>{{ 'ADD_MED.LABEL4' | translate }}</ion-label>
+          </ion-item>
+        </ion-col>
+        <!--tradução-->
+        <ion-col col-4 offset-1 class = "col-select">
+          <ion-select [selectOptions]="selectUnity" formControlName="unityDose" name="unityDose" position-relative>
+            <ion-option value="Mg">Mg</ion-option>
+            <ion-option value="Ml">Ml</ion-option>
+            <ion-option value="mg/ml">Mg/Ml</ion-option>
+            <ion-option value="u.i">U.i</ion-option>
+          </ion-select>
+        </ion-col>
+      </ion-row>
+      <!--<ion-row>
+        <ion-col class = "col-text" col-6>
+          <strong>Unidade</strong>
+        </ion-col>
+        <ion-col>
+            <ion-select [selectOptions]="selectUnity" select-align-right formControlName="unityDose" name="unityDose" position-relative>
+              <ion-option value="Mg">Mg</ion-option>
+              <ion-option value="Ml">Ml</ion-option>
+              <ion-option value="mg/ml">Mg/Ml</ion-option>
+              <ion-option value="u.i">U.i</ion-option>
+            </ion-select>
+        </ion-col>
+      </ion-row>
+      <div class = "line-end"></div>
+      <ion-row>
+        <ion-col class = "col-text" col-4>
+          <strong>Quantidade</strong>
+        </ion-col>
+        <ion-col class="info-unity">
+            <ion-input placeholder="ex: 1 comprimido de 1 mg" formControlName="dosage"></ion-input>
+            <span>{{medicationForm.value.unityDose}}</span>
+        </ion-col>
+      </ion-row>-->
+    </ion-grid>
+  </form>
+  <ion-grid class = "alarm-type-grid">
+    <ion-row>
+      <ion-col col-6>
+        <div class = "alarm-type left" (click) = "selectAlarmType($event)" type = "active">
+          <label>{{ 'ADD_MED.LABEL5' | translate }}</label>
+        </div>
+      </ion-col>
+      <ion-col col-6>
+        <div class = "alarm-type right" (click) = "selectAlarmType($event)" type = "not-active">
+          <label>{{ 'ADD_MED.LABEL6' | translate }}</label>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid class = "second-grid-visual" id = "option-1">
+    <!--<ion-row>
+      <strong>Intervalo</strong>
+    </ion-row>
+    <ion-row class = "row-text">
+      <ion-col col-1>
+        <ion-checkbox [(ngModel)]="checkboxInterval[0]" (click) = "verifyCheckbox(0)"></ion-checkbox>
+      </ion-col>
+      <ion-col>
+        <label class = "checkbox-label">Em intervalos</label>
+      </ion-col>
+    </ion-row>
+    <div [class.disabled-form] = "checkboxInterval[0] == false">-->
+      <ion-row>
+        <ion-col class = "col-text" col-4>
+          <label>{{ 'ADD_MED.LABEL7' | translate }}</label>
+        </ion-col>
+        <!--<ion-col>
+          <ion-input [class.new-selected] = "frequencyModified == true" [(ngModel)] = "selectedFrequency" disabled (click) = "openFrequencySelect()" class = "modal-input"></ion-input>
+        </ion-col>-->
+        <ion-col col-6 offset-2 class = "col-select">
+            <ion-select [selectOptions]="selectTime" [(ngModel)] = "selectedFrequency" position-relative>
+              <ion-option value="4 em 4 horas">{{ 'ADD_MED.SELECT.OPTION1' | translate }}</ion-option>
+              <ion-option value="6 em 6 horas">{{ 'ADD_MED.SELECT.OPTION2' | translate }}</ion-option>
+              <ion-option value="8 em 8 horas">{{ 'ADD_MED.SELECT.OPTION3' | translate }}</ion-option>
+              <ion-option value="12 em 12 horas">{{ 'ADD_MED.SELECT.OPTION4' | translate }}</ion-option>
+              <ion-option value="1x ao dia">{{ 'ADD_MED.SELECT.OPTION5' | translate }}</ion-option>
+            </ion-select>
+            <!--<div class = "line"></div>-->
+          </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class = "col-text" col-4>
+          <label>{{ 'ADD_MED.LABEL8' | translate }}</label>
+        </ion-col>
+        <ion-col>
+          <!--<ion-input class = "time-input" type = "time" placeholder = "ex: 18:00"></ion-input>-->
+          <ion-datetime displayFormat="HH:mm" cancelText="{{ 'ADD_MED.DATE_TIME.CANCEL' | translate }}" doneText="{{ 'ADD_MED.DATE_TIME.DONE' | translate }}" placeholder = "ex: 18:00" [(ngModel)]="intervalTime"></ion-datetime>
+        </ion-col>
+      </ion-row>
+    <!--</div>-->
+    </ion-grid>
+
+    <!--<ion-row class = "row-text">
+      <ion-col col-1>
+        <ion-checkbox [(ngModel)] = "checkboxInterval[1]" (click)="verifyCheckbox(1)"></ion-checkbox>
+      </ion-col>
+      <ion-col>
+        <label class = "checkbox-label">Com as refeições</label>
+      </ion-col>
+    </ion-row>-->
+    <!--<div [class.disabled-form] = "checkboxInterval[1] == false">-->
+    <ion-grid class = "second-grid-visual" id = "option-2">
+      <ion-row>
+        <ion-col col-1 class = "col-checkbox">
+          <ion-checkbox [(ngModel)]="timeCoffe.check" class = "checkbox-align"></ion-checkbox>
+        </ion-col>
+        <ion-col class = "col-text-checkbox">
+          <label>{{ 'ADD_MED.LABEL9' | translate }}</label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-datetime displayFormat="HH:mm" cancelText="{{ 'ADD_MED.DATE_TIME.CANCEL' | translate }}" doneText="{{ 'ADD_MED.DATE_TIME.DONE' | translate }}" placeholder = "ex: 18:00" [(ngModel)]="timeCoffe.value"></ion-datetime>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-1 class = "col-checkbox">
+          <ion-checkbox [(ngModel)]="timeLunch.check" class = "checkbox-align"></ion-checkbox>
+        </ion-col>
+        <ion-col class = "col-text-checkbox">
+          <label>{{ 'ADD_MED.LABEL10' | translate }}</label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-datetime displayFormat="HH:mm" cancelText="{{ 'ADD_MED.DATE_TIME.CANCEL' | translate }}" doneText="{{ 'ADD_MED.DATE_TIME.DONE' | translate }}" placeholder = "ex: 18:00" [(ngModel)]="timeLunch.value"></ion-datetime>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-1 class = "col-checkbox">
+          <ion-checkbox [(ngModel)]="timeDinner.check" class = "checkbox-align"></ion-checkbox>
+        </ion-col>
+        <ion-col class = "col-text-checkbox">
+          <label>{{ 'ADD_MED.LABEL11' | translate }}</label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-datetime displayFormat="HH:mm" cancelText="{{ 'ADD_MED.DATE_TIME.CANCEL' | translate }}" doneText="{{ 'ADD_MED.DATE_TIME.DONE' | translate }}" placeholder = "ex: 18:00" [(ngModel)]="timeDinner.value"></ion-datetime>
+        </ion-col>
+      </ion-row>
+    <!--</div>-->
+  </ion-grid>
+
+  <ion-grid class = "second-grid-visual">
+    <ion-item no-lines>
+      <ion-label>{{ 'ADD_MED.LABEL12' | translate }}</ion-label>
+      <ion-toggle item-end [(ngModel)] = "alarmToggle"></ion-toggle>
+    </ion-item>
+
+  </ion-grid>
+  <button ion-button fixed (click)="postMedication()">
+    {{ 'ADD_MED.LABEL13' | translate }}
+  </button>
+
+
+</ion-content>

@@ -1,0 +1,77 @@
+page-sign-up {
+    .visual-header{
+      .toolbar-title{
+        color: color($colors, secondary);
+        }
+    }
+    .signUp{
+        margin-top: 30px;
+        font-size:  10px;
+
+    }
+    .item{
+      border-radius: 10px;
+    }
+    .margin-bottom{
+      margin-bottom: 10px;
+    }
+    .margin-bottom[value="normal"]{
+      .item-inner{
+        border-bottom: 1px solid rgb(4, 238, 4);
+      }
+    }
+    .margin-bottom[value="invalid"]{
+      .item-inner{
+        border-bottom: 1px solid #f53d3d;
+      }
+    }
+    .btn-signUp{
+      height: 45px;
+      background-color: #ffffff;
+      width: 100%;
+      border-radius: 10px;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+      margin-top: 20%;
+      .button-inner{
+        color: #000000;
+      }
+
+    }
+    .ion-color{
+        color: grey;
+    }
+    .item-align{
+        text-align: center;
+        background: transparent;
+
+    }
+    .icon-checkmark{
+        color: green;
+    }
+    .item-background{
+        background: transparent;
+
+    }
+    .datetime-ios{
+      padding: 11px 8px 11px 0px;
+    }
+    .datetime-md{
+      padding: 13px 8px 13px 8px;
+    }
+   .errorValidation{
+       text-align:  right;
+       font-size: 14px;
+       //margin-top: -10px;
+       color: red;
+       background: transparent;
+
+   }
+   .date-line{
+    border: 1px solid #DCDCDC;
+    margin-bottom: 0.3em;
+    }
+
+
+}
